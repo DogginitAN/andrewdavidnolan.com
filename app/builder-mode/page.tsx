@@ -11,35 +11,58 @@ export default function BuilderMode() {
       <section className="mb-16">
         <h2 className="text-2xl font-semibold mb-6">Investment Thesis</h2>
         
-        <div className="space-y-8">
-          {/* Thesis 1: AI Infrastructure Supercycle */}
-          <div className="p-6 rounded-xl bg-neutral-50 dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800">
-            <h3 className="text-lg font-semibold mb-4 text-amber-600 dark:text-amber-500">
-              Thesis 1: The AI Infrastructure Supercycle
-            </h3>
-            <p className="text-neutral-700 dark:text-neutral-300 leading-relaxed">
-              Envision artificial intelligence as a transformative juggernaut, overlooked by Wall Street yet poised to unleash trillions in infrastructure spending—vast data centers guzzling GW-scale power, compute hardware scaling like a modern industrial revolution, and grids buckling under unprecedented demands. The true windfall? Undervalued foundations: Nvidia's GPUs, Super Micro's servers, Vistra's utilities, and essentials like copper and lithium fueling the surge. Doubt this supercycle at your peril—could dismissing it mean forfeiting the next great boom, where pioneers reap massive rewards as capex eclipses even optimistic projections?
-            </p>
+        {/* Flow Diagram Container */}
+        <div className="relative">
+          {/* Top Row: Two Thesis Cards */}
+          <div className="grid md:grid-cols-2 gap-8 mb-8">
+            {/* Thesis 1 */}
+            <div className="relative">
+              <div className="p-6 rounded-xl bg-neutral-50 dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 h-full">
+                <h3 className="text-lg font-semibold mb-4 text-amber-600 dark:text-amber-500">
+                  Thesis 1: The AI Infrastructure Supercycle
+                </h3>
+                <p className="text-neutral-700 dark:text-neutral-300 leading-relaxed">
+                  Envision artificial intelligence as a transformative juggernaut, overlooked by Wall Street yet poised to unleash trillions in infrastructure spending—vast data centers guzzling GW-scale power, compute hardware scaling like a modern industrial revolution, and grids buckling under unprecedented demands. The true windfall? Undervalued foundations: Nvidia's GPUs, Super Micro's servers, Vistra's utilities, and essentials like copper and lithium fueling the surge. Doubt this supercycle at your peril—could dismissing it mean forfeiting the next great boom, where pioneers reap massive rewards as capex eclipses even optimistic projections?
+                </p>
+              </div>
+              {/* Connector line - desktop only */}
+              <div className="hidden md:block absolute -bottom-8 left-1/2 w-0.5 h-8 bg-gradient-to-b from-amber-500/50 to-transparent"></div>
+            </div>
+
+            {/* Thesis 2 */}
+            <div className="relative">
+              <div className="p-6 rounded-xl bg-neutral-50 dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 h-full">
+                <h3 className="text-lg font-semibold mb-4 text-amber-600 dark:text-amber-500">
+                  Thesis 2: Anti-Debasement in an Age of Perpetual Inflation
+                </h3>
+                <p className="text-neutral-700 dark:text-neutral-300 leading-relaxed">
+                  Governments globally, swamped by escalating debts, will relentlessly inflate currencies, diminishing your savings while astute investors shift to immutable assets. Bitcoin emerges as the supreme store of value, Ethereum as the platform for decentralized finance, and gold as an enduring safeguard, with proxies like MicroStrategy and Coinbase bridging worlds. Reexamine your trust in fiat—might holding depreciating dollars obscure the path to prosperity in an age of perpetual inflation, where anti-debasement tactics preserve and amplify wealth?
+                </p>
+              </div>
+              {/* Connector line - desktop only */}
+              <div className="hidden md:block absolute -bottom-8 left-1/2 w-0.5 h-8 bg-gradient-to-b from-amber-500/50 to-transparent"></div>
+            </div>
           </div>
 
-          {/* Thesis 2: Anti-Debasement */}
-          <div className="p-6 rounded-xl bg-neutral-50 dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800">
-            <h3 className="text-lg font-semibold mb-4 text-amber-600 dark:text-amber-500">
-              Thesis 2: Anti-Debasement in an Age of Perpetual Inflation
-            </h3>
-            <p className="text-neutral-700 dark:text-neutral-300 leading-relaxed">
-              Governments globally, swamped by escalating debts, will relentlessly inflate currencies, diminishing your savings while astute investors shift to immutable assets. Bitcoin emerges as the supreme store of value, Ethereum as the platform for decentralized finance, and gold as an enduring safeguard, with proxies like MicroStrategy and Coinbase bridging worlds. Reexamine your trust in fiat—might holding depreciating dollars obscure the path to prosperity in an age of perpetual inflation, where anti-debasement tactics preserve and amplify wealth?
-            </p>
+          {/* Merge Icon - desktop only */}
+          <div className="hidden md:flex justify-center items-center -mb-4 relative z-10">
+            <div className="w-10 h-10 rounded-full bg-amber-500/20 dark:bg-amber-500/30 border-2 border-amber-500 flex items-center justify-center">
+              <svg className="w-5 h-5 text-amber-600 dark:text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+              </svg>
+            </div>
           </div>
 
-          {/* Strategy: Combining Both */}
-          <div className="p-6 rounded-xl bg-gradient-to-br from-amber-50 to-orange-50 dark:from-amber-950/30 dark:to-orange-950/30 border border-amber-200 dark:border-amber-900">
-            <h3 className="text-lg font-semibold mb-4 text-amber-700 dark:text-amber-400">
-              The Synthesis: Picks and Shovels → Bitcoin
-            </h3>
-            <p className="text-neutral-700 dark:text-neutral-300 leading-relaxed">
-              To harness both theses synergistically, savvy investors can wield a "picks and shovels" strategy: allocate to AI infrastructure enablers for explosive growth, while hedging debasement by denominating gains in Bitcoin—converting fiat profits into BTC for storage, effectively mining the supercycle's upside in a currency immune to inflation. This dual approach questions conventional portfolios: why chase volatile stocks alone when blending AI's momentum with crypto's resilience could compound returns, turning supercycle booms into enduring, inflation-proof wealth?
-            </p>
+          {/* The Synthesis Card */}
+          <div className="mt-4">
+            <div className="p-6 rounded-xl bg-gradient-to-br from-amber-50 to-orange-50 dark:from-amber-950/30 dark:to-orange-950/30 border-2 border-amber-500/50 dark:border-amber-600/50">
+              <h3 className="text-lg font-semibold mb-4 text-amber-700 dark:text-amber-400">
+                The Synthesis: Picks and Shovels → Bitcoin
+              </h3>
+              <p className="text-neutral-700 dark:text-neutral-300 leading-relaxed">
+                To harness both theses synergistically, savvy investors can wield a "picks and shovels" strategy: allocate to AI infrastructure enablers for explosive growth, while hedging debasement by denominating gains in Bitcoin—converting fiat profits into BTC for storage, effectively mining the supercycle's upside in a currency immune to inflation. This dual approach questions conventional portfolios: why chase volatile stocks alone when blending AI's momentum with crypto's resilience could compound returns, turning supercycle booms into enduring, inflation-proof wealth?
+              </p>
+            </div>
           </div>
         </div>
 
