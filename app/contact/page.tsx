@@ -84,7 +84,7 @@ export default function Contact() {
       <div className="p-6 rounded-xl bg-neutral-50 dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800">
         <h2 className="font-semibold mb-4">Current Focus</h2>
         <p className="text-neutral-700 dark:text-neutral-300 leading-relaxed">
-          I am selectively exploring opportunities to lead operations in Hard Tech, Logistics, and Energy. I thrive in environments where the playbook hasn't been written yet.
+          I operate at the intersection of atoms, bits, and people. Most companies break there. I build there.
         </p>
       </div>
     </div>
