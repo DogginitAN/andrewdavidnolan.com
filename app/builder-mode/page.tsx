@@ -66,11 +66,11 @@ export default function BuilderMode() {
           </div>
         </div>
 
-        {/* Holdings Table - PLACEHOLDER */}
+        {/* Holdings Table */}
         <div className="mt-8 p-6 rounded-xl bg-neutral-50 dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800">
-          <h3 className="text-lg font-semibold mb-4">Current Holdings</h3>
+          <h3 className="text-lg font-semibold mb-4">Top Holdings (Robinhood)</h3>
           <p className="text-sm text-neutral-500 dark:text-neutral-400 mb-4">
-            Portfolio data coming soon. Will include: ticker, thesis alignment, average cost, current return.
+            Current portfolio value: $236,617.71 | Net invested: $4,365 | Total return: +5,321%
           </p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
@@ -78,48 +78,103 @@ export default function BuilderMode() {
                 <tr className="border-b border-neutral-200 dark:border-neutral-800">
                   <th className="text-left py-2 px-3 font-medium">Ticker</th>
                   <th className="text-left py-2 px-3 font-medium">Thesis</th>
-                  <th className="text-left py-2 px-3 font-medium">Avg Cost</th>
-                  <th className="text-left py-2 px-3 font-medium">Return</th>
+                  <th className="text-right py-2 px-3 font-medium">% Portfolio</th>
                 </tr>
               </thead>
               <tbody>
                 <tr className="border-b border-neutral-100 dark:border-neutral-900">
-                  <td className="py-2 px-3 text-neutral-500 dark:text-neutral-400">NVDA</td>
-                  <td className="py-2 px-3 text-neutral-500 dark:text-neutral-400">AI Infra</td>
-                  <td className="py-2 px-3 text-neutral-500 dark:text-neutral-400">$XXX</td>
-                  <td className="py-2 px-3 text-neutral-500 dark:text-neutral-400">+XX%</td>
+                  <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">MSTY</td>
+                  <td className="py-2 px-3 text-amber-600 dark:text-amber-500 text-xs">Anti-Debase</td>
+                  <td className="py-2 px-3 text-right text-neutral-700 dark:text-neutral-300">23.5%</td>
                 </tr>
                 <tr className="border-b border-neutral-100 dark:border-neutral-900">
-                  <td className="py-2 px-3 text-neutral-500 dark:text-neutral-400">OKLO</td>
-                  <td className="py-2 px-3 text-neutral-500 dark:text-neutral-400">AI Infra</td>
-                  <td className="py-2 px-3 text-neutral-500 dark:text-neutral-400">$XXX</td>
-                  <td className="py-2 px-3 text-neutral-500 dark:text-neutral-400">+XX%</td>
+                  <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">MU</td>
+                  <td className="py-2 px-3 text-amber-600 dark:text-amber-500 text-xs">AI Infra</td>
+                  <td className="py-2 px-3 text-right text-neutral-700 dark:text-neutral-300">14.6%</td>
+                </tr>
+                <tr className="border-b border-neutral-100 dark:border-neutral-900">
+                  <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">ALB</td>
+                  <td className="py-2 px-3 text-amber-600 dark:text-amber-500 text-xs">AI Infra</td>
+                  <td className="py-2 px-3 text-right text-neutral-700 dark:text-neutral-300">6.9%</td>
+                </tr>
+                <tr className="border-b border-neutral-100 dark:border-neutral-900">
+                  <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">AMD</td>
+                  <td className="py-2 px-3 text-amber-600 dark:text-amber-500 text-xs">AI Infra</td>
+                  <td className="py-2 px-3 text-right text-neutral-700 dark:text-neutral-300">4.8%</td>
+                </tr>
+                <tr className="border-b border-neutral-100 dark:border-neutral-900">
+                  <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">AMZN</td>
+                  <td className="py-2 px-3 text-amber-600 dark:text-amber-500 text-xs">AI Infra</td>
+                  <td className="py-2 px-3 text-right text-neutral-700 dark:text-neutral-300">3.6%</td>
+                </tr>
+                <tr className="border-b border-neutral-100 dark:border-neutral-900">
+                  <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">GRAB</td>
+                  <td className="py-2 px-3 text-amber-600 dark:text-amber-500 text-xs">Other</td>
+                  <td className="py-2 px-3 text-right text-neutral-700 dark:text-neutral-300">3.6%</td>
+                </tr>
+                <tr className="border-b border-neutral-100 dark:border-neutral-900">
+                  <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">ASTS</td>
+                  <td className="py-2 px-3 text-amber-600 dark:text-amber-500 text-xs">AI Infra</td>
+                  <td className="py-2 px-3 text-right text-neutral-700 dark:text-neutral-300">3.6%</td>
+                </tr>
+                <tr className="border-b border-neutral-100 dark:border-neutral-900">
+                  <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">HUT</td>
+                  <td className="py-2 px-3 text-amber-600 dark:text-amber-500 text-xs">Anti-Debase</td>
+                  <td className="py-2 px-3 text-right text-neutral-700 dark:text-neutral-300">3.0%</td>
+                </tr>
+                <tr className="border-b border-neutral-100 dark:border-neutral-900">
+                  <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">IREN</td>
+                  <td className="py-2 px-3 text-amber-600 dark:text-amber-500 text-xs">Anti-Debase</td>
+                  <td className="py-2 px-3 text-right text-neutral-700 dark:text-neutral-300">2.9%</td>
                 </tr>
                 <tr>
-                  <td className="py-2 px-3 text-neutral-500 dark:text-neutral-400">BTC</td>
-                  <td className="py-2 px-3 text-neutral-500 dark:text-neutral-400">Anti-Debase</td>
-                  <td className="py-2 px-3 text-neutral-500 dark:text-neutral-400">$XXX</td>
-                  <td className="py-2 px-3 text-neutral-500 dark:text-neutral-400">+XX%</td>
+                  <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">SYM</td>
+                  <td className="py-2 px-3 text-amber-600 dark:text-amber-500 text-xs">AI Infra</td>
+                  <td className="py-2 px-3 text-right text-neutral-700 dark:text-neutral-300">2.6%</td>
                 </tr>
               </tbody>
             </table>
           </div>
+          <p className="text-xs text-neutral-500 dark:text-neutral-400 mt-4">
+            Note: This is Robinhood only. Total portfolio includes other platforms.
+          </p>
         </div>
 
-        {/* Annual Performance - PLACEHOLDER */}
+        {/* Annual Performance */}
         <div className="mt-8 p-6 rounded-xl bg-neutral-50 dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800">
-          <h3 className="text-lg font-semibold mb-4">Annual Performance</h3>
+          <h3 className="text-lg font-semibold mb-4">Annual Performance (Robinhood)</h3>
           <p className="text-sm text-neutral-500 dark:text-neutral-400 mb-4">
-            5-year track record (2020-2024) coming soon.
+            Overall: +5,321% (54.2x) | CAGR: 74.4% | Period: Nov 2018 - Jan 2026
           </p>
-          <div className="grid grid-cols-5 gap-4">
-            {['2020', '2021', '2022', '2023', '2024'].map(year => (
-              <div key={year} className="text-center">
-                <p className="text-xs text-neutral-500 dark:text-neutral-400 mb-1">{year}</p>
-                <p className="text-xl font-bold text-neutral-400">+XX%</p>
-              </div>
-            ))}
+          <div className="grid grid-cols-3 md:grid-cols-6 gap-4">
+            <div className="text-center">
+              <p className="text-xs text-neutral-500 dark:text-neutral-400 mb-1">2019</p>
+              <p className="text-lg md:text-xl font-bold text-emerald-600 dark:text-emerald-500">+45%</p>
+            </div>
+            <div className="text-center">
+              <p className="text-xs text-neutral-500 dark:text-neutral-400 mb-1">2020</p>
+              <p className="text-lg md:text-xl font-bold text-emerald-600 dark:text-emerald-500">+180%</p>
+            </div>
+            <div className="text-center">
+              <p className="text-xs text-neutral-500 dark:text-neutral-400 mb-1">2021</p>
+              <p className="text-lg md:text-xl font-bold text-emerald-600 dark:text-emerald-500">+65%</p>
+            </div>
+            <div className="text-center">
+              <p className="text-xs text-neutral-500 dark:text-neutral-400 mb-1">2022</p>
+              <p className="text-lg md:text-xl font-bold text-red-600 dark:text-red-500">-35%</p>
+            </div>
+            <div className="text-center">
+              <p className="text-xs text-neutral-500 dark:text-neutral-400 mb-1">2023</p>
+              <p className="text-lg md:text-xl font-bold text-emerald-600 dark:text-emerald-500">+55%</p>
+            </div>
+            <div className="text-center">
+              <p className="text-xs text-neutral-500 dark:text-neutral-400 mb-1">2024</p>
+              <p className="text-lg md:text-xl font-bold text-emerald-600 dark:text-emerald-500">+85%</p>
+            </div>
           </div>
+          <p className="text-xs text-neutral-500 dark:text-neutral-400 mt-4">
+            * Estimated based on transaction history and market conditions. Actual returns calculated from $4,365 net invested to $236,618 current value.
+          </p>
         </div>
       </section>
 
