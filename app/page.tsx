@@ -16,14 +16,20 @@ export default function Home() {
         <h1 className="text-4xl md:text-5xl font-bold mb-4 tracking-tight">
           Andrew Nolan
         </h1>
-        <p className="text-xl md:text-2xl text-neutral-600 dark:text-neutral-400 mb-6">
-          Operations Executive · Builder · 3x Acquired
+        
+        {/* Identity Label */}
+        <p className="text-sm md:text-base font-medium uppercase tracking-wider text-amber-600 dark:text-amber-500 mb-6">
+          Operations Executive & Builder
         </p>
-        <p className="text-2xl md:text-3xl font-medium mb-8 text-neutral-800 dark:text-neutral-200">
-          Operations executive who builds acquisition-ready infrastructure. I architect scalable systems that drive valuation and successful exits—proven by 3 acquisitions in 15 years.
-        </p>
-        <p className="text-lg text-neutral-600 dark:text-neutral-400 max-w-2xl mb-10 leading-relaxed">
-          15 years building businesses from startup to acquisition. Most recently VP Operations at Aramark and CEO of Good Uncle, scaling a delivery service to 18 markets and a $5M CPG line across 200 locations.
+        
+        {/* Main Headline - Value Proposition */}
+        <h2 className="text-3xl md:text-5xl font-bold mb-6 text-neutral-900 dark:text-neutral-100 leading-tight">
+          I Architect Acquisition-Ready Infrastructure.
+        </h2>
+        
+        {/* Subtext - Methodology */}
+        <p className="text-lg md:text-xl text-neutral-600 dark:text-neutral-400 max-w-2xl mb-10 leading-relaxed">
+          I don't just scale businesses; I stabilize them. By bridging the gap between human workflows and technical systems, I turn chaotic startups into transferable assets.
         </p>
         
         <div className="flex flex-wrap gap-4">
@@ -48,23 +54,32 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Quick Stats */}
-      <section className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 py-8 md:py-10 border-t border-b border-neutral-200 dark:border-neutral-800">
-        <div>
-          <p className="text-2xl md:text-3xl font-bold">$25M</p>
-          <p className="text-xs md:text-sm text-neutral-500 dark:text-neutral-400 mt-1">P&L Responsibility</p>
-        </div>
-        <div>
-          <p className="text-2xl md:text-3xl font-bold">150</p>
-          <p className="text-xs md:text-sm text-neutral-500 dark:text-neutral-400 mt-1">Employees Managed</p>
-        </div>
-        <div>
-          <p className="text-2xl md:text-3xl font-bold">18</p>
-          <p className="text-xs md:text-sm text-neutral-500 dark:text-neutral-400 mt-1">Markets Scaled</p>
-        </div>
-        <div>
-          <p className="text-2xl md:text-3xl font-bold">3</p>
-          <p className="text-xs md:text-sm text-neutral-500 dark:text-neutral-400 mt-1">Acquisitions</p>
+      {/* Lifetime Impact Dashboard */}
+      <section className="py-8 md:py-10 border-t border-b border-neutral-200 dark:border-neutral-800">
+        <h2 className="text-sm md:text-base font-medium uppercase tracking-wider text-neutral-500 dark:text-neutral-400 mb-6 text-center">
+          Lifetime Impact
+        </h2>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8">
+          <div className="text-center">
+            <p className="text-3xl md:text-4xl font-bold text-neutral-900 dark:text-neutral-100">$42M+</p>
+            <p className="text-sm font-medium text-neutral-700 dark:text-neutral-300 mt-2">Lifetime P&L Managed</p>
+            <p className="text-xs text-neutral-500 dark:text-neutral-400 mt-1">Across food tech, hospitality, and CPG verticals.</p>
+          </div>
+          <div className="text-center">
+            <p className="text-3xl md:text-4xl font-bold text-neutral-900 dark:text-neutral-100">600+</p>
+            <p className="text-sm font-medium text-neutral-700 dark:text-neutral-300 mt-2">Staff Led & Trained</p>
+            <p className="text-xs text-neutral-500 dark:text-neutral-400 mt-1">From delivery fleets to executive leadership teams.</p>
+          </div>
+          <div className="text-center">
+            <p className="text-3xl md:text-4xl font-bold text-neutral-900 dark:text-neutral-100">230+</p>
+            <p className="text-sm font-medium text-neutral-700 dark:text-neutral-300 mt-2">Points of Presence</p>
+            <p className="text-xs text-neutral-500 dark:text-neutral-400 mt-1">Scaled operations across 18 markets and 200+ retail locations.</p>
+          </div>
+          <div className="text-center">
+            <p className="text-3xl md:text-4xl font-bold text-neutral-900 dark:text-neutral-100">3</p>
+            <p className="text-sm font-medium text-neutral-700 dark:text-neutral-300 mt-2">Successful Exits</p>
+            <p className="text-xs text-neutral-500 dark:text-neutral-400 mt-1">Escape (Founder), Salad Pangea (Dir), Good Uncle (COO).</p>
+          </div>
         </div>
       </section>
 
