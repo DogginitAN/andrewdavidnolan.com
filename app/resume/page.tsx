@@ -245,7 +245,7 @@ export default function Resume() {
       <a
         href="/andrew-nolan-resume.pdf"
         download
-        className="fixed bottom-6 right-6 z-50 flex items-center justify-center gap-2 px-6 py-4 bg-neutral-900 dark:bg-neutral-100 text-white dark:text-neutral-900 rounded-full font-medium hover:bg-neutral-700 dark:hover:bg-neutral-300 transition-all shadow-lg hover:shadow-xl text-sm"
+        className="fixed top-6 right-6 z-50 flex items-center justify-center gap-2 px-6 py-4 bg-neutral-900 dark:bg-neutral-100 text-white dark:text-neutral-900 rounded-full font-medium hover:bg-neutral-700 dark:hover:bg-neutral-300 transition-all shadow-lg hover:shadow-xl text-sm"
         aria-label="Download Resume PDF"
       >
         <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
