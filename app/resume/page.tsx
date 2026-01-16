@@ -7,7 +7,7 @@ export default function Resume() {
         <div>
           <h1 className="text-3xl md:text-4xl font-bold mb-2">Resume</h1>
           <p className="text-neutral-600 dark:text-neutral-400 text-sm md:text-base">
-            15 years building operations that scale.
+            I architect scalable systems that drive valuation and successful exits—proven by 3 acquisitions in 15 years.
           </p>
         </div>
         <a
@@ -67,23 +67,15 @@ export default function Resume() {
           <ul className="space-y-2 text-neutral-700 dark:text-neutral-300">
             <li className="flex gap-2">
               <span className="text-neutral-400">•</span>
-              <span>Scaled Good Uncle delivery service from regional startup to 18 higher education markets nationwide</span>
+              <span><strong>The AI Transformation:</strong> Architected a new operating system replacing 150-person manual functions with autonomous agent workflows. Built the logic layer that auto-routes orders and generates marketing assets, maintaining $5M revenue with a 2-person team.</span>
             </li>
             <li className="flex gap-2">
               <span className="text-neutral-400">•</span>
-              <span>Grew CPG product line to $5M revenue (60% YoY growth) across 200 locations in 3 verticals</span>
+              <span><strong>The Hardware:</strong> Led engineering sprint to design a proprietary mobile-kitchen vehicle platform. Integrated a 24.8 kWh battery system to support cooking-in-transit, scaling fleet to 70 custom units.</span>
             </li>
             <li className="flex gap-2">
               <span className="text-neutral-400">•</span>
-              <span>Built proprietary technology ecosystem with 75,000 users (React Native, Node.js)</span>
-            </li>
-            <li className="flex gap-2">
-              <span className="text-neutral-400">•</span>
-              <span>Transformed 150-person org to 2-person AI-powered operation while maintaining growth</span>
-            </li>
-            <li className="flex gap-2">
-              <span className="text-neutral-400">•</span>
-              <span>Designed and manufactured 50 custom delivery vehicles—half refrigeration, half convection oven</span>
+              <span><strong>The Scale:</strong> Built proprietary technology ecosystem with 75,000 users, connecting customer ordering (React Native) with driver logistics and commissary production.</span>
             </li>
           </ul>
         </div>
@@ -100,22 +92,21 @@ export default function Resume() {
           <p className="text-sm text-green-600 dark:text-green-400 mb-3">
             Acquired by Aramark (NYSE: ARMK) in May 2019
           </p>
+          <p className="text-sm italic text-neutral-500 dark:text-neutral-400 mb-3">
+            "Recruited by Founders Wiley Cerilli & Matt Doumar to build the ops engine."
+          </p>
           <ul className="space-y-2 text-neutral-700 dark:text-neutral-300">
             <li className="flex gap-2">
               <span className="text-neutral-400">•</span>
-              <span>Recruited by CEO to build operational infrastructure for venture-backed startup; grew to COO as company grew 800%</span>
+              <span><strong>The Mandate:</strong> Recruited by Founders Wiley Cerilli and Matt Doumar to build operational infrastructure for a venture-backed food delivery startup.</span>
             </li>
             <li className="flex gap-2">
               <span className="text-neutral-400">•</span>
-              <span>Designed proprietary delivery vehicles with Mercedes-Benz, ThermoKing, and Motivo</span>
+              <span><strong>The Win:</strong> Led operations through acquisition and Fortune 200 integration, maintaining brand identity while achieving corporate compliance.</span>
             </li>
             <li className="flex gap-2">
               <span className="text-neutral-400">•</span>
-              <span>Reduced labor costs 21% through cloud-based video surveillance technology</span>
-            </li>
-            <li className="flex gap-2">
-              <span className="text-neutral-400">•</span>
-              <span>Centralized production model reduced OpEx by 13%</span>
+              <span><strong>The Efficiency:</strong> Reduced labor costs 21% through cloud-based video surveillance and centralized production models.</span>
             </li>
           </ul>
         </div>
