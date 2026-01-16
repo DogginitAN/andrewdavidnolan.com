@@ -68,7 +68,7 @@ export default function BuilderMode() {
 
         {/* Holdings Table */}
         <div className="mt-8 p-6 rounded-xl bg-neutral-50 dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800">
-          <h3 className="text-lg font-semibold mb-4">Top Holdings by Thesis (Robinhood)</h3>
+          <h3 className="text-lg font-semibold mb-4">Top Gainers by Thesis (Robinhood)</h3>
           <p className="text-sm text-neutral-500 dark:text-neutral-400 mb-6">
             Current portfolio value: $236,617.71 | Net invested: $4,365 | Total return: +5,321%
           </p>
@@ -87,44 +87,64 @@ export default function BuilderMode() {
                 </thead>
                 <tbody>
                   <tr className="border-b border-neutral-100 dark:border-neutral-900">
-                    <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">SOFI</td>
-                    <td className="py-2 px-3 text-right text-neutral-600 dark:text-neutral-400">$5,750</td>
-                    <td className="py-2 px-3 text-right text-emerald-600 dark:text-emerald-500 font-semibold">+151%</td>
-                  </tr>
-                  <tr className="border-b border-neutral-100 dark:border-neutral-900">
-                    <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">GOOGL</td>
-                    <td className="py-2 px-3 text-right text-neutral-600 dark:text-neutral-400">$4,505</td>
-                    <td className="py-2 px-3 text-right text-emerald-600 dark:text-emerald-500 font-semibold">+35%</td>
-                  </tr>
-                  <tr className="border-b border-neutral-100 dark:border-neutral-900">
-                    <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">ASTS</td>
-                    <td className="py-2 px-3 text-right text-neutral-600 dark:text-neutral-400">$4,595</td>
-                    <td className="py-2 px-3 text-right text-emerald-600 dark:text-emerald-500 font-semibold">+27%</td>
+                    <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">INTC Call</td>
+                    <td className="py-2 px-3 text-right text-neutral-600 dark:text-neutral-400">$5,812</td>
+                    <td className="py-2 px-3 text-right text-emerald-600 dark:text-emerald-500 font-semibold">+2,002%</td>
                   </tr>
                   <tr className="border-b border-neutral-100 dark:border-neutral-900">
                     <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">MU</td>
-                    <td className="py-2 px-3 text-right text-neutral-600 dark:text-neutral-400">$11,958</td>
-                    <td className="py-2 px-3 text-right text-emerald-600 dark:text-emerald-500 font-semibold">+23%</td>
+                    <td className="py-2 px-3 text-right text-neutral-600 dark:text-neutral-400">$25,690</td>
+                    <td className="py-2 px-3 text-right text-emerald-600 dark:text-emerald-500 font-semibold">+242%</td>
+                  </tr>
+                  <tr className="border-b border-neutral-100 dark:border-neutral-900">
+                    <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">AMD Call</td>
+                    <td className="py-2 px-3 text-right text-neutral-600 dark:text-neutral-400">$9,874</td>
+                    <td className="py-2 px-3 text-right text-emerald-600 dark:text-emerald-500 font-semibold">+241%</td>
+                  </tr>
+                  <tr className="border-b border-neutral-100 dark:border-neutral-900">
+                    <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">ASTS</td>
+                    <td className="py-2 px-3 text-right text-neutral-600 dark:text-neutral-400">$8,157</td>
+                    <td className="py-2 px-3 text-right text-emerald-600 dark:text-emerald-500 font-semibold">+229%</td>
+                  </tr>
+                  <tr className="border-b border-neutral-100 dark:border-neutral-900">
+                    <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">ALB</td>
+                    <td className="py-2 px-3 text-right text-neutral-600 dark:text-neutral-400">$8,954</td>
+                    <td className="py-2 px-3 text-right text-emerald-600 dark:text-emerald-500 font-semibold">+119%</td>
+                  </tr>
+                  <tr className="border-b border-neutral-100 dark:border-neutral-900">
+                    <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">GOOGL</td>
+                    <td className="py-2 px-3 text-right text-neutral-600 dark:text-neutral-400">$3,074</td>
+                    <td className="py-2 px-3 text-right text-emerald-600 dark:text-emerald-500 font-semibold">+107%</td>
+                  </tr>
+                  <tr className="border-b border-neutral-100 dark:border-neutral-900">
+                    <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">SMCI Call</td>
+                    <td className="py-2 px-3 text-right text-neutral-600 dark:text-neutral-400">$5,981</td>
+                    <td className="py-2 px-3 text-right text-emerald-600 dark:text-emerald-500 font-semibold">+97%</td>
+                  </tr>
+                  <tr className="border-b border-neutral-100 dark:border-neutral-900">
+                    <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">SOFI Call</td>
+                    <td className="py-2 px-3 text-right text-neutral-600 dark:text-neutral-400">$5,097</td>
+                    <td className="py-2 px-3 text-right text-emerald-600 dark:text-emerald-500 font-semibold">+92%</td>
                   </tr>
                   <tr className="border-b border-neutral-100 dark:border-neutral-900">
                     <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">AMD</td>
-                    <td className="py-2 px-3 text-right text-neutral-600 dark:text-neutral-400">$11,307</td>
-                    <td className="py-2 px-3 text-right text-emerald-600 dark:text-emerald-500 font-semibold">+7%</td>
+                    <td className="py-2 px-3 text-right text-neutral-600 dark:text-neutral-400">$6,787</td>
+                    <td className="py-2 px-3 text-right text-emerald-600 dark:text-emerald-500 font-semibold">+84%</td>
                   </tr>
                   <tr className="border-b border-neutral-100 dark:border-neutral-900">
                     <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">SYM</td>
-                    <td className="py-2 px-3 text-right text-neutral-600 dark:text-neutral-400">$4,056</td>
-                    <td className="py-2 px-3 text-right text-emerald-600 dark:text-emerald-500 font-semibold">+4%</td>
+                    <td className="py-2 px-3 text-right text-neutral-600 dark:text-neutral-400">$3,175</td>
+                    <td className="py-2 px-3 text-right text-emerald-600 dark:text-emerald-500 font-semibold">+80%</td>
                   </tr>
                   <tr className="border-b border-neutral-100 dark:border-neutral-900">
-                    <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">AMZN</td>
-                    <td className="py-2 px-3 text-right text-neutral-600 dark:text-neutral-400">$8,090</td>
-                    <td className="py-2 px-3 text-right text-emerald-600 dark:text-emerald-500 font-semibold">+3%</td>
+                    <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">NVDA Call</td>
+                    <td className="py-2 px-3 text-right text-neutral-600 dark:text-neutral-400">$3,021</td>
+                    <td className="py-2 px-3 text-right text-emerald-600 dark:text-emerald-500 font-semibold">+68%</td>
                   </tr>
                   <tr>
-                    <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">STEM</td>
-                    <td className="py-2 px-3 text-right text-neutral-600 dark:text-neutral-400">$4,736</td>
-                    <td className="py-2 px-3 text-right text-emerald-600 dark:text-emerald-500 font-semibold">+1%</td>
+                    <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">TER</td>
+                    <td className="py-2 px-3 text-right text-neutral-600 dark:text-neutral-400">$1,191</td>
+                    <td className="py-2 px-3 text-right text-emerald-600 dark:text-emerald-500 font-semibold">+67%</td>
                   </tr>
                 </tbody>
               </table>
@@ -146,23 +166,23 @@ export default function BuilderMode() {
                 <tbody>
                   <tr className="border-b border-neutral-100 dark:border-neutral-900">
                     <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">IREN</td>
-                    <td className="py-2 px-3 text-right text-neutral-600 dark:text-neutral-400">$7,391</td>
-                    <td className="py-2 px-3 text-right text-emerald-600 dark:text-emerald-500 font-semibold">+376%</td>
+                    <td className="py-2 px-3 text-right text-neutral-600 dark:text-neutral-400">$4,930</td>
+                    <td className="py-2 px-3 text-right text-emerald-600 dark:text-emerald-500 font-semibold">+96%</td>
+                  </tr>
+                  <tr className="border-b border-neutral-100 dark:border-neutral-900">
+                    <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">CCJ</td>
+                    <td className="py-2 px-3 text-right text-neutral-600 dark:text-neutral-400">$127</td>
+                    <td className="py-2 px-3 text-right text-emerald-600 dark:text-emerald-500 font-semibold">+43%</td>
                   </tr>
                   <tr className="border-b border-neutral-100 dark:border-neutral-900">
                     <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">GLXY</td>
-                    <td className="py-2 px-3 text-right text-neutral-600 dark:text-neutral-400">$1,485</td>
-                    <td className="py-2 px-3 text-right text-red-600 dark:text-red-500 font-semibold">-3%</td>
-                  </tr>
-                  <tr className="border-b border-neutral-100 dark:border-neutral-900">
-                    <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">MSTY</td>
-                    <td className="py-2 px-3 text-right text-neutral-600 dark:text-neutral-400">$25,651</td>
-                    <td className="py-2 px-3 text-right text-red-600 dark:text-red-500 font-semibold">-15%</td>
+                    <td className="py-2 px-3 text-right text-neutral-600 dark:text-neutral-400">$454</td>
+                    <td className="py-2 px-3 text-right text-emerald-600 dark:text-emerald-500 font-semibold">+30%</td>
                   </tr>
                   <tr>
-                    <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">HUT</td>
-                    <td className="py-2 px-3 text-right text-neutral-600 dark:text-neutral-400">$1,200</td>
-                    <td className="py-2 px-3 text-right text-red-600 dark:text-red-500 font-semibold">-20%</td>
+                    <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">LEU</td>
+                    <td className="py-2 px-3 text-right text-neutral-600 dark:text-neutral-400">$199</td>
+                    <td className="py-2 px-3 text-right text-emerald-600 dark:text-emerald-500 font-semibold">+27%</td>
                   </tr>
                 </tbody>
               </table>
@@ -170,7 +190,7 @@ export default function BuilderMode() {
           </div>
 
           <p className="text-xs text-neutral-500 dark:text-neutral-400 mt-6">
-            Note: Gains calculated from cost basis to current value. Robinhood account only.
+            Note: Data from actual Robinhood positions. Includes options and equity positions.
           </p>
         </div>
 
