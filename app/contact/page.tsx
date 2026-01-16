@@ -1,9 +1,9 @@
 export default function Contact() {
   return (
     <div className="py-12">
-      <h1 className="text-3xl md:text-4xl font-bold mb-4">Contact</h1>
-      <p className="text-lg text-neutral-600 dark:text-neutral-400 mb-12 max-w-xl">
-        I'm currently exploring COO, VP Operations, and Chief of Staff roles at companies building something meaningful. Let's talk.
+      <h1 className="text-3xl md:text-4xl font-bold mb-4">Let's Connect</h1>
+      <p className="text-lg text-neutral-600 dark:text-neutral-400 mb-12 max-w-2xl">
+        I am best deployed on problems that require bridging the gap between physical operations and digital strategy.
       </p>
 
       <div className="grid md:grid-cols-2 gap-8 mb-12">
@@ -80,31 +80,12 @@ export default function Contact() {
         </div>
       </div>
 
-      {/* What I'm Looking For */}
+      {/* Current Focus */}
       <div className="p-6 rounded-xl bg-neutral-50 dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800">
-        <h2 className="font-semibold mb-4">What I'm Looking For</h2>
-        <ul className="space-y-2 text-neutral-700 dark:text-neutral-300">
-          <li className="flex gap-2">
-            <span className="text-green-500">✓</span>
-            <span>COO, VP Operations, Chief of Staff, or President roles</span>
-          </li>
-          <li className="flex gap-2">
-            <span className="text-green-500">✓</span>
-            <span>Companies building something meaningful (AI, Nuclear, Logistics, Climate, Deep Tech)</span>
-          </li>
-          <li className="flex gap-2">
-            <span className="text-green-500">✓</span>
-            <span>Series B–D or growth-mode public (50-500 employees)</span>
-          </li>
-          <li className="flex gap-2">
-            <span className="text-green-500">✓</span>
-            <span>Building/scaling operations, not maintenance</span>
-          </li>
-          <li className="flex gap-2">
-            <span className="text-green-500">✓</span>
-            <span>Remote-friendly or Syracuse/NYC-accessible</span>
-          </li>
-        </ul>
+        <h2 className="font-semibold mb-4">Current Focus</h2>
+        <p className="text-neutral-700 dark:text-neutral-300 leading-relaxed">
+          I am selectively exploring opportunities to lead operations in Hard Tech, Logistics, and Energy. I thrive in environments where the playbook hasn't been written yet.
+        </p>
       </div>
     </div>
   )
