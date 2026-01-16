@@ -10,16 +10,6 @@ export default function Resume() {
             I architect scalable systems that drive valuation and successful exits—proven by 3 acquisitions in 15 years.
           </p>
         </div>
-        <a
-          href="/andrew-nolan-resume.pdf"
-          download
-          className="inline-flex items-center justify-center gap-2 px-5 py-3 bg-neutral-900 dark:bg-neutral-100 text-white dark:text-neutral-900 rounded-lg font-medium hover:bg-neutral-700 dark:hover:bg-neutral-300 transition-colors text-sm"
-        >
-          <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-          </svg>
-          Download PDF
-        </a>
       </div>
 
       {/* Key Stats */}
@@ -46,21 +36,32 @@ export default function Resume() {
         </div>
       </div>
 
-      {/* Experience */}
-      <section className="mb-12">
+      {/* Main Content Grid: Experience + Sticky Sidebar */}
+      <div className="grid md:grid-cols-[1fr_300px] gap-8 md:gap-12">
+        {/* Left Column: Experience */}
+        <div>
+          <section className="mb-12">
+            <h2 className="text-xl font-semibold mb-6 pb-2 border-b border-neutral-200 dark:border-neutral-800">
+              Experience
+            </h2>
         <h2 className="text-xl font-semibold mb-6 pb-2 border-b border-neutral-200 dark:border-neutral-800">
           Experience
         </h2>
 
-        {/* Aramark + Good Uncle */}
-        <div className="mb-10">
-          <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-2">
-            <div>
-              <h3 className="font-semibold text-lg">Aramark Collegiate Hospitality + Good Uncle</h3>
-              <p className="text-neutral-600 dark:text-neutral-400">VP Operations (Aramark) | CEO (Good Uncle)</p>
-            </div>
-            <p className="text-sm text-neutral-500 dark:text-neutral-400 md:text-right">Sep 2021 – Jan 2026</p>
-          </div>
+            {/* Aramark + Good Uncle */}
+            <div className="mb-10">
+              <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-2 gap-2">
+                <div className="flex items-center gap-3">
+                  <div className="flex-shrink-0 w-10 h-10 bg-neutral-100 dark:bg-neutral-800 rounded flex items-center justify-center border border-neutral-200 dark:border-neutral-700">
+                    <span className="text-xs font-bold text-neutral-600 dark:text-neutral-400">ARMK</span>
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-lg">Aramark Collegiate Hospitality + Good Uncle</h3>
+                    <p className="text-neutral-600 dark:text-neutral-400">VP Operations (Aramark) | CEO (Good Uncle)</p>
+                  </div>
+                </div>
+                <p className="text-sm text-neutral-500 dark:text-neutral-400 md:text-right">Sep 2021 – Jan 2026</p>
+              </div>
           <p className="text-sm text-neutral-500 dark:text-neutral-400 mb-3">
             $25M revenue · $5M budget · 150 employees · 70-vehicle fleet · 18 markets
           </p>
@@ -80,15 +81,20 @@ export default function Resume() {
           </ul>
         </div>
 
-        {/* Good Uncle */}
-        <div className="mb-10">
-          <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-2">
-            <div>
-              <h3 className="font-semibold text-lg">Good Uncle</h3>
-              <p className="text-neutral-600 dark:text-neutral-400">COO → VP Operations → Senior Director</p>
-            </div>
-            <p className="text-sm text-neutral-500 dark:text-neutral-400 md:text-right">Oct 2016 – Sep 2021</p>
-          </div>
+            {/* Good Uncle */}
+            <div className="mb-10">
+              <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-2 gap-2">
+                <div className="flex items-center gap-3">
+                  <div className="flex-shrink-0 w-10 h-10 bg-amber-50 dark:bg-amber-950 rounded flex items-center justify-center border border-amber-200 dark:border-amber-800">
+                    <span className="text-xs font-bold text-amber-600 dark:text-amber-400">GU</span>
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-lg">Good Uncle</h3>
+                    <p className="text-neutral-600 dark:text-neutral-400">COO → VP Operations → Senior Director</p>
+                  </div>
+                </div>
+                <p className="text-sm text-neutral-500 dark:text-neutral-400 md:text-right">Oct 2016 – Sep 2021</p>
+              </div>
           <p className="text-sm text-green-600 dark:text-green-400 mb-3">
             Acquired by Aramark (NYSE: ARMK) in May 2019
           </p>
@@ -178,39 +184,6 @@ export default function Resume() {
         </div>
       </section>
 
-      {/* Skills */}
-      <section className="mb-12">
-        <h2 className="text-xl font-semibold mb-6 pb-2 border-b border-neutral-200 dark:border-neutral-800">
-          Skills
-        </h2>
-        <div className="grid md:grid-cols-2 gap-6">
-          <div>
-            <h3 className="font-medium mb-2 text-neutral-900 dark:text-neutral-100">Operations</h3>
-            <p className="text-neutral-600 dark:text-neutral-400 text-sm">
-              P&L Management ($25M+), Multi-Site Operations, Fleet Management, Supply Chain, Logistics, Post-Acquisition Integration
-            </p>
-          </div>
-          <div>
-            <h3 className="font-medium mb-2 text-neutral-900 dark:text-neutral-100">Technical</h3>
-            <p className="text-neutral-600 dark:text-neutral-400 text-sm">
-              React Native, Node.js, Hardware Product Development, AI Implementation, Systems Architecture
-            </p>
-          </div>
-          <div>
-            <h3 className="font-medium mb-2 text-neutral-900 dark:text-neutral-100">Leadership</h3>
-            <p className="text-neutral-600 dark:text-neutral-400 text-sm">
-              Team Building (150 employees), Organizational Design, Vendor Negotiations, Executive Reporting
-            </p>
-          </div>
-          <div>
-            <h3 className="font-medium mb-2 text-neutral-900 dark:text-neutral-100">Sectors</h3>
-            <p className="text-neutral-600 dark:text-neutral-400 text-sm">
-              Food Service, Last-Mile Delivery, CPG/Retail, Higher Education, Healthcare
-            </p>
-          </div>
-        </div>
-      </section>
-
       {/* Education */}
       <section>
         <h2 className="text-xl font-semibold mb-6 pb-2 border-b border-neutral-200 dark:border-neutral-800">
@@ -224,6 +197,56 @@ export default function Resume() {
           <p className="text-neutral-500 dark:text-neutral-400">2009</p>
         </div>
       </section>
+        </div>
+
+        {/* Right Sidebar: Skills (Sticky) */}
+        <div className="md:sticky md:top-8 md:self-start">
+          <section className="p-6 bg-neutral-50 dark:bg-neutral-900 rounded-xl border border-neutral-200 dark:border-neutral-800">
+            <h2 className="text-xl font-semibold mb-6 pb-2 border-b border-neutral-200 dark:border-neutral-800">
+              Skills
+            </h2>
+            <div className="space-y-6">
+              <div>
+                <h3 className="font-medium mb-2 text-neutral-900 dark:text-neutral-100">Operations</h3>
+                <p className="text-neutral-600 dark:text-neutral-400 text-sm">
+                  P&L Management ($25M+), Multi-Site Operations, Fleet Management, Supply Chain, Logistics, Post-Acquisition Integration
+                </p>
+              </div>
+              <div>
+                <h3 className="font-medium mb-2 text-neutral-900 dark:text-neutral-100">Technical</h3>
+                <p className="text-neutral-600 dark:text-neutral-400 text-sm">
+                  React Native, Node.js, Hardware Product Development, AI Implementation, Systems Architecture
+                </p>
+              </div>
+              <div>
+                <h3 className="font-medium mb-2 text-neutral-900 dark:text-neutral-100">Leadership</h3>
+                <p className="text-neutral-600 dark:text-neutral-400 text-sm">
+                  Team Building (150 employees), Organizational Design, Vendor Negotiations, Executive Reporting
+                </p>
+              </div>
+              <div>
+                <h3 className="font-medium mb-2 text-neutral-900 dark:text-neutral-100">Sectors</h3>
+                <p className="text-neutral-600 dark:text-neutral-400 text-sm">
+                  Food Service, Last-Mile Delivery, CPG/Retail, Higher Education, Healthcare
+                </p>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+
+      {/* Floating Download Button */}
+      <a
+        href="/andrew-nolan-resume.pdf"
+        download
+        className="fixed bottom-6 right-6 z-50 flex items-center justify-center gap-2 px-6 py-4 bg-neutral-900 dark:bg-neutral-100 text-white dark:text-neutral-900 rounded-full font-medium hover:bg-neutral-700 dark:hover:bg-neutral-300 transition-all shadow-lg hover:shadow-xl text-sm"
+        aria-label="Download Resume PDF"
+      >
+        <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+        </svg>
+        <span className="hidden sm:inline">Download PDF</span>
+      </a>
     </div>
   )
 }
