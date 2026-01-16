@@ -213,28 +213,41 @@ export default function Resume() {
             </h2>
             <div className="space-y-6">
               <div>
-                <h3 className="font-medium mb-2 text-neutral-900 dark:text-neutral-100">Operations</h3>
-                <p className="text-neutral-600 dark:text-neutral-400 text-sm">
-                  P&L Management ($25M+), Multi-Site Operations, Fleet Management, Supply Chain, Logistics, Post-Acquisition Integration
-                </p>
+                <h3 className="font-medium mb-3 text-neutral-900 dark:text-neutral-100 text-sm">Building Business</h3>
+                <div className="flex flex-wrap gap-2">
+                  <span className="px-3 py-1.5 bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 rounded-full text-xs font-medium border border-neutral-200 dark:border-neutral-700">P&L Management</span>
+                  <span className="px-3 py-1.5 bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 rounded-full text-xs font-medium border border-neutral-200 dark:border-neutral-700">Post-Acquisition Integration</span>
+                  <span className="px-3 py-1.5 bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 rounded-full text-xs font-medium border border-neutral-200 dark:border-neutral-700">Unit Economics</span>
+                  <span className="px-3 py-1.5 bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 rounded-full text-xs font-medium border border-neutral-200 dark:border-neutral-700">Vendor Negotiation</span>
+                </div>
               </div>
               <div>
-                <h3 className="font-medium mb-2 text-neutral-900 dark:text-neutral-100">Technical</h3>
-                <p className="text-neutral-600 dark:text-neutral-400 text-sm">
-                  React Native, Node.js, Hardware Product Development, AI Implementation, Systems Architecture
-                </p>
+                <h3 className="font-medium mb-3 text-neutral-900 dark:text-neutral-100 text-sm">Building Tech</h3>
+                <div className="flex flex-wrap gap-2">
+                  <span className="px-3 py-1.5 bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 rounded-full text-xs font-medium border border-neutral-200 dark:border-neutral-700">React Native</span>
+                  <span className="px-3 py-1.5 bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 rounded-full text-xs font-medium border border-neutral-200 dark:border-neutral-700">Node.js</span>
+                  <span className="px-3 py-1.5 bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 rounded-full text-xs font-medium border border-neutral-200 dark:border-neutral-700">System Architecture</span>
+                  <span className="px-3 py-1.5 bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 rounded-full text-xs font-medium border border-neutral-200 dark:border-neutral-700">Hardware/IoT</span>
+                  <span className="px-3 py-1.5 bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 rounded-full text-xs font-medium border border-neutral-200 dark:border-neutral-700">AI Implementation</span>
+                </div>
               </div>
               <div>
-                <h3 className="font-medium mb-2 text-neutral-900 dark:text-neutral-100">Leadership</h3>
-                <p className="text-neutral-600 dark:text-neutral-400 text-sm">
-                  Team Building (150 employees), Organizational Design, Vendor Negotiations, Executive Reporting
-                </p>
+                <h3 className="font-medium mb-3 text-neutral-900 dark:text-neutral-100 text-sm">Building Teams</h3>
+                <div className="flex flex-wrap gap-2">
+                  <span className="px-3 py-1.5 bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 rounded-full text-xs font-medium border border-neutral-200 dark:border-neutral-700">Org Design</span>
+                  <span className="px-3 py-1.5 bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 rounded-full text-xs font-medium border border-neutral-200 dark:border-neutral-700">Remote/Hybrid Leadership</span>
+                  <span className="px-3 py-1.5 bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 rounded-full text-xs font-medium border border-neutral-200 dark:border-neutral-700">Change Management</span>
+                  <span className="px-3 py-1.5 bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 rounded-full text-xs font-medium border border-neutral-200 dark:border-neutral-700">Executive Reporting</span>
+                </div>
               </div>
               <div>
-                <h3 className="font-medium mb-2 text-neutral-900 dark:text-neutral-100">Sectors</h3>
-                <p className="text-neutral-600 dark:text-neutral-400 text-sm">
-                  Food Service, Last-Mile Delivery, CPG/Retail, Higher Education, Healthcare
-                </p>
+                <h3 className="font-medium mb-3 text-neutral-900 dark:text-neutral-100 text-sm">Vertical Expertise</h3>
+                <div className="flex flex-wrap gap-2">
+                  <span className="px-3 py-1.5 bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 rounded-full text-xs font-medium border border-neutral-200 dark:border-neutral-700">Food Tech</span>
+                  <span className="px-3 py-1.5 bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 rounded-full text-xs font-medium border border-neutral-200 dark:border-neutral-700">Last-Mile Logistics</span>
+                  <span className="px-3 py-1.5 bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 rounded-full text-xs font-medium border border-neutral-200 dark:border-neutral-700">Complex Operations</span>
+                  <span className="px-3 py-1.5 bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 rounded-full text-xs font-medium border border-neutral-200 dark:border-neutral-700">Higher Ed</span>
+                </div>
               </div>
             </div>
           </section>
