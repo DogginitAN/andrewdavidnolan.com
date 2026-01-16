@@ -12,6 +12,7 @@ export default function Navigation() {
     { href: '/', label: 'Home' },
     { href: '/story', label: 'Story' },
     { href: '/resume', label: 'Resume' },
+    { href: '/builder-mode', label: 'Builder Mode' },
     { href: '/contact', label: 'Contact' },
   ]
 
