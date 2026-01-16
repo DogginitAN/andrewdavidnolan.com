@@ -74,7 +74,7 @@ export default function Contact() {
             </div>
             <div>
               <p className="font-medium">Location</p>
-              <p className="text-neutral-600 dark:text-neutral-400">NYC Metropolitan Area</p>
+              <p className="text-neutral-600 dark:text-neutral-400">Syracuse, NY</p>
             </div>
           </div>
         </div>
@@ -102,7 +102,7 @@ export default function Contact() {
           </li>
           <li className="flex gap-2">
             <span className="text-green-500">✓</span>
-            <span>Remote-friendly or NYC-accessible</span>
+            <span>Remote-friendly or Syracuse/NYC-accessible</span>
           </li>
         </ul>
       </div>
