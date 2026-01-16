@@ -68,75 +68,109 @@ export default function BuilderMode() {
 
         {/* Holdings Table */}
         <div className="mt-8 p-6 rounded-xl bg-neutral-50 dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800">
-          <h3 className="text-lg font-semibold mb-4">Top Holdings (Robinhood)</h3>
-          <p className="text-sm text-neutral-500 dark:text-neutral-400 mb-4">
+          <h3 className="text-lg font-semibold mb-4">Top Holdings by Thesis (Robinhood)</h3>
+          <p className="text-sm text-neutral-500 dark:text-neutral-400 mb-6">
             Current portfolio value: $236,617.71 | Net invested: $4,365 | Total return: +5,321%
           </p>
-          <div className="overflow-x-auto">
-            <table className="w-full text-sm">
-              <thead>
-                <tr className="border-b border-neutral-200 dark:border-neutral-800">
-                  <th className="text-left py-2 px-3 font-medium">Ticker</th>
-                  <th className="text-left py-2 px-3 font-medium">Thesis</th>
-                  <th className="text-right py-2 px-3 font-medium">% Portfolio</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr className="border-b border-neutral-100 dark:border-neutral-900">
-                  <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">MSTY</td>
-                  <td className="py-2 px-3 text-amber-600 dark:text-amber-500 text-xs">Anti-Debase</td>
-                  <td className="py-2 px-3 text-right text-neutral-700 dark:text-neutral-300">23.5%</td>
-                </tr>
-                <tr className="border-b border-neutral-100 dark:border-neutral-900">
-                  <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">MU</td>
-                  <td className="py-2 px-3 text-amber-600 dark:text-amber-500 text-xs">AI Infra</td>
-                  <td className="py-2 px-3 text-right text-neutral-700 dark:text-neutral-300">14.6%</td>
-                </tr>
-                <tr className="border-b border-neutral-100 dark:border-neutral-900">
-                  <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">ALB</td>
-                  <td className="py-2 px-3 text-amber-600 dark:text-amber-500 text-xs">AI Infra</td>
-                  <td className="py-2 px-3 text-right text-neutral-700 dark:text-neutral-300">6.9%</td>
-                </tr>
-                <tr className="border-b border-neutral-100 dark:border-neutral-900">
-                  <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">AMD</td>
-                  <td className="py-2 px-3 text-amber-600 dark:text-amber-500 text-xs">AI Infra</td>
-                  <td className="py-2 px-3 text-right text-neutral-700 dark:text-neutral-300">4.8%</td>
-                </tr>
-                <tr className="border-b border-neutral-100 dark:border-neutral-900">
-                  <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">AMZN</td>
-                  <td className="py-2 px-3 text-amber-600 dark:text-amber-500 text-xs">AI Infra</td>
-                  <td className="py-2 px-3 text-right text-neutral-700 dark:text-neutral-300">3.6%</td>
-                </tr>
-                <tr className="border-b border-neutral-100 dark:border-neutral-900">
-                  <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">GRAB</td>
-                  <td className="py-2 px-3 text-amber-600 dark:text-amber-500 text-xs">Other</td>
-                  <td className="py-2 px-3 text-right text-neutral-700 dark:text-neutral-300">3.6%</td>
-                </tr>
-                <tr className="border-b border-neutral-100 dark:border-neutral-900">
-                  <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">ASTS</td>
-                  <td className="py-2 px-3 text-amber-600 dark:text-amber-500 text-xs">AI Infra</td>
-                  <td className="py-2 px-3 text-right text-neutral-700 dark:text-neutral-300">3.6%</td>
-                </tr>
-                <tr className="border-b border-neutral-100 dark:border-neutral-900">
-                  <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">HUT</td>
-                  <td className="py-2 px-3 text-amber-600 dark:text-amber-500 text-xs">Anti-Debase</td>
-                  <td className="py-2 px-3 text-right text-neutral-700 dark:text-neutral-300">3.0%</td>
-                </tr>
-                <tr className="border-b border-neutral-100 dark:border-neutral-900">
-                  <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">IREN</td>
-                  <td className="py-2 px-3 text-amber-600 dark:text-amber-500 text-xs">Anti-Debase</td>
-                  <td className="py-2 px-3 text-right text-neutral-700 dark:text-neutral-300">2.9%</td>
-                </tr>
-                <tr>
-                  <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">SYM</td>
-                  <td className="py-2 px-3 text-amber-600 dark:text-amber-500 text-xs">AI Infra</td>
-                  <td className="py-2 px-3 text-right text-neutral-700 dark:text-neutral-300">2.6%</td>
-                </tr>
-              </tbody>
-            </table>
+          
+          {/* AI Infrastructure Thesis */}
+          <div className="mb-6">
+            <h4 className="text-sm font-semibold text-amber-600 dark:text-amber-500 mb-3">AI INFRASTRUCTURE</h4>
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm">
+                <thead>
+                  <tr className="border-b border-neutral-200 dark:border-neutral-800">
+                    <th className="text-left py-2 px-3 font-medium">Ticker</th>
+                    <th className="text-right py-2 px-3 font-medium">Value</th>
+                    <th className="text-right py-2 px-3 font-medium">Gain</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr className="border-b border-neutral-100 dark:border-neutral-900">
+                    <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">SOFI</td>
+                    <td className="py-2 px-3 text-right text-neutral-600 dark:text-neutral-400">$5,750</td>
+                    <td className="py-2 px-3 text-right text-emerald-600 dark:text-emerald-500 font-semibold">+151%</td>
+                  </tr>
+                  <tr className="border-b border-neutral-100 dark:border-neutral-900">
+                    <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">GOOGL</td>
+                    <td className="py-2 px-3 text-right text-neutral-600 dark:text-neutral-400">$4,505</td>
+                    <td className="py-2 px-3 text-right text-emerald-600 dark:text-emerald-500 font-semibold">+35%</td>
+                  </tr>
+                  <tr className="border-b border-neutral-100 dark:border-neutral-900">
+                    <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">ASTS</td>
+                    <td className="py-2 px-3 text-right text-neutral-600 dark:text-neutral-400">$4,595</td>
+                    <td className="py-2 px-3 text-right text-emerald-600 dark:text-emerald-500 font-semibold">+27%</td>
+                  </tr>
+                  <tr className="border-b border-neutral-100 dark:border-neutral-900">
+                    <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">MU</td>
+                    <td className="py-2 px-3 text-right text-neutral-600 dark:text-neutral-400">$11,958</td>
+                    <td className="py-2 px-3 text-right text-emerald-600 dark:text-emerald-500 font-semibold">+23%</td>
+                  </tr>
+                  <tr className="border-b border-neutral-100 dark:border-neutral-900">
+                    <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">AMD</td>
+                    <td className="py-2 px-3 text-right text-neutral-600 dark:text-neutral-400">$11,307</td>
+                    <td className="py-2 px-3 text-right text-emerald-600 dark:text-emerald-500 font-semibold">+7%</td>
+                  </tr>
+                  <tr className="border-b border-neutral-100 dark:border-neutral-900">
+                    <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">SYM</td>
+                    <td className="py-2 px-3 text-right text-neutral-600 dark:text-neutral-400">$4,056</td>
+                    <td className="py-2 px-3 text-right text-emerald-600 dark:text-emerald-500 font-semibold">+4%</td>
+                  </tr>
+                  <tr className="border-b border-neutral-100 dark:border-neutral-900">
+                    <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">AMZN</td>
+                    <td className="py-2 px-3 text-right text-neutral-600 dark:text-neutral-400">$8,090</td>
+                    <td className="py-2 px-3 text-right text-emerald-600 dark:text-emerald-500 font-semibold">+3%</td>
+                  </tr>
+                  <tr>
+                    <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">STEM</td>
+                    <td className="py-2 px-3 text-right text-neutral-600 dark:text-neutral-400">$4,736</td>
+                    <td className="py-2 px-3 text-right text-emerald-600 dark:text-emerald-500 font-semibold">+1%</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
-          <p className="text-xs text-neutral-500 dark:text-neutral-400 mt-4">
-            Note: This is Robinhood only. Total portfolio includes other platforms.
+
+          {/* Anti-Debasement Thesis */}
+          <div>
+            <h4 className="text-sm font-semibold text-amber-600 dark:text-amber-500 mb-3">ANTI-DEBASEMENT</h4>
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm">
+                <thead>
+                  <tr className="border-b border-neutral-200 dark:border-neutral-800">
+                    <th className="text-left py-2 px-3 font-medium">Ticker</th>
+                    <th className="text-right py-2 px-3 font-medium">Value</th>
+                    <th className="text-right py-2 px-3 font-medium">Gain</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr className="border-b border-neutral-100 dark:border-neutral-900">
+                    <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">IREN</td>
+                    <td className="py-2 px-3 text-right text-neutral-600 dark:text-neutral-400">$7,391</td>
+                    <td className="py-2 px-3 text-right text-emerald-600 dark:text-emerald-500 font-semibold">+376%</td>
+                  </tr>
+                  <tr className="border-b border-neutral-100 dark:border-neutral-900">
+                    <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">GLXY</td>
+                    <td className="py-2 px-3 text-right text-neutral-600 dark:text-neutral-400">$1,485</td>
+                    <td className="py-2 px-3 text-right text-red-600 dark:text-red-500 font-semibold">-3%</td>
+                  </tr>
+                  <tr className="border-b border-neutral-100 dark:border-neutral-900">
+                    <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">MSTY</td>
+                    <td className="py-2 px-3 text-right text-neutral-600 dark:text-neutral-400">$25,651</td>
+                    <td className="py-2 px-3 text-right text-red-600 dark:text-red-500 font-semibold">-15%</td>
+                  </tr>
+                  <tr>
+                    <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">HUT</td>
+                    <td className="py-2 px-3 text-right text-neutral-600 dark:text-neutral-400">$1,200</td>
+                    <td className="py-2 px-3 text-right text-red-600 dark:text-red-500 font-semibold">-20%</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <p className="text-xs text-neutral-500 dark:text-neutral-400 mt-6">
+            Note: Gains calculated from cost basis to current value. Robinhood account only.
           </p>
         </div>
 
