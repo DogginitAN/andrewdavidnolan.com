@@ -71,7 +71,7 @@ export default function Home() {
       {/* Teaser */}
       <section className="py-10">
         <h2 className="text-xl font-semibold mb-4">What I Do</h2>
-        <div className="grid md:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-3 gap-6 items-start">
           <button
             onClick={() => toggleCard('scale')}
             className="p-6 rounded-xl bg-neutral-50 dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 text-left w-full hover:border-neutral-300 dark:hover:border-neutral-700 transition-all"
