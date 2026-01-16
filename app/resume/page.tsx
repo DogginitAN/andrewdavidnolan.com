@@ -52,8 +52,12 @@ export default function Resume() {
             <div className="mb-10">
               <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-2 gap-2">
                 <div className="flex items-center gap-3">
-                  <div className="flex-shrink-0 w-10 h-10 bg-neutral-100 dark:bg-neutral-800 rounded flex items-center justify-center border border-neutral-200 dark:border-neutral-700">
-                    <span className="text-xs font-bold text-neutral-600 dark:text-neutral-400">ARMK</span>
+                  <div className="flex-shrink-0 w-10 h-10 rounded flex items-center justify-center">
+                    <img 
+                      src="/aramark-logo.png" 
+                      alt="Aramark" 
+                      className="w-full h-full object-contain"
+                    />
                   </div>
                   <div>
                     <h3 className="font-semibold text-lg">Aramark Collegiate Hospitality + Good Uncle</h3>
@@ -85,8 +89,12 @@ export default function Resume() {
             <div className="mb-10">
               <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-2 gap-2">
                 <div className="flex items-center gap-3">
-                  <div className="flex-shrink-0 w-10 h-10 bg-amber-50 dark:bg-amber-950 rounded flex items-center justify-center border border-amber-200 dark:border-amber-800">
-                    <span className="text-xs font-bold text-amber-600 dark:text-amber-400">GU</span>
+                  <div className="flex-shrink-0 w-10 h-10 rounded flex items-center justify-center">
+                    <img 
+                      src="/gooduncle-logo.png" 
+                      alt="Good Uncle" 
+                      className="w-full h-full object-contain dark:invert"
+                    />
                   </div>
                   <div>
                     <h3 className="font-semibold text-lg">Good Uncle</h3>
