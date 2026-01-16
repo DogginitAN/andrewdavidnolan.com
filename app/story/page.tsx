@@ -115,21 +115,30 @@ export default function Story() {
         </div>
       </section>
 
-      {/* The Gumball Story */}
+      {/* The Origin */}
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-4 flex items-center gap-3">
           <span className="text-neutral-400 dark:text-neutral-600">04</span>
-          The Gumball Story
+          The Origin
         </h2>
+        <h3 className="text-xl md:text-2xl font-medium mb-6 text-neutral-800 dark:text-neutral-200">
+          The First Engine
+        </h3>
         <div className="prose prose-neutral dark:prose-invert max-w-none">
           <p className="text-lg leading-relaxed text-neutral-700 dark:text-neutral-300">
-            At age 10, I sold gumballs on the school bus for $0.50 a bag. Within 30 days, I had built a distribution network—classmates became wholesalers, each bus a market—and generated over $1,200 in revenue.
+            It wasn't about the candy. It was about the flow.
           </p>
           <p className="text-lg leading-relaxed text-neutral-700 dark:text-neutral-300">
-            Then the principal forced me to return every penny.
+            At age 10, while other kids were trading Pokémon cards, I was analyzing the school bus. I realized it wasn't just transportation; it was a captive logistics network.
+          </p>
+          <p className="text-lg leading-relaxed text-neutral-700 dark:text-neutral-300">
+            I started selling gumballs, but I didn't stop at direct sales. I recruited friends to cover other bus routes, creating my first crude "distribution tier." I was learning about inventory pinch points and wholesale margins before I knew how to do long division.
+          </p>
+          <p className="text-lg leading-relaxed text-neutral-700 dark:text-neutral-300">
+            Eventually, the Principal shut me down (my first regulatory hurdle) and made me return the proceeds. I didn't care about the lost cash. I was hooked on the mechanics of the machine.
           </p>
           <p className="text-lg leading-relaxed text-neutral-700 dark:text-neutral-300 font-medium">
-            The lesson: failure can be outside your control. Build anyway.
+            That was the spark that has driven every role since: I don't just want to participate in the economy. I want to build the engine.
           </p>
         </div>
       </section>
