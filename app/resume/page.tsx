@@ -40,7 +40,7 @@ export default function Resume() {
       {/* Main Content Grid: Experience + Sticky Sidebar */}
       <div className="grid md:grid-cols-[1fr_300px] gap-8 md:gap-12">
         {/* Left Column: Experience */}
-        <div>
+        <div className="md:pt-6">
           <section className="mb-12">
             <h2 className="text-xl font-semibold mb-6 pb-2 border-b border-neutral-200 dark:border-neutral-800">
               Experience
