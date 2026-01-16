@@ -6,49 +6,52 @@ export default function Story() {
         Four moments that define how I think about building.
       </p>
 
-      {/* The Pattern */}
+      {/* The Evolution */}
       <section className="mb-16">
         <h2 className="text-2xl font-semibold mb-4 flex items-center gap-3">
           <span className="text-neutral-400 dark:text-neutral-600">01</span>
-          The Pattern
+          The Evolution
         </h2>
+        <h3 className="text-xl md:text-2xl font-medium mb-6 text-neutral-800 dark:text-neutral-200">
+          You Can't Scale Chaos
+        </h3>
         <div className="prose prose-neutral dark:prose-invert max-w-none">
           <p className="text-lg leading-relaxed text-neutral-700 dark:text-neutral-300">
-            I've been through three acquisitions—always as the person who built the thing that got bought.
+            When I started Escape Restaurant Group in 2009, I thought "operations" meant working harder than everyone else. I was wrong. We were profitable, but it was brutal. I was the system, and that meant the business couldn't grow beyond me.
           </p>
           <p className="text-lg leading-relaxed text-neutral-700 dark:text-neutral-300">
-            Escape Restaurant Group. Salad Pangea. Good Uncle.
+            That was the spark. Over the next decade—through 'wichcraft and Salad Pangea—I became obsessed with a single question: How do you build a business that runs better without you?
           </p>
           <p className="text-lg leading-relaxed text-neutral-700 dark:text-neutral-300">
-            Each time: join early or found it, build the operations, scale it, exit.
+            By the time I reached Good Uncle, I wasn't just solving problems; I was engineering systems to prevent them. I realized that a scalable company isn't built on heroes; it's built on boring, reliable, bulletproof infrastructure.
           </p>
           <p className="text-lg leading-relaxed text-neutral-700 dark:text-neutral-300">
-            It's not a strategy I planned. It's just what happens when you build something that works.
+            That shift—from "Hero" to "Architect"—is what allowed me to guide three different companies to successful exits.
           </p>
         </div>
       </section>
 
-      {/* The Hardware Story */}
+      {/* The View from the Passenger Seat */}
       <section className="mb-16">
         <h2 className="text-2xl font-semibold mb-4 flex items-center gap-3">
           <span className="text-neutral-400 dark:text-neutral-600">02</span>
-          The Hardware Story
+          The View from the Passenger Seat
         </h2>
         <div className="prose prose-neutral dark:prose-invert max-w-none">
           <p className="text-lg leading-relaxed text-neutral-700 dark:text-neutral-300">
-            When we started Good Uncle, no delivery vehicle existed that could do what we needed: keep 500 meals refrigerated during loading, then cook 150 of them while driving to customers.
+            In 2017, we had a problem. Our delivery vehicles were theoretically perfect—on paper. But in the field, they were failing.
           </p>
           <p className="text-lg leading-relaxed text-neutral-700 dark:text-neutral-300">
-            So I designed one.
+            So I stopped reading reports and got in the truck. I sat in the passenger seat for weeks. I watched drivers struggle to reach ovens that were mounted three inches too high. I watched them fight with an app workflow that required three taps when they only had one free hand.
           </p>
           <p className="text-lg leading-relaxed text-neutral-700 dark:text-neutral-300">
-            I led a 3-month engineering sprint with electrical engineers. We built a 24.8 kWh lithium-ion battery system powering a 12KW inverter, integrated ThermoKing refrigeration with Amana convection ovens, and added Victron cloud monitoring for real-time thermal management.
+            I realized then that the gap between "Engineering" and "Operations" is where companies die.
           </p>
           <p className="text-lg leading-relaxed text-neutral-700 dark:text-neutral-300">
-            The system was platform-agnostic—we deployed on both Mercedes-Benz Sprinters and Dodge ProMasters depending on unit availability. We manufactured 50 of these vehicles. Each was a mobile kitchen serving 150+ customers per shift without any on-site food prep.
+            I became the bridge. I brought the drivers' frustrations to the engineers in language they understood (thermal constraints, UI latency). We redesigned the fleet and the app, not based on specs, but on human reality.
           </p>
           <p className="text-lg leading-relaxed text-neutral-700 dark:text-neutral-300">
-            It wasn't just operations—it was product development at the intersection of hardware, software, and logistics.
+            The result wasn't just a better truck—it was a team that trusted the tools we gave them.
           </p>
         </div>
         
@@ -73,24 +76,27 @@ export default function Story() {
         </div>
       </section>
 
-      {/* The AI Transformation */}
+      {/* The Pivot */}
       <section className="mb-16">
         <h2 className="text-2xl font-semibold mb-4 flex items-center gap-3">
           <span className="text-neutral-400 dark:text-neutral-600">03</span>
-          The AI Transformation
+          The Pivot
         </h2>
         <div className="prose prose-neutral dark:prose-invert max-w-none">
           <p className="text-lg leading-relaxed text-neutral-700 dark:text-neutral-300">
-            In 2024, I faced a choice: continue running a 150-person delivery operation, or transform the business model entirely.
+            In 2024, I looked at our P&L and saw a hard truth. We had built an incredible logistics machine at Good Uncle—150 people, fleets of trucks, massive overhead—but the market had shifted. The value wasn't in the trucks anymore; it was in the brand.
           </p>
           <p className="text-lg leading-relaxed text-neutral-700 dark:text-neutral-300">
-            I chose transformation.
+            Most leaders try to save the ship. I decided to build a speedboat.
           </p>
           <p className="text-lg leading-relaxed text-neutral-700 dark:text-neutral-300">
-            I partnered with a top-tier manufacturer and distributor, leveraging Aramark's relationships to handle production and logistics. Then I replaced our internal design, marketing, and operations functions with AI personas trained on our historical data.
+            It was the hardest decision of my career: dismantling the logistics network I had spent years building to save the core business. We moved to a partnership model for the physical work, but that left a gap: Who runs the company?
           </p>
           <p className="text-lg leading-relaxed text-neutral-700 dark:text-neutral-300">
-            The result: a 2-person organization running a $5M CPG business with 60% growth. Same product, better quality, fraction of the cost.
+            I didn't want to re-hire a bloat of middle management. Instead, I bet on AI. I spent months encoding our brand voice, our decision matrices, and our operational logic into autonomous agents.
+          </p>
+          <p className="text-lg leading-relaxed text-neutral-700 dark:text-neutral-300">
+            It worked. We saved the business not by working harder, but by having the courage to completely reimagine how the work gets done.
           </p>
         </div>
 
