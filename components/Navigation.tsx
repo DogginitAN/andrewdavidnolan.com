@@ -17,18 +17,18 @@ export default function Navigation() {
 
   return (
     <nav className="sticky top-0 z-50 backdrop-blur-md bg-white/80 dark:bg-neutral-950/80 border-b border-neutral-200 dark:border-neutral-800">
-      <div className="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
-        <Link href="/" className="font-semibold text-lg hover:text-neutral-600 dark:hover:text-neutral-300 transition-colors">
+      <div className="max-w-4xl mx-auto px-4 md:px-6 py-3 md:py-4 flex items-center justify-between">
+        <Link href="/" className="font-semibold text-lg hover:text-neutral-600 dark:hover:text-neutral-300 transition-colors py-2">
           ADN
         </Link>
         
-        <div className="flex items-center gap-6">
-          <div className="flex items-center gap-4">
+        <div className="flex items-center gap-3 md:gap-6">
+          <div className="flex items-center gap-2 md:gap-4">
             {links.map(link => (
               <Link
                 key={link.href}
                 href={link.href}
-                className={`text-sm transition-colors ${
+                className={`text-sm md:text-base py-2 px-1 transition-colors ${
                   pathname === link.href
                     ? 'text-neutral-900 dark:text-neutral-100 font-medium'
                     : 'text-neutral-500 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-100'
@@ -41,7 +41,7 @@ export default function Navigation() {
           
           <button
             onClick={toggleTheme}
-            className="p-2 rounded-lg hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors"
+            className="p-2.5 rounded-lg hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors"
             aria-label="Toggle theme"
           >
             {theme === 'dark' ? (

@@ -2,18 +2,18 @@ import Link from 'next/link'
 
 export default function Resume() {
   return (
-    <div className="py-12">
-      <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-8 gap-4">
+    <div className="py-8 md:py-12">
+      <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-6 md:mb-8 gap-4">
         <div>
           <h1 className="text-3xl md:text-4xl font-bold mb-2">Resume</h1>
-          <p className="text-neutral-600 dark:text-neutral-400">
+          <p className="text-neutral-600 dark:text-neutral-400 text-sm md:text-base">
             15 years building operations that scale.
           </p>
         </div>
         <a
           href="/andrew-nolan-resume.pdf"
           download
-          className="inline-flex items-center gap-2 px-5 py-2.5 bg-neutral-900 dark:bg-neutral-100 text-white dark:text-neutral-900 rounded-lg font-medium hover:bg-neutral-700 dark:hover:bg-neutral-300 transition-colors text-sm"
+          className="inline-flex items-center justify-center gap-2 px-5 py-3 bg-neutral-900 dark:bg-neutral-100 text-white dark:text-neutral-900 rounded-lg font-medium hover:bg-neutral-700 dark:hover:bg-neutral-300 transition-colors text-sm"
         >
           <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
@@ -23,26 +23,26 @@ export default function Resume() {
       </div>
 
       {/* Key Stats */}
-      <div className="grid grid-cols-2 md:grid-cols-5 gap-4 mb-12 p-6 bg-neutral-50 dark:bg-neutral-900 rounded-xl border border-neutral-200 dark:border-neutral-800">
+      <div className="grid grid-cols-2 md:grid-cols-5 gap-3 md:gap-4 mb-12 p-4 md:p-6 bg-neutral-50 dark:bg-neutral-900 rounded-xl border border-neutral-200 dark:border-neutral-800">
         <div className="text-center">
-          <p className="text-2xl font-bold">$25M</p>
-          <p className="text-xs text-neutral-500">P&L</p>
+          <p className="text-xl md:text-2xl font-bold">$25M</p>
+          <p className="text-xs md:text-sm text-neutral-500 mt-1">P&L</p>
         </div>
         <div className="text-center">
-          <p className="text-2xl font-bold">150</p>
-          <p className="text-xs text-neutral-500">Employees</p>
+          <p className="text-xl md:text-2xl font-bold">150</p>
+          <p className="text-xs md:text-sm text-neutral-500 mt-1">Employees</p>
         </div>
         <div className="text-center">
-          <p className="text-2xl font-bold">18</p>
-          <p className="text-xs text-neutral-500">Markets</p>
+          <p className="text-xl md:text-2xl font-bold">18</p>
+          <p className="text-xs md:text-sm text-neutral-500 mt-1">Markets</p>
         </div>
         <div className="text-center">
-          <p className="text-2xl font-bold">3</p>
-          <p className="text-xs text-neutral-500">Acquisitions</p>
+          <p className="text-xl md:text-2xl font-bold">3</p>
+          <p className="text-xs md:text-sm text-neutral-500 mt-1">Acquisitions</p>
         </div>
         <div className="text-center">
-          <p className="text-2xl font-bold">70</p>
-          <p className="text-xs text-neutral-500">Vehicles</p>
+          <p className="text-xl md:text-2xl font-bold">70</p>
+          <p className="text-xs md:text-sm text-neutral-500 mt-1">Vehicles</p>
         </div>
       </div>
 

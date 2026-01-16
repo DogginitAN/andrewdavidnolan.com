@@ -1,8 +1,8 @@
 export default function Story() {
   return (
-    <div className="py-12">
-      <h1 className="text-3xl md:text-4xl font-bold mb-4">My Story</h1>
-      <p className="text-lg text-neutral-600 dark:text-neutral-400 mb-12">
+    <div className="py-8 md:py-12">
+      <h1 className="text-3xl md:text-4xl font-bold mb-3 md:mb-4">My Story</h1>
+      <p className="text-base md:text-lg text-neutral-600 dark:text-neutral-400 mb-10 md:mb-12">
         Four moments that define how I think about building.
       </p>
 
@@ -53,22 +53,22 @@ export default function Story() {
         </div>
         
         {/* Stats */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-8 p-6 bg-neutral-50 dark:bg-neutral-900 rounded-xl border border-neutral-200 dark:border-neutral-800">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4 mt-8 p-4 md:p-6 bg-neutral-50 dark:bg-neutral-900 rounded-xl border border-neutral-200 dark:border-neutral-800">
           <div>
-            <p className="text-2xl font-bold">50</p>
-            <p className="text-xs text-neutral-500 dark:text-neutral-400">Vehicles Built</p>
+            <p className="text-xl md:text-2xl font-bold">50</p>
+            <p className="text-xs md:text-sm text-neutral-500 dark:text-neutral-400 mt-1">Vehicles Built</p>
           </div>
           <div>
-            <p className="text-2xl font-bold">24.8 kWh</p>
-            <p className="text-xs text-neutral-500 dark:text-neutral-400">Battery System</p>
+            <p className="text-xl md:text-2xl font-bold">24.8 kWh</p>
+            <p className="text-xs md:text-sm text-neutral-500 dark:text-neutral-400 mt-1">Battery System</p>
           </div>
           <div>
-            <p className="text-2xl font-bold">500</p>
-            <p className="text-xs text-neutral-500 dark:text-neutral-400">Meal Capacity</p>
+            <p className="text-xl md:text-2xl font-bold">500</p>
+            <p className="text-xs md:text-sm text-neutral-500 dark:text-neutral-400 mt-1">Meal Capacity</p>
           </div>
           <div>
-            <p className="text-2xl font-bold">150</p>
-            <p className="text-xs text-neutral-500 dark:text-neutral-400">Cooked Per Charge</p>
+            <p className="text-xl md:text-2xl font-bold">150</p>
+            <p className="text-xs md:text-sm text-neutral-500 dark:text-neutral-400 mt-1">Cooked Per Charge</p>
           </div>
         </div>
       </section>
@@ -96,15 +96,15 @@ export default function Story() {
 
         {/* Before/After */}
         <div className="grid md:grid-cols-2 gap-4 mt-8">
-          <div className="p-6 bg-red-50 dark:bg-red-950/30 rounded-xl border border-red-200 dark:border-red-900">
-            <p className="text-sm font-medium text-red-600 dark:text-red-400 mb-2">Before</p>
-            <p className="text-3xl font-bold text-red-700 dark:text-red-300">150</p>
-            <p className="text-sm text-red-600 dark:text-red-400">employees</p>
+          <div className="p-5 md:p-6 bg-red-50 dark:bg-red-950/30 rounded-xl border border-red-200 dark:border-red-900">
+            <p className="text-xs md:text-sm font-medium text-red-600 dark:text-red-400 mb-2">Before</p>
+            <p className="text-2xl md:text-3xl font-bold text-red-700 dark:text-red-300">150</p>
+            <p className="text-xs md:text-sm text-red-600 dark:text-red-400 mt-1">employees</p>
           </div>
-          <div className="p-6 bg-green-50 dark:bg-green-950/30 rounded-xl border border-green-200 dark:border-green-900">
-            <p className="text-sm font-medium text-green-600 dark:text-green-400 mb-2">After</p>
-            <p className="text-3xl font-bold text-green-700 dark:text-green-300">2</p>
-            <p className="text-sm text-green-600 dark:text-green-400">employees + AI</p>
+          <div className="p-5 md:p-6 bg-green-50 dark:bg-green-950/30 rounded-xl border border-green-200 dark:border-green-900">
+            <p className="text-xs md:text-sm font-medium text-green-600 dark:text-green-400 mb-2">After</p>
+            <p className="text-2xl md:text-3xl font-bold text-green-700 dark:text-green-300">2</p>
+            <p className="text-xs md:text-sm text-green-600 dark:text-green-400 mt-1">employees + AI</p>
           </div>
         </div>
       </section>
