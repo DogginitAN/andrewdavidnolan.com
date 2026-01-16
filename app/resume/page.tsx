@@ -12,27 +12,28 @@ export default function Resume() {
         </div>
       </div>
 
-      {/* Key Stats */}
-      <div className="grid grid-cols-2 md:grid-cols-5 gap-3 md:gap-4 mb-12 p-4 md:p-6 bg-neutral-50 dark:bg-neutral-900 rounded-xl border border-neutral-200 dark:border-neutral-800">
-        <div className="text-center">
-          <p className="text-xl md:text-2xl font-bold">$25M</p>
-          <p className="text-xs md:text-sm text-neutral-500 mt-1">P&L</p>
-        </div>
-        <div className="text-center">
-          <p className="text-xl md:text-2xl font-bold">150</p>
-          <p className="text-xs md:text-sm text-neutral-500 mt-1">Employees</p>
-        </div>
-        <div className="text-center">
-          <p className="text-xl md:text-2xl font-bold">18</p>
-          <p className="text-xs md:text-sm text-neutral-500 mt-1">Markets</p>
-        </div>
-        <div className="text-center">
-          <p className="text-xl md:text-2xl font-bold">3</p>
-          <p className="text-xs md:text-sm text-neutral-500 mt-1">Acquisitions</p>
-        </div>
-        <div className="text-center">
-          <p className="text-xl md:text-2xl font-bold">70</p>
-          <p className="text-xs md:text-sm text-neutral-500 mt-1">Vehicles</p>
+      {/* Lifetime Impact Dashboard */}
+      <div className="mb-12">
+        <h2 className="text-sm uppercase tracking-wider text-amber-600 dark:text-amber-500 font-medium mb-6 text-center">
+          Lifetime Impact
+        </h2>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+          <div>
+            <p className="text-3xl md:text-4xl font-bold mb-2">$42M+</p>
+            <p className="text-sm text-neutral-600 dark:text-neutral-400">Combined P&L responsibility across three acquisitions</p>
+          </div>
+          <div>
+            <p className="text-3xl md:text-4xl font-bold mb-2">600+</p>
+            <p className="text-sm text-neutral-600 dark:text-neutral-400">Staff managed at peak (direct + indirect)</p>
+          </div>
+          <div>
+            <p className="text-3xl md:text-4xl font-bold mb-2">230+</p>
+            <p className="text-sm text-neutral-600 dark:text-neutral-400">Points of presence (locations + vehicles)</p>
+          </div>
+          <div>
+            <p className="text-3xl md:text-4xl font-bold mb-2">3</p>
+            <p className="text-sm text-neutral-600 dark:text-neutral-400">Successful exits (built what got acquired)</p>
+          </div>
         </div>
       </div>
 
@@ -44,9 +45,6 @@ export default function Resume() {
             <h2 className="text-xl font-semibold mb-6 pb-2 border-b border-neutral-200 dark:border-neutral-800">
               Experience
             </h2>
-        <h2 className="text-xl font-semibold mb-6 pb-2 border-b border-neutral-200 dark:border-neutral-800">
-          Experience
-        </h2>
 
             {/* Aramark + Good Uncle */}
             <div className="mb-10">
