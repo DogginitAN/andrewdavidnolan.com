@@ -188,18 +188,26 @@ export default function BuilderMode() {
                 </thead>
                 <tbody>
                   <tr className="border-b border-neutral-100 dark:border-neutral-900">
+                    <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">ADA</td>
+                    <td className="py-2 px-3 text-right text-emerald-600 dark:text-emerald-500 font-semibold">+12.5%</td>
+                  </tr>
+                  <tr className="border-b border-neutral-100 dark:border-neutral-900">
                     <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">BTC</td>
                     <td className="py-2 px-3 text-right text-emerald-600 dark:text-emerald-500 font-semibold">+5.9%</td>
                   </tr>
-                  <tr>
+                  <tr className="border-b border-neutral-100 dark:border-neutral-900">
                     <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">ETH</td>
                     <td className="py-2 px-3 text-right text-red-600 dark:text-red-500 font-semibold">-0.4%</td>
+                  </tr>
+                  <tr>
+                    <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">SOL</td>
+                    <td className="py-2 px-3 text-right text-red-600 dark:text-red-500 font-semibold">-3.8%</td>
                   </tr>
                 </tbody>
               </table>
             </div>
             <p className="text-xs text-neutral-500 dark:text-neutral-400 mt-3">
-              Algorithmic trading on Coinbase (Feb 2021-present). Current holdings: 0.47 BTC, 13.4 ETH. 50% of profits extracted to cold storage.
+              Algorithmic trading on Coinbase (Feb 2021-present). 934 total trades. 50% of profits extracted to cold storage.
             </p>
           </div>
 
