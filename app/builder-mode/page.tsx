@@ -139,17 +139,21 @@ export default function BuilderMode() {
           </div>
 
           {/* Anti-Debasement Thesis */}
-          <div>
+          <div className="mb-6">
             <h4 className="text-sm font-semibold text-amber-600 dark:text-amber-500 mb-3">ANTI-DEBASEMENT</h4>
             <div className="overflow-x-auto">
               <table className="w-full text-sm">
                 <thead>
                   <tr className="border-b border-neutral-200 dark:border-neutral-800">
-                    <th className="text-left py-2 px-3 font-medium">Ticker</th>
+                    <th className="text-left py-2 px-3 font-medium">Position</th>
                     <th className="text-right py-2 px-3 font-medium">Gain</th>
                   </tr>
                 </thead>
                 <tbody>
+                  <tr className="border-b border-neutral-100 dark:border-neutral-900">
+                    <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">4 BTC (Cold Storage)</td>
+                    <td className="py-2 px-3 text-right text-emerald-600 dark:text-emerald-500 font-semibold">+807%</td>
+                  </tr>
                   <tr className="border-b border-neutral-100 dark:border-neutral-900">
                     <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">IREN</td>
                     <td className="py-2 px-3 text-right text-emerald-600 dark:text-emerald-500 font-semibold">+96%</td>
@@ -169,6 +173,37 @@ export default function BuilderMode() {
                 </tbody>
               </table>
             </div>
+            <p className="text-xs text-neutral-500 dark:text-neutral-400 mt-3">
+              BTC @ $10,700 avg (purchased 2017-2019). Current value: ~$388K at $97K/BTC.
+            </p>
+          </div>
+
+          {/* Crypto Trading */}
+          <div>
+            <h4 className="text-sm font-semibold text-amber-600 dark:text-amber-500 mb-3">CRYPTO ALGORITHMIC TRADING</h4>
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm">
+                <thead>
+                  <tr className="border-b border-neutral-200 dark:border-neutral-800">
+                    <th className="text-left py-2 px-3 font-medium">Asset</th>
+                    <th className="text-right py-2 px-3 font-medium">Gain</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr className="border-b border-neutral-100 dark:border-neutral-900">
+                    <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">BTC</td>
+                    <td className="py-2 px-3 text-right text-emerald-600 dark:text-emerald-500 font-semibold">+5.9%</td>
+                  </tr>
+                  <tr>
+                    <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">ETH</td>
+                    <td className="py-2 px-3 text-right text-red-600 dark:text-red-500 font-semibold">-0.4%</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <p className="text-xs text-neutral-500 dark:text-neutral-400 mt-3">
+              Algorithmic trading on Coinbase (Feb 2021-present). Current holdings: 0.47 BTC, 13.4 ETH. 50% of profits extracted to cold storage.
+            </p>
           </div>
 
           <p className="text-xs text-neutral-500 dark:text-neutral-400 mt-6">
