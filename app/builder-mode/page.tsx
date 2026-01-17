@@ -68,10 +68,7 @@ export default function BuilderMode() {
 
         {/* Holdings Table */}
         <div className="mt-8 p-6 rounded-xl bg-neutral-50 dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800">
-          <h3 className="text-lg font-semibold mb-4">Top Gainers by Thesis (Robinhood)</h3>
-          <p className="text-sm text-neutral-500 dark:text-neutral-400 mb-6">
-            Current portfolio value: $236,617.71 | Net invested: $4,365 | Total return: +5,321%
-          </p>
+          <h3 className="text-lg font-semibold mb-6">Top Gainers by Thesis (Robinhood)</h3>
           
           {/* AI Infrastructure Thesis */}
           <div className="mb-6">
@@ -151,7 +148,7 @@ export default function BuilderMode() {
                 </thead>
                 <tbody>
                   <tr className="border-b border-neutral-100 dark:border-neutral-900">
-                    <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">4 BTC (Cold Storage)</td>
+                    <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">BTC (Cold Storage)</td>
                     <td className="py-2 px-3 text-right text-emerald-600 dark:text-emerald-500 font-semibold">+807%</td>
                   </tr>
                   <tr className="border-b border-neutral-100 dark:border-neutral-900">
@@ -209,6 +206,12 @@ export default function BuilderMode() {
           <p className="text-xs text-neutral-500 dark:text-neutral-400 mt-6">
             Note: Data from actual Robinhood positions. Includes options and equity positions.
           </p>
+
+          <div className="mt-6 pt-4 border-t border-neutral-200 dark:border-neutral-800">
+            <p className="text-center text-lg font-semibold text-emerald-600 dark:text-emerald-500">
+              Overall Return: +5,321%
+            </p>
+          </div>
         </div>
 
         {/* Annual Performance */}
