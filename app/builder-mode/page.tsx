@@ -118,8 +118,8 @@ export default function BuilderMode() {
                     <td className="py-2 px-3 text-right text-emerald-600 dark:text-emerald-500 font-semibold">+107%</td>
                   </tr>
                   <tr className="border-b border-neutral-100 dark:border-neutral-900">
-                    <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">SMCI Call</td>
-                    <td className="py-2 px-3 text-right text-emerald-600 dark:text-emerald-500 font-semibold">+97%</td>
+                    <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">IREN</td>
+                    <td className="py-2 px-3 text-right text-emerald-600 dark:text-emerald-500 font-semibold">+96%</td>
                   </tr>
                   <tr className="border-b border-neutral-100 dark:border-neutral-900">
                     <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">SOFI Call</td>
@@ -129,17 +129,9 @@ export default function BuilderMode() {
                     <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">AMD</td>
                     <td className="py-2 px-3 text-right text-emerald-600 dark:text-emerald-500 font-semibold">+84%</td>
                   </tr>
-                  <tr className="border-b border-neutral-100 dark:border-neutral-900">
+                  <tr>
                     <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">SYM</td>
                     <td className="py-2 px-3 text-right text-emerald-600 dark:text-emerald-500 font-semibold">+80%</td>
-                  </tr>
-                  <tr className="border-b border-neutral-100 dark:border-neutral-900">
-                    <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">NVDA Call</td>
-                    <td className="py-2 px-3 text-right text-emerald-600 dark:text-emerald-500 font-semibold">+68%</td>
-                  </tr>
-                  <tr>
-                    <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">TER</td>
-                    <td className="py-2 px-3 text-right text-emerald-600 dark:text-emerald-500 font-semibold">+67%</td>
                   </tr>
                 </tbody>
               </table>
@@ -163,20 +155,12 @@ export default function BuilderMode() {
                     <td className="py-2 px-3 text-right text-emerald-600 dark:text-emerald-500 font-semibold">+807%</td>
                   </tr>
                   <tr className="border-b border-neutral-100 dark:border-neutral-900">
-                    <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">IREN</td>
-                    <td className="py-2 px-3 text-right text-emerald-600 dark:text-emerald-500 font-semibold">+96%</td>
-                  </tr>
-                  <tr className="border-b border-neutral-100 dark:border-neutral-900">
-                    <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">CCJ</td>
-                    <td className="py-2 px-3 text-right text-emerald-600 dark:text-emerald-500 font-semibold">+43%</td>
-                  </tr>
-                  <tr className="border-b border-neutral-100 dark:border-neutral-900">
-                    <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">GLXY</td>
-                    <td className="py-2 px-3 text-right text-emerald-600 dark:text-emerald-500 font-semibold">+30%</td>
+                    <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">Gold</td>
+                    <td className="py-2 px-3 text-right text-neutral-500 dark:text-neutral-400 font-semibold">TBD</td>
                   </tr>
                   <tr>
-                    <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">LEU</td>
-                    <td className="py-2 px-3 text-right text-emerald-600 dark:text-emerald-500 font-semibold">+27%</td>
+                    <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">Silver</td>
+                    <td className="py-2 px-3 text-right text-neutral-500 dark:text-neutral-400 font-semibold">TBD</td>
                   </tr>
                 </tbody>
               </table>
