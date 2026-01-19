@@ -156,17 +156,17 @@ export default function BuilderMode() {
                   </tr>
                   <tr className="border-b border-neutral-100 dark:border-neutral-900">
                     <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">Gold</td>
-                    <td className="py-2 px-3 text-right text-neutral-500 dark:text-neutral-400 font-semibold">TBD</td>
+                    <td className="py-2 px-3 text-right text-emerald-600 dark:text-emerald-500 font-semibold">+95%</td>
                   </tr>
                   <tr>
                     <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">Silver</td>
-                    <td className="py-2 px-3 text-right text-neutral-500 dark:text-neutral-400 font-semibold">TBD</td>
+                    <td className="py-2 px-3 text-right text-emerald-600 dark:text-emerald-500 font-semibold">+85%</td>
                   </tr>
                 </tbody>
               </table>
             </div>
             <p className="text-xs text-neutral-500 dark:text-neutral-400 mt-3">
-              BTC @ $10,700 avg (purchased 2017-2019). Current value: ~$388K at $97K/BTC.
+              BTC @ $10,700 avg (purchased 2017-2019). Gold & Silver held across IRAs, physical (safe), and custodial accounts.
             </p>
           </div>
 
