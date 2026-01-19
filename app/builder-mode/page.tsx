@@ -7,9 +7,20 @@ export default function BuilderMode() {
         I don't stop building when I clock out.
       </p>
 
-      {/* Investment Thesis */}
+      {/* Investment Philosophy */}
       <section className="mb-16">
-        <h2 className="text-2xl font-semibold mb-6">Investment Thesis</h2>
+        <h2 className="text-2xl font-semibold mb-6">Investment Philosophy</h2>
+        
+        {/* The Why */}
+        <div className="mb-10 p-6 rounded-xl bg-gradient-to-br from-neutral-50 to-neutral-100 dark:from-neutral-900 dark:to-neutral-800 border border-neutral-200 dark:border-neutral-700">
+          <h3 className="text-lg font-semibold mb-4 text-amber-600 dark:text-amber-500">The Why</h3>
+          <p className="text-neutral-700 dark:text-neutral-300 leading-relaxed italic">
+            Failing to harness your money to work double or triple time—accelerating your dreams from future to present—is like planting seeds in the shade without water and wondering why they don't sprout.
+          </p>
+        </div>
+
+        {/* Investment Thesis */}
+        <h3 className="text-xl font-semibold mb-6">Investment Thesis</h3>
         
         {/* Flow Diagram Container */}
         <div className="relative">
