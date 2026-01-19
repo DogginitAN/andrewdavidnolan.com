@@ -266,7 +266,7 @@ export default function BuilderMode() {
             </div>
           </div>
           <p className="text-xs text-neutral-500 dark:text-neutral-400 mt-4">
-            * Estimated based on transaction history and market conditions. Actual returns calculated from $4,365 net invested to $236,618 current value.
+            * Estimated based on transaction history and market conditions. Actual returns calculated from $4,365 net invested to current value.
           </p>
         </div>
       </section>
