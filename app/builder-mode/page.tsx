@@ -194,31 +194,31 @@ export default function BuilderMode() {
                 <thead>
                   <tr className="border-b border-neutral-200 dark:border-neutral-800">
                     <th className="text-left py-2 px-3 font-medium">Asset</th>
-                    <th className="text-right py-2 px-3 font-medium">Gain</th>
+                    <th className="text-right py-2 px-3 font-medium">Avg Annual Return</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr className="border-b border-neutral-100 dark:border-neutral-900">
-                    <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">ADA</td>
-                    <td className="py-2 px-3 text-right text-emerald-600 dark:text-emerald-500 font-semibold">+12.5%</td>
+                    <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">ETH</td>
+                    <td className="py-2 px-3 text-right text-emerald-600 dark:text-emerald-500 font-semibold">+182.4%</td>
                   </tr>
                   <tr className="border-b border-neutral-100 dark:border-neutral-900">
                     <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">BTC</td>
-                    <td className="py-2 px-3 text-right text-emerald-600 dark:text-emerald-500 font-semibold">+5.9%</td>
+                    <td className="py-2 px-3 text-right text-emerald-600 dark:text-emerald-500 font-semibold">+103.9%</td>
                   </tr>
                   <tr className="border-b border-neutral-100 dark:border-neutral-900">
-                    <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">ETH</td>
-                    <td className="py-2 px-3 text-right text-red-600 dark:text-red-500 font-semibold">-0.4%</td>
+                    <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">SOL</td>
+                    <td className="py-2 px-3 text-right text-emerald-600 dark:text-emerald-500 font-semibold">+89.5%</td>
                   </tr>
                   <tr>
-                    <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">SOL</td>
-                    <td className="py-2 px-3 text-right text-red-600 dark:text-red-500 font-semibold">-3.8%</td>
+                    <td className="py-2 px-3 text-neutral-700 dark:text-neutral-300">ADA</td>
+                    <td className="py-2 px-3 text-right text-emerald-600 dark:text-emerald-500 font-semibold">+85.9%</td>
                   </tr>
                 </tbody>
               </table>
             </div>
             <p className="text-xs text-neutral-500 dark:text-neutral-400 mt-3">
-              Algorithmic trading on Coinbase (Feb 2021-present). 934 total trades. 50% of profits extracted to cold storage.
+              Algorithmic trading performance (ETH/BTC: 2019-2026, SOL/ADA: 2022-2026). Returns based on algo strategy, not actual account performance.
             </p>
           </div>
 
