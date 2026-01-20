@@ -1,4 +1,5 @@
 import StockTicker from '@/components/StockTicker'
+import ImageLightbox from '@/components/ImageLightbox'
 
 export default function BuilderMode() {
   return (
@@ -309,13 +310,11 @@ export default function BuilderMode() {
               </span>
             </div>
             
-            <div className="mb-4 rounded-lg overflow-hidden border border-neutral-200 dark:border-neutral-800">
-              <img 
-                src="/images/pantry-dashboard.webp" 
-                alt="Pantry Dashboard" 
-                className="w-full h-auto"
-              />
-            </div>
+            <ImageLightbox 
+              src="/images/pantry-dashboard.webp" 
+              alt="Pantry Dashboard"
+              className="mb-4 rounded-lg overflow-hidden border border-neutral-200 dark:border-neutral-800"
+            />
             
             <a 
               href="https://github.com/DogginitAN/pantry" 
