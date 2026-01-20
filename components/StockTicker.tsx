@@ -7,41 +7,79 @@ interface Trade {
   ticker: string
 }
 
-// Static data - can be replaced with API call later
-const TRADES: Trade[] = [
+const SUPABASE_URL = 'https://jlytjzfurbefurrkslna.supabase.co'
+const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImpseXRqemZ1cmJlZnVycmtzbG5hIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjE4NDExMjAsImV4cCI6MjA3NzQxNzEyMH0.CYJglYuIbHKh_cBI_pEetQm_2aW-nv4QNtkBX9KVT74'
+
+// Fallback data in case API fails
+const FALLBACK_TRADES: Trade[] = [
   { action: 'BUY', ticker: 'GLW' },
   { action: 'BUY', ticker: 'CEG' },
-  { action: 'BUY', ticker: 'PSTG' },
-  { action: 'BUY', ticker: 'VG' },
   { action: 'BUY', ticker: 'MSTY' },
   { action: 'BUY', ticker: 'ARM' },
   { action: 'BUY', ticker: 'SMCI' },
-  { action: 'BUY', ticker: 'TAC' },
-  { action: 'BUY', ticker: 'GRAB' },
-  { action: 'BUY', ticker: 'IREN' },
-  { action: 'BUY', ticker: 'STEM' },
-  { action: 'BUY', ticker: 'SDGR' },
-  { action: 'BUY', ticker: 'RXRX' },
-  { action: 'BUY', ticker: 'ABCL' },
-  { action: 'BUY', ticker: 'AREC' },
-  { action: 'BUY', ticker: 'GLXY' },
-  { action: 'BUY', ticker: 'ULH' },
-  { action: 'BUY', ticker: 'VST' },
-  { action: 'BUY', ticker: 'GTLB' },
-  { action: 'BUY', ticker: 'ARKG' },
 ]
 
 export default function StockTicker() {
-  const [mounted, setMounted] = useState(false)
+  const [trades, setTrades] = useState<Trade[]>([])
+  const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    setMounted(true)
+    async function fetchTrades() {
+      try {
+        const response = await fetch(
+          `${SUPABASE_URL}/rest/v1/ticker_feed?select=ticker,action&order=trade_date.desc`,
+          {
+            headers: {
+              'apikey': SUPABASE_ANON_KEY,
+              'Authorization': `Bearer ${SUPABASE_ANON_KEY}`,
+            },
+          }
+        )
+        
+        if (!response.ok) throw new Error('Failed to fetch')
+        
+        const data = await response.json()
+        if (data && data.length > 0) {
+          setTrades(data.map((t: { ticker: string; action: string }) => ({
+            ticker: t.ticker,
+            action: t.action as 'BUY' | 'SELL'
+          })))
+        } else {
+          setTrades(FALLBACK_TRADES)
+        }
+      } catch (error) {
+        console.error('Error fetching trades:', error)
+        setTrades(FALLBACK_TRADES)
+      } finally {
+        setLoading(false)
+      }
+    }
+
+    fetchTrades()
   }, [])
 
-  if (!mounted) return null
+  if (loading) {
+    return (
+      <div className="w-full overflow-hidden bg-neutral-950 border-y border-neutral-800">
+        <div className="flex items-center justify-between px-4 py-1 bg-neutral-900 border-b border-neutral-800">
+          <span className="text-[10px] font-mono text-neutral-500 uppercase tracking-wider">
+            Last 30 Days
+          </span>
+          <span className="text-[10px] font-mono text-neutral-500">
+            Live from Robinhood
+          </span>
+        </div>
+        <div className="py-2 px-4">
+          <span className="text-sm text-neutral-500 font-mono">Loading...</span>
+        </div>
+      </div>
+    )
+  }
+
+  if (trades.length === 0) return null
 
   // Double the trades for seamless infinite scroll
-  const doubledTrades = [...TRADES, ...TRADES]
+  const doubledTrades = [...trades, ...trades]
 
   return (
     <div className="w-full overflow-hidden bg-neutral-950 border-y border-neutral-800">
