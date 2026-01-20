@@ -70,7 +70,7 @@ export default function Tracker() {
 
   const sectors = useMemo(() => {
     if (!data) return []
-    const uniqueSectors = [...new Set(data.companies.map(c => c.sector))]
+    const uniqueSectors = Array.from(new Set(data.companies.map(c => c.sector)))
     return uniqueSectors.sort()
   }, [data])
 

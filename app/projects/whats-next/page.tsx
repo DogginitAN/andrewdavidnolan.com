@@ -337,7 +337,7 @@ export default function WhatsNext() {
               </p>
             </div>
             <div>
-              <p className="font-medium text-amber-600 dark:text-amber-500 mb-1">2. Signal > Resume</p>
+              <p className="font-medium text-amber-600 dark:text-amber-500 mb-1">2. Signal &gt; Resume</p>
               <p className="text-sm text-neutral-600 dark:text-neutral-400">
                 For the companies I'm targeting — AI infrastructure, nuclear, deep tech — 
                 building this system demonstrates more about my capabilities than any resume ever could.
