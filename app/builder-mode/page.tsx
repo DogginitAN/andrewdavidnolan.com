@@ -329,9 +329,63 @@ export default function BuilderMode() {
             </a>
           </div>
 
+          {/* What's Next - Live */}
+          <div className="p-6 rounded-xl bg-neutral-50 dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800">
+            <h3 className="text-xl font-semibold mb-2">🎯 What's Next</h3>
+            <p className="text-sm text-amber-600 dark:text-amber-500 mb-4">
+              Personal ERP for career transition: company targeting, resume tailoring, pipeline tracking
+            </p>
+            
+            <div className="mb-4">
+              <h4 className="text-sm font-semibold mb-2">The Problem</h4>
+              <p className="text-sm text-neutral-700 dark:text-neutral-300">
+                Executive job searching is inefficient. High-value candidates spend excessive time 
+                on low-value tasks — scrolling LinkedIn, reformatting resumes, writing cover letters.
+              </p>
+            </div>
+            
+            <div className="mb-4">
+              <h4 className="text-sm font-semibold mb-2">The Solution</h4>
+              <p className="text-sm text-neutral-700 dark:text-neutral-300">
+                Automate the tedious, surface the strategic. 52 companies scored and prioritized. 
+                Tailored materials generated in minutes. Zero manual LinkedIn effort.
+              </p>
+            </div>
+            
+            <div className="mb-4">
+              <h4 className="text-sm font-semibold mb-2">Tech Stack</h4>
+              <div className="flex flex-wrap gap-2">
+                <span className="px-2 py-1 text-xs rounded bg-neutral-200 dark:bg-neutral-800">Next.js</span>
+                <span className="px-2 py-1 text-xs rounded bg-neutral-200 dark:bg-neutral-800">TypeScript</span>
+                <span className="px-2 py-1 text-xs rounded bg-neutral-200 dark:bg-neutral-800">Claude MCP</span>
+                <span className="px-2 py-1 text-xs rounded bg-neutral-200 dark:bg-neutral-800">Nash</span>
+              </div>
+            </div>
+            
+            <div className="mb-4">
+              <span className="inline-block px-3 py-1 text-xs font-semibold rounded-full bg-emerald-100 dark:bg-emerald-900 text-emerald-700 dark:text-emerald-300">
+                Production
+              </span>
+            </div>
+            
+            <div className="flex gap-4">
+              <a 
+                href="/projects/whats-next" 
+                className="inline-flex items-center gap-2 text-sm font-medium text-amber-600 dark:text-amber-500 hover:text-amber-700 dark:hover:text-amber-400"
+              >
+                Learn More →
+              </a>
+              <a 
+                href="/tracker" 
+                className="inline-flex items-center gap-2 text-sm font-medium text-neutral-600 dark:text-neutral-400 hover:text-neutral-800 dark:hover:text-neutral-200"
+              >
+                View Tracker →
+              </a>
+            </div>
+          </div>
+
           {/* Placeholders for other projects */}
           {[
-            { name: 'What\'s Next', desc: 'Personal ERP for career transition', stack: 'Next.js, TypeScript, MCP' },
             { name: 'Themis', desc: 'AI-powered system [description pending]', stack: 'TBD' },
             { name: 'Hermes', desc: 'AI-powered system [description pending]', stack: 'TBD' },
           ].map(project => (
