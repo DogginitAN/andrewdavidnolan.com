@@ -77,14 +77,25 @@ body {
 
 /* ===== BUILDER MODE: TRON AESTHETIC ===== */
 
+/* Tron Color Palette */
+:root {
+  --tron-blue: #7DFDFE;
+  --tron-blue-dim: #00A3E0;
+  --tron-purple: #A500FF;
+  --tron-orange: #d85318;
+  --tron-gold: #F2A007;
+  --tron-grey: #B0B3B8;
+  --tron-dark: #0a0a14;
+}
+
 /* Grid Background */
 .tron-grid {
-  background-color: #0a0a1a;
+  background-color: var(--tron-dark);
   background-image: 
-    linear-gradient(rgba(0, 212, 255, 0.03) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(0, 212, 255, 0.03) 1px, transparent 1px),
-    linear-gradient(rgba(0, 212, 255, 0.02) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(0, 212, 255, 0.02) 1px, transparent 1px);
+    linear-gradient(rgba(125, 253, 254, 0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(125, 253, 254, 0.025) 1px, transparent 1px),
+    linear-gradient(rgba(125, 253, 254, 0.015) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(125, 253, 254, 0.015) 1px, transparent 1px);
   background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
   background-position: -1px -1px, -1px -1px, -1px -1px, -1px -1px;
   position: relative;
@@ -97,7 +108,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background: radial-gradient(ellipse at 50% 0%, rgba(0, 212, 255, 0.1) 0%, transparent 50%);
+  background: radial-gradient(ellipse at 50% 0%, rgba(125, 253, 254, 0.06) 0%, transparent 50%);
   pointer-events: none;
   z-index: 0;
 }
@@ -118,12 +129,12 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  height: 4px;
+  height: 3px;
   background: linear-gradient(to bottom, 
     transparent, 
-    rgba(0, 212, 255, 0.1), 
-    rgba(0, 212, 255, 0.2), 
-    rgba(0, 212, 255, 0.1), 
+    rgba(125, 253, 254, 0.08), 
+    rgba(125, 253, 254, 0.15), 
+    rgba(125, 253, 254, 0.08), 
     transparent
   );
   animation: scanline 8s linear infinite;
@@ -131,74 +142,80 @@ body {
   z-index: 1;
 }
 
-/* Neon Glow Effects */
+/* Text Accents - Subtle glow */
 .neon-text-cyan {
-  color: #00d4ff;
-  text-shadow: 
-    0 0 5px rgba(0, 212, 255, 0.5),
-    0 0 10px rgba(0, 212, 255, 0.3),
-    0 0 20px rgba(0, 212, 255, 0.2);
+  color: var(--tron-blue);
+  text-shadow: 0 0 8px rgba(125, 253, 254, 0.3);
 }
 
-.neon-text-magenta {
-  color: #ff00ff;
-  text-shadow: 
-    0 0 5px rgba(255, 0, 255, 0.5),
-    0 0 10px rgba(255, 0, 255, 0.3),
-    0 0 20px rgba(255, 0, 255, 0.2);
+.neon-text-purple {
+  color: var(--tron-purple);
+  text-shadow: 0 0 8px rgba(165, 0, 255, 0.3);
 }
 
+.neon-text-gold {
+  color: var(--tron-gold);
+  text-shadow: 0 0 8px rgba(242, 160, 7, 0.3);
+}
+
+/* Card Borders - Subtle */
 .neon-border {
-  border: 1px solid rgba(0, 212, 255, 0.3);
-  box-shadow: 
-    0 0 5px rgba(0, 212, 255, 0.1),
-    inset 0 0 5px rgba(0, 212, 255, 0.05);
+  border: 1px solid rgba(125, 253, 254, 0.2);
+  box-shadow: 0 0 3px rgba(125, 253, 254, 0.05);
   transition: all 0.3s ease;
 }
 
 .neon-border:hover {
-  border-color: rgba(0, 212, 255, 0.6);
-  box-shadow: 
-    0 0 10px rgba(0, 212, 255, 0.3),
-    0 0 20px rgba(0, 212, 255, 0.1),
-    inset 0 0 10px rgba(0, 212, 255, 0.1);
+  border-color: rgba(125, 253, 254, 0.4);
+  box-shadow: 0 0 8px rgba(125, 253, 254, 0.15);
+}
+
+.neon-border-purple {
+  border: 1px solid rgba(165, 0, 255, 0.2);
+  box-shadow: 0 0 3px rgba(165, 0, 255, 0.05);
+  transition: all 0.3s ease;
+}
+
+.neon-border-purple:hover {
+  border-color: rgba(165, 0, 255, 0.4);
+  box-shadow: 0 0 8px rgba(165, 0, 255, 0.15);
 }
 
 .neon-card {
-  background: linear-gradient(135deg, rgba(10, 10, 30, 0.9) 0%, rgba(20, 20, 40, 0.9) 100%);
+  background: linear-gradient(135deg, rgba(10, 10, 20, 0.95) 0%, rgba(15, 15, 30, 0.95) 100%);
   backdrop-filter: blur(10px);
 }
 
-/* Glowing Divider */
+/* Glowing Divider - Softer */
 .neon-divider {
   height: 1px;
   background: linear-gradient(90deg, 
     transparent, 
-    rgba(0, 212, 255, 0.5) 20%, 
-    rgba(255, 0, 255, 0.5) 50%, 
-    rgba(0, 212, 255, 0.5) 80%, 
+    rgba(125, 253, 254, 0.3) 20%, 
+    rgba(165, 0, 255, 0.3) 50%, 
+    rgba(125, 253, 254, 0.3) 80%, 
     transparent
   );
-  box-shadow: 0 0 10px rgba(0, 212, 255, 0.3);
+  box-shadow: 0 0 6px rgba(125, 253, 254, 0.15);
 }
 
-/* Pulse Animation for Status Indicators */
-@keyframes pulse-cyan {
+/* Pulse Animation - Subtler */
+@keyframes pulse-glow {
   0%, 100% {
     opacity: 1;
-    box-shadow: 0 0 5px rgba(0, 212, 255, 0.5);
+    box-shadow: 0 0 4px rgba(125, 253, 254, 0.4);
   }
   50% {
-    opacity: 0.7;
-    box-shadow: 0 0 15px rgba(0, 212, 255, 0.8);
+    opacity: 0.8;
+    box-shadow: 0 0 8px rgba(125, 253, 254, 0.6);
   }
 }
 
 .pulse-glow {
-  animation: pulse-cyan 2s ease-in-out infinite;
+  animation: pulse-glow 3s ease-in-out infinite;
 }
 
-/* Hero Image Glow */
+/* Hero Image Glow - Softer */
 .hero-image-glow {
   position: relative;
 }
@@ -207,20 +224,15 @@ body {
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(to bottom, transparent 60%, rgba(0, 212, 255, 0.2) 100%);
+  background: linear-gradient(to bottom, transparent 70%, rgba(125, 253, 254, 0.1) 100%);
   pointer-events: none;
 }
 
-/* Animated Grid Lines (optional extra effect) */
-@keyframes gridPulse {
-  0%, 100% {
-    opacity: 0.03;
-  }
-  50% {
-    opacity: 0.06;
-  }
+/* Tron Body Text */
+.tron-text {
+  color: var(--tron-grey);
 }
 
-.tron-grid-animated {
-  animation: gridPulse 4s ease-in-out infinite;
+.tron-text-dim {
+  color: rgba(176, 179, 184, 0.6);
 }
