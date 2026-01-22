@@ -511,10 +511,54 @@ export default function BuilderMode() {
           <div className="space-y-6">
             {/* Top 25 Books */}
             <div className="p-6 rounded-xl neon-card neon-border">
-              <h3 className="text-lg font-semibold mb-4 text-white">Top 25 Favorite Books</h3>
-              <p className="text-sm tron-text-dim font-mono">
-                [ DATA LOADING... ]
-              </p>
+              <h3 className="text-lg font-semibold mb-6 text-white">Top 25 Favorite Books</h3>
+              
+              <div className="space-y-4">
+                {[
+                  { num: 1, title: "Man's Search for Meaning", author: "Viktor Frankl", quote: "Everything can be taken from a man but one thing: the last of the human freedoms—to choose one's attitude in any given set of circumstances, to choose one's own way." },
+                  { num: 2, title: "Awareness", author: "Anthony de Mello", quote: "You see persons and things not as they are but as you are." },
+                  { num: 3, title: "Dune", author: "Frank Herbert", quote: "I must not fear. Fear is the mind-killer. Fear is the little-death that brings total obliteration. I will face my fear. I will permit it to pass over me and through me." },
+                  { num: 4, title: "Bird by Bird", author: "Anne Lamott", quote: "You own everything that happened to you. Tell your stories. If people wanted you to write warmly about them, they should have behaved better." },
+                  { num: 5, title: "About Face", author: "Colonel David H. Hackworth", quote: "If you're a decent leader, you don't dare lose it—for your own good. You've got to keep your unit up there doing its job. Combat is no place for martinets." },
+                  { num: 6, title: "Extreme Ownership", author: "Jocko Willink & Leif Babin", quote: "There are no bad teams, only bad leaders." },
+                  { num: 7, title: "Thinking in Bets", author: "Annie Duke", quote: "What makes a decision great is not that it has a great outcome. A great decision is the result of a good process, and that process must include an attempt to accurately represent our own state of knowledge." },
+                  { num: 8, title: "Make Your Bed", author: "Admiral William H. McRaven", quote: "If you want to change the world, start off by making your bed. If you make your bed every morning, you will have accomplished the first task of the day." },
+                  { num: 9, title: "The Lion Tracker's Guide to Life", author: "Boyd Varty", quote: "I don't know where we are going, but I know exactly how to get there." },
+                  { num: 10, title: "Essays After Eighty", author: "Donald Hall", quote: "It is fitting, now, to speak of ambition. I was ambitious. I worked hard. I wanted to be the best poet... Now I think of the long-dead poets whose work I loved. I don't think about their rankings; I love to read them." },
+                  { num: 11, title: "Blood Meridian", author: "Cormac McCarthy", quote: "The truth about the world, he said, is that anything is possible. Had you not seen it all from birth and thereby bled it of its strangeness it would appear to you for what it is, a hat trick in a medicine show, a fevered dream." },
+                  { num: 12, title: "Arctic Dreams", author: "Barry Lopez", quote: "To hunt means to have the land around you like clothing. To engage in a wordless dialogue with it, one so absorbing that you cease to talk with your human companions." },
+                  { num: 13, title: "Empire of the Summer Moon", author: "S.C. Gwynne", quote: "In a fight with Comanches, dismounting on open ground was like signing your own death warrant." },
+                  { num: 14, title: "The Foundation", author: "Isaac Asimov", quote: "Violence is the last refuge of the incompetent." },
+                  { num: 15, title: "Hyperion", author: "Dan Simmons", quote: "Sol Weintraub had come to a single, unshakable conclusion: any allegiance to a deity or concept or universal principle which put obedience above decent behavior toward an innocent human being was evil." },
+                  { num: 16, title: "Infinite Jest", author: "David Foster Wallace", quote: "Everybody is identical in their secret unspoken belief that way deep down they are different from everyone else." },
+                  { num: 17, title: "The Hitchhiker's Guide to the Galaxy", author: "Douglas Adams", quote: "For a moment, nothing happened. Then, after a second or so, nothing continued to happen." },
+                  { num: 18, title: "The Fountainhead", author: "Ayn Rand", quote: "The question isn't who is going to let me; it's who is going to stop me." },
+                  { num: 19, title: "The Graveyard Book", author: "Neil Gaiman", quote: "If you dare nothing, then when the day is over, nothing is all you will have gained." },
+                  { num: 20, title: "The Fish that Ate the Whale", author: "Rich Cohen", quote: "A man can free his soul only by exhausting his body." },
+                  { num: 21, title: "The Alchemist", author: "Paulo Coelho", quote: "It's the possibility of having a dream come true that makes life interesting." },
+                  { num: 22, title: "Meditations", author: "Marcus Aurelius", quote: "You have power over your mind—not outside events. Realize this, and you will find strength." },
+                  { num: 23, title: "The War of Art", author: "Steven Pressfield", quote: "The amateur believes he must first overcome his fear; then he can do his work. The professional knows that fear can never be overcome." },
+                  { num: 24, title: "Endurance: Shackleton's Incredible Voyage", author: "Alfred Lansing", quote: "For scientific leadership, give me Scott; for swift and efficient travel, Amundsen; but when you are in a hopeless situation, when there seems to be no way out, get down on your knees and pray for Shackleton." },
+                  { num: 25, title: "Sapiens: A Brief History of Humankind", author: "Yuval Noah Harari", quote: "History is something that very few people have been doing while everyone else was ploughing fields and carrying water buckets." },
+                ].map((book) => (
+                  <div key={book.num} className="group py-3 border-b border-white/5 last:border-0">
+                    <div className="flex gap-4">
+                      <span className="text-[#7DFDFE] font-mono text-sm w-6 shrink-0 pt-0.5">
+                        {book.num.toString().padStart(2, '0')}
+                      </span>
+                      <div className="flex-1 min-w-0">
+                        <div className="flex flex-wrap items-baseline gap-x-2">
+                          <span className="text-white font-medium">{book.title}</span>
+                          <span className="text-[#B0B3B8]/60 text-sm">— {book.author}</span>
+                        </div>
+                        <p className="text-sm tron-text-dim italic mt-1 leading-relaxed">
+                          "{book.quote}"
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
             </div>
 
             {/* 2025 Reading Log */}
