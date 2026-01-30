@@ -2,6 +2,18 @@
 
 import { useState, useEffect, useMemo } from 'react'
 
+interface ResearchSummary {
+  fitScore: number | null
+  priority: string
+  ceo: string | null
+  coo: string | null
+  hasOpsRoles: boolean
+  lastResearched: string | null
+  source: string | null
+  recommendation: string | null
+  challenges: string[] | null
+}
+
 interface Company {
   id: number
   name: string
@@ -22,6 +34,7 @@ interface Company {
   nextAction: string
   lastAction: string | null
   lastActionDate: string | null
+  researchSummary?: ResearchSummary
 }
 
 interface Metrics {
@@ -281,6 +294,7 @@ export default function Tracker() {
                   </button>
                 </th>
                 <th className="text-left py-3 px-4 font-medium">Status</th>
+                <th className="text-left py-3 px-4 font-medium hidden md:table-cell">Research</th>
                 <th className="text-left py-3 px-4 font-medium hidden md:table-cell">Flags</th>
               </tr>
             </thead>
@@ -322,6 +336,15 @@ export default function Tracker() {
                       </span>
                     </td>
                     <td className="py-3 px-4 hidden md:table-cell">
+                      {company.researchSummary ? (
+                        <span className="inline-flex items-center gap-1 px-2 py-1 text-xs rounded-full bg-emerald-100 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-400">
+                          ✓ {company.researchSummary.fitScore}/10
+                        </span>
+                      ) : (
+                        <span className="text-neutral-400 text-xs">—</span>
+                      )}
+                    </td>
+                    <td className="py-3 px-4 hidden md:table-cell">
                       <div className="flex gap-1">
                         {company.holdStock && (
                           <span className="px-2 py-0.5 text-xs rounded bg-emerald-100 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-400" title="Hold Stock">
@@ -348,23 +371,77 @@ export default function Tracker() {
                   </tr>
                   {expandedId === company.id && (
                     <tr className="bg-neutral-50 dark:bg-neutral-900/50">
-                      <td colSpan={7} className="py-4 px-4">
-                        <div className="grid md:grid-cols-2 gap-4">
-                          <div>
-                            <p className="text-sm font-medium mb-1">Notes</p>
-                            <p className="text-sm text-neutral-600 dark:text-neutral-400">{company.notes}</p>
-                          </div>
-                          <div>
-                            <p className="text-sm font-medium mb-1">Next Action</p>
-                            <p className="text-sm text-neutral-600 dark:text-neutral-400">{company.nextAction}</p>
-                          </div>
-                          <div>
-                            <p className="text-sm font-medium mb-1">Location</p>
-                            <p className="text-sm text-neutral-600 dark:text-neutral-400">{company.hq}</p>
-                          </div>
-                          <div>
-                            <p className="text-sm font-medium mb-1">Source</p>
-                            <p className="text-sm text-neutral-600 dark:text-neutral-400">{company.source}</p>
+                      <td colSpan={8} className="py-4 px-4">
+                        <div className="space-y-4">
+                          {/* Research Summary Section */}
+                          {company.researchSummary && (
+                            <div className="p-4 rounded-lg bg-emerald-50 dark:bg-emerald-900/20 border border-emerald-200 dark:border-emerald-800">
+                              <div className="flex items-center justify-between mb-3">
+                                <p className="text-sm font-semibold text-emerald-800 dark:text-emerald-300">Research Summary</p>
+                                <span className="text-xs text-emerald-600 dark:text-emerald-400">
+                                  {company.researchSummary.source} • {company.researchSummary.lastResearched}
+                                </span>
+                              </div>
+                              <div className="grid md:grid-cols-3 gap-4 mb-3">
+                                <div>
+                                  <p className="text-xs text-emerald-600 dark:text-emerald-500 mb-0.5">Fit Score</p>
+                                  <p className="text-lg font-bold text-emerald-700 dark:text-emerald-400">
+                                    {company.researchSummary.fitScore}/10
+                                    <span className="text-xs font-normal ml-1">({company.researchSummary.priority} priority)</span>
+                                  </p>
+                                </div>
+                                <div>
+                                  <p className="text-xs text-emerald-600 dark:text-emerald-500 mb-0.5">CEO</p>
+                                  <p className="text-sm font-medium text-emerald-800 dark:text-emerald-300">
+                                    {company.researchSummary.ceo || 'Unknown'}
+                                  </p>
+                                </div>
+                                <div>
+                                  <p className="text-xs text-emerald-600 dark:text-emerald-500 mb-0.5">COO</p>
+                                  <p className="text-sm font-medium text-emerald-800 dark:text-emerald-300">
+                                    {company.researchSummary.coo || 'None / Open'}
+                                  </p>
+                                </div>
+                              </div>
+                              {company.researchSummary.challenges && company.researchSummary.challenges.length > 0 && (
+                                <div>
+                                  <p className="text-xs text-emerald-600 dark:text-emerald-500 mb-1">Operational Challenges</p>
+                                  <ul className="text-sm text-emerald-800 dark:text-emerald-300 space-y-1">
+                                    {company.researchSummary.challenges.map((challenge, i) => (
+                                      <li key={i} className="flex items-start gap-2">
+                                        <span className="text-emerald-500 mt-1">•</span>
+                                        <span>{challenge}</span>
+                                      </li>
+                                    ))}
+                                  </ul>
+                                </div>
+                              )}
+                              <div className="mt-2 pt-2 border-t border-emerald-200 dark:border-emerald-800">
+                                <p className="text-xs text-emerald-600 dark:text-emerald-500">
+                                  Open Ops Roles: {company.researchSummary.hasOpsRoles ? '✓ Yes' : '✗ None currently'}
+                                </p>
+                              </div>
+                            </div>
+                          )}
+                          
+                          {/* Basic Info Grid */}
+                          <div className="grid md:grid-cols-2 gap-4">
+                            <div>
+                              <p className="text-sm font-medium mb-1">Notes</p>
+                              <p className="text-sm text-neutral-600 dark:text-neutral-400">{company.notes}</p>
+                            </div>
+                            <div>
+                              <p className="text-sm font-medium mb-1">Next Action</p>
+                              <p className="text-sm text-neutral-600 dark:text-neutral-400">{company.nextAction}</p>
+                            </div>
+                            <div>
+                              <p className="text-sm font-medium mb-1">Location</p>
+                              <p className="text-sm text-neutral-600 dark:text-neutral-400">{company.hq}</p>
+                            </div>
+                            <div>
+                              <p className="text-sm font-medium mb-1">Source</p>
+                              <p className="text-sm text-neutral-600 dark:text-neutral-400">{company.source}</p>
+                            </div>
                           </div>
                         </div>
                       </td>
