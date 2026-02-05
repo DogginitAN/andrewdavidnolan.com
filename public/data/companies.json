@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-05T17:11:59.662999",
+  "lastUpdated": "2026-02-05T17:17:00.465194",
   "metrics": {
     "total": 52,
     "tier1": 15,
@@ -7,7 +7,7 @@
     "tier3": 12,
     "researched": 32,
     "deepResearched": 32,
-    "withOpenRoles": 10,
+    "withOpenRoles": 11,
     "outreachSent": 0
   },
   "companies": [
@@ -364,25 +364,25 @@
       "tier": 1,
       "status": "Researched",
       "holdStock": true,
-      "recentFunding": false,
-      "noExecOps": null,
-      "strategicBacking": null,
+      "recentFunding": "$2.3B convertible notes (Dec 2025), $1B zero-coupon notes (Oct 2025)",
+      "noExecOps": true,
+      "strategicBacking": "Microsoft $9.7B contract, NVIDIA partnership",
       "notes": "Pivoting BTC->AI HPC. $501M FY25 revenue. Microsoft $9.7B anchor deal. COO filled (David Shaw).",
       "nextAction": "Monitor for VP-level operations roles",
       "researchSummary": {
-        "lastResearched": null,
-        "source": null,
-        "fitScore": 88,
-        "ceo": "Will Roberts",
-        "coo": "David Shaw",
+        "lastResearched": "2026-02-05",
+        "source": "Research",
+        "fitScore": 80,
+        "ceo": "Daniel Roberts (Co-CEO)",
+        "coo": "None identified",
         "challenges": [
-          "Co-CEOs: Daniel Roberts & Will Roberts (founders)",
-          "COO: David Shaw (based in Vancouver)",
-          "CFO/CCO: Anthony Lewis (new Jul 2025)",
-          "President: Lindsay Ward",
-          "**US Operations Leadership** - VP Operations US role exists, massive Texas buildout"
+          "Power supply costs and renewable energy sourcing",
+          "GPU and component shortages for AI expansion",
+          "Construction timelines and cost overruns for GW-scale sites",
+          "Bitcoin market volatility impacting mining profitability",
+          "Tariff impacts on international equipment sourcing"
         ],
-        "hasOpsRoles": false
+        "hasOpsRoles": true
       }
     },
     {
