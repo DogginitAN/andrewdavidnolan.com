@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-05T20:33:12.951063",
+  "lastUpdated": "2026-02-05T16:03:31.462109",
   "metrics": {
     "total": 52,
     "tier1": 14,
@@ -7,7 +7,7 @@
     "tier3": 12,
     "researched": 32,
     "deepResearched": 32,
-    "withOpenRoles": 8,
+    "withOpenRoles": 2,
     "outreachSent": 0
   },
   "companies": [
