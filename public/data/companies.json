@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-05T16:40:28.825400",
+  "lastUpdated": "2026-02-05T16:45:31.141315",
   "metrics": {
     "total": 52,
     "tier1": 15,
@@ -7,7 +7,7 @@
     "tier3": 12,
     "researched": 32,
     "deepResearched": 32,
-    "withOpenRoles": 6,
+    "withOpenRoles": 7,
     "outreachSent": 0
   },
   "companies": [
@@ -228,24 +228,25 @@
       "tier": 1,
       "status": "Researched",
       "holdStock": true,
-      "recentFunding": false,
-      "noExecOps": null,
-      "strategicBacking": null,
+      "recentFunding": "Public (NASDAQ: SMCI), $40B+ revenue guidance FY2026",
+      "noExecOps": true,
+      "strategicBacking": "Public company, NVIDIA deep integration partner",
       "notes": "GPU server manufacturing at scale. Supply chain complexity.",
       "nextAction": "Research: Deep dive on Super Micro Computer",
       "researchSummary": {
-        "lastResearched": null,
-        "source": null,
-        "fitScore": 60,
+        "lastResearched": "2026-02-05",
+        "source": "Research",
+        "fitScore": 85,
         "ceo": "Charles Liang",
         "challenges": [
-          "SVP Operations: George Kao (30+ years experience)",
-          "No COO (Charles Liang serves as CEO/President/Chairman)",
-          "126 employees in Operations function",
-          "Manufacturing in San Jose (US), Taiwan, Netherlands",
-          "**Governance Recovery** - Rebuilding trust after EY resignation and DOJ investigation"
+          "Supply chain concentration with heavy NVIDIA dependency",
+          "Component shortages and tariff impacts on global manufacturing costs",
+          "Margin compression from increased competition",
+          "Scaling high-volume manufacturing amid explosive AI demand",
+          "Global logistics for complex custom rack systems"
         ],
-        "hasOpsRoles": false
+        "hasOpsRoles": true,
+        "coo": "None (George Kao retired Dec 2025, responsibilities to Tom Xiao)"
       }
     },
     {
