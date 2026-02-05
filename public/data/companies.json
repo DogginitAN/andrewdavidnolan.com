@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-02-05T16:23:44.247610",
+  "lastUpdated": "2026-02-05T16:26:35.813969",
   "metrics": {
     "total": 52,
-    "tier1": 14,
-    "tier2": 26,
+    "tier1": 15,
+    "tier2": 25,
     "tier3": 12,
     "researched": 32,
     "deepResearched": 32,
-    "withOpenRoles": 2,
+    "withOpenRoles": 3,
     "outreachSent": 0
   },
   "companies": [
@@ -92,24 +92,25 @@
       "tier": 1,
       "status": "Researched",
       "holdStock": true,
-      "recentFunding": false,
+      "recentFunding": "$60M placement (Dec 2025), $900M shelf (Jan 2026)",
       "noExecOps": true,
-      "strategicBacking": null,
+      "strategicBacking": "Rick Perry (advisor), DOE/NASA partnerships",
       "notes": "Micro nuclear + space propulsion. Early enough to build ops from scratch.",
       "nextAction": "Proactive outreach to Jay Yu or James Walker",
       "researchSummary": {
-        "lastResearched": null,
-        "source": null,
-        "fitScore": 92,
+        "lastResearched": "2026-02-05",
+        "source": "Grok",
+        "fitScore": 80,
         "ceo": "James Walker",
         "challenges": [
-          "No COO or VP Operations identified",
-          "Senior executives are independent contractors (part-time)",
-          "Head of Engineering: Dr. Florent Heidet",
-          "HR: Diana Chung",
-          "Corporate Development: Oscar Leandro"
+          "NRC/CNSC regulatory delays pushing licensing timelines",
+          "HALEU fuel supply constraints \u2014 scarcity and geopolitical risks",
+          "High development costs and potential overruns across vertical integration",
+          "Nuclear talent shortages for reactor development and operations",
+          "Scaling novel microreactor manufacturing and transport logistics from prototype to deployment"
         ],
-        "hasOpsRoles": false
+        "hasOpsRoles": true,
+        "coo": "None identified"
       }
     },
     {
