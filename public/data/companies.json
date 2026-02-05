@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-05T16:19:31.832383",
+  "lastUpdated": "2026-02-05T16:23:44.247610",
   "metrics": {
     "total": 52,
     "tier1": 14,
@@ -7,7 +7,7 @@
     "tier3": 12,
     "researched": 32,
     "deepResearched": 32,
-    "withOpenRoles": 1,
+    "withOpenRoles": 2,
     "outreachSent": 0
   },
   "companies": [
@@ -58,25 +58,25 @@
       "tier": 2,
       "status": "Researched",
       "holdStock": false,
-      "recentFunding": false,
-      "noExecOps": null,
-      "strategicBacking": null,
+      "recentFunding": "$165M Series C (Oct 2025)",
+      "noExecOps": false,
+      "strategicBacking": "Eurazeo, Atomico, DTCP, Lakestar",
       "notes": "COO Kristen Shannon hired Sept 2024. Chief of Staff also filled. Downgraded from 94/Tier1.",
       "nextAction": "Research: Deep dive on Dexory",
       "researchSummary": {
-        "lastResearched": null,
-        "source": null,
-        "fitScore": 76,
+        "lastResearched": "2026-02-05",
+        "source": "Grok",
+        "fitScore": 85,
         "ceo": "Andrei Danescu",
         "coo": "Kristen Shannon",
         "challenges": [
-          "COO: Kristen Shannon (strategic, company-wide)",
-          "Production Director: Andy (F1 background, manufacturing)",
-          "Finance Director: Julian",
-          "Legal: Zo\u00eb (first hire July 2024)",
-          "**US Operations Leader** - Nashville HQ is new, needs someone to build out NA ops"
+          "Scaling robot manufacturing/assembly and hardware supply chain (sensors, actuators, custom structures)",
+          "Rapid global deployment/commissioning across customer warehouses without disruption",
+          "Talent acquisition in robotics/AI amid post-Series C hypergrowth",
+          "Standardizing multi-site logistics rollouts across Europe, North America, and APAC",
+          "Post-Series C cash management while balancing growth investment and efficiency"
         ],
-        "hasOpsRoles": false
+        "hasOpsRoles": true
       }
     },
     {
