@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-05T16:32:29.912400",
+  "lastUpdated": "2026-02-05T16:35:35.513635",
   "metrics": {
     "total": 52,
     "tier1": 15,
@@ -7,7 +7,7 @@
     "tier3": 12,
     "researched": 32,
     "deepResearched": 32,
-    "withOpenRoles": 4,
+    "withOpenRoles": 5,
     "outreachSent": 0
   },
   "companies": [
@@ -495,18 +495,25 @@
       "tier": 1,
       "status": "Researched",
       "holdStock": true,
-      "recentFunding": false,
-      "noExecOps": null,
-      "strategicBacking": null,
+      "recentFunding": "$4.2B September 2025 ($1B+ public offering + $2.75B convertible notes)",
+      "noExecOps": false,
+      "strategicBacking": "Microsoft multi-billion deal, Meta $3B over 5 years",
       "notes": "Yandex AI spinoff. Building AI cloud infra.",
       "nextAction": "Research: Deep dive on Nebius Group",
       "researchSummary": {
         "lastResearched": "2026-02-05",
-        "source": "external",
-        "fitScore": 9.0,
+        "source": "Research",
+        "fitScore": 92,
         "ceo": "Arkady Volozh",
         "coo": "Ophir Nave",
-        "hasOpsRoles": false
+        "hasOpsRoles": true,
+        "challenges": [
+          "Executing rapid data center buildouts across multiple GW-scale sites",
+          "Securing power contracts amid global shortage constraints",
+          "GPU supply chain bottlenecks for Blackwell/Rubin deployments",
+          "Construction timeline and cost management across global expansions",
+          "Integrating new regions while maintaining hyperscaler reliability"
+        ]
       }
     },
     {
