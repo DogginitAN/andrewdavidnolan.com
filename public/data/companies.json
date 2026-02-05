@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-05T16:35:35.513635",
+  "lastUpdated": "2026-02-05T16:40:28.825400",
   "metrics": {
     "total": 52,
     "tier1": 15,
@@ -7,7 +7,7 @@
     "tier3": 12,
     "researched": 32,
     "deepResearched": 32,
-    "withOpenRoles": 5,
+    "withOpenRoles": 6,
     "outreachSent": 0
   },
   "companies": [
@@ -194,24 +194,25 @@
       "tier": 1,
       "status": "Researched",
       "holdStock": false,
-      "recentFunding": false,
-      "noExecOps": null,
-      "strategicBacking": null,
+      "recentFunding": "$120M Series C (Jan 15, 2026) led by Avenir Growth",
+      "noExecOps": true,
+      "strategicBacking": "Lineage, RyderVentures, Eclipse, Greenoaks strategic investors",
       "notes": "OS for supply chains. Strategic backing from Ryder/Lineage.",
       "nextAction": "Research: Deep dive on Mytra",
       "researchSummary": {
-        "lastResearched": null,
-        "source": null,
-        "fitScore": 91,
+        "lastResearched": "2026-02-05",
+        "source": "Research",
+        "fitScore": 95,
         "ceo": "Chris Walti",
         "challenges": [
-          "CEO: Chris Walti (technical founder, Tesla background)",
-          "CCO: Matt Naslund (has ops background from Stitch Fix, running all operations post-IPO)",
-          "VP Scaling: Nigel Marcussen (Rivian, WeWork scaling experience)",
-          "CFO: Gabi Gantus (Tesla Manufacturing & Supply Chain finance)",
-          "Chief of Staff: Baibhab Kislay"
+          "Rapid scaling of hardware manufacturing (bots/cells) in new facility",
+          "Nationwide/global site deployments and installations",
+          "Supply chain for custom robotics components amid demand surge",
+          "Ensuring reliability in live production environments",
+          "Talent ramp for velocity in competitive robotics space"
         ],
-        "hasOpsRoles": false
+        "hasOpsRoles": true,
+        "coo": "None identified"
       }
     },
     {
