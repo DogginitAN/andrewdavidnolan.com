@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-05T16:26:35.813969",
+  "lastUpdated": "2026-02-05T16:28:15.368304",
   "metrics": {
     "total": 52,
     "tier1": 15,
@@ -7,7 +7,7 @@
     "tier3": 12,
     "researched": 32,
     "deepResearched": 32,
-    "withOpenRoles": 3,
+    "withOpenRoles": 4,
     "outreachSent": 0
   },
   "companies": [
@@ -126,24 +126,25 @@
       "tier": 1,
       "status": "Researched",
       "holdStock": false,
-      "recentFunding": false,
-      "noExecOps": null,
-      "strategicBacking": null,
+      "recentFunding": "$42M Series B (Dec 2025, led by Avenir)",
+      "noExecOps": true,
+      "strategicBacking": "Founders Fund, Flexport, Lineage, Armada",
       "notes": "Direct logistics fit, tripled revenue.",
       "nextAction": "Research: Deep dive on Kargo",
       "researchSummary": {
-        "lastResearched": null,
-        "source": null,
-        "fitScore": 92,
+        "lastResearched": "2026-02-05",
+        "source": "Grok",
+        "fitScore": 90,
         "ceo": "Sam Lurye",
         "challenges": [
-          "VP Operations: Marselinus Erick (appears to be functional ops, not COO-level)",
-          "Field Operations team exists (hiring Deployment Manager)",
-          "No apparent COO or Chief of Staff",
-          "**Hardware deployment at scale** - Installing 1,000+ towers across the country requires significant field ops coordination",
-          "**Enterprise customer success** - 45+ Fortune 500 customers need dedicated support"
+          "Scaling hardware deployments (1,000+ AI towers) across nationwide warehouse network",
+          "Custom hardware manufacturing/supply chain for vision towers and sensors",
+          "Integration with diverse client inventory and warehouse management systems",
+          "Field operations logistics \u2014 installations, maintenance, travel coordination at 45+ enterprise sites",
+          "Back-office automation scaling (invoicing, claims, inspections) alongside physical deployments"
         ],
-        "hasOpsRoles": false
+        "hasOpsRoles": true,
+        "coo": "None identified"
       }
     },
     {
