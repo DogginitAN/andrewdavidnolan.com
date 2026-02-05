@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-02-05T19:08:46.439021",
+  "lastUpdated": "2026-02-05T19:48:43.861376",
   "metrics": {
     "total": 52,
     "tier1": 14,
     "tier2": 26,
     "tier3": 12,
-    "researched": 29,
-    "deepResearched": 29,
+    "researched": 32,
+    "deepResearched": 32,
     "withOpenRoles": 8,
     "outreachSent": 0
   },
@@ -499,8 +499,11 @@
       "notes": "Yandex AI spinoff. Building AI cloud infra.",
       "nextAction": "Research: Deep dive on Nebius Group",
       "researchSummary": {
-        "lastResearched": null,
-        "source": null,
+        "lastResearched": "2026-02-05",
+        "source": "external",
+        "fitScore": 9.0,
+        "ceo": "Arkady Volozh",
+        "coo": "Ophir Nave",
         "hasOpsRoles": false
       }
     },
@@ -972,13 +975,21 @@
       "hq": "San Jose, CA",
       "score": 78,
       "tier": 2,
-      "status": "Identified",
+      "status": "Researched",
       "holdStock": true,
       "recentFunding": false,
       "noExecOps": null,
       "strategicBacking": null,
       "notes": "R&D→Manufacturing transition.",
-      "nextAction": "Research: Deep dive on QuantumScape"
+      "nextAction": "Research: Deep dive on QuantumScape",
+      "researchSummary": {
+        "lastResearched": "2026-02-05",
+        "source": "external",
+        "fitScore": 6.0,
+        "ceo": "Dr. Siva Sivaram",
+        "coo": "Dr. Luca Fasoli",
+        "hasOpsRoles": false
+      }
     },
     {
       "id": 31,
@@ -991,13 +1002,21 @@
       "hq": "San Francisco, CA",
       "score": 78,
       "tier": 2,
-      "status": "Identified",
+      "status": "Researched",
       "holdStock": true,
       "recentFunding": false,
       "noExecOps": null,
       "strategicBacking": null,
       "notes": "CPG + distribution overlap.",
-      "nextAction": "Research: Deep dive on Hims & Hers"
+      "nextAction": "Research: Deep dive on Hims & Hers",
+      "researchSummary": {
+        "lastResearched": "2026-02-05",
+        "source": "external",
+        "fitScore": 6.0,
+        "ceo": "Andrew Dudum",
+        "coo": "Mike Chi",
+        "hasOpsRoles": false
+      }
     },
     {
       "id": 32,
@@ -1010,13 +1029,21 @@
       "hq": "Boca Raton, FL",
       "score": 78,
       "tier": 2,
-      "status": "Identified",
+      "status": "Researched",
       "holdStock": true,
       "recentFunding": false,
       "noExecOps": null,
       "strategicBacking": null,
       "notes": "Scaling distribution.",
-      "nextAction": "Research: Deep dive on Celsius Holdings"
+      "nextAction": "Research: Deep dive on Celsius Holdings",
+      "researchSummary": {
+        "lastResearched": "2026-02-05",
+        "source": "external",
+        "fitScore": 6.0,
+        "ceo": "John Fieldly",
+        "coo": "Eric Hanson",
+        "hasOpsRoles": false
+      }
     },
     {
       "id": 33,
