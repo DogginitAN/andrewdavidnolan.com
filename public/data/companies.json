@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-05T16:45:31.141315",
+  "lastUpdated": "2026-02-05T16:49:05.203938",
   "metrics": {
     "total": 52,
     "tier1": 15,
@@ -7,7 +7,7 @@
     "tier3": 12,
     "researched": 32,
     "deepResearched": 32,
-    "withOpenRoles": 7,
+    "withOpenRoles": 8,
     "outreachSent": 0
   },
   "companies": [
@@ -262,24 +262,25 @@
       "tier": 1,
       "status": "Researched",
       "holdStock": true,
-      "recentFunding": false,
-      "noExecOps": null,
-      "strategicBacking": null,
+      "recentFunding": "$450M equity offering (Dec 2025), $2.6B+ revenue guidance FY2026",
+      "noExecOps": true,
+      "strategicBacking": "SoftBank partnership, public company with $22.3B backlog",
       "notes": "Direct logistics experience overlap. Walmart deal.",
       "nextAction": "Research: Deep dive on Symbotic",
       "researchSummary": {
-        "lastResearched": null,
-        "source": null,
+        "lastResearched": "2026-02-05",
+        "source": "Research",
         "fitScore": 90,
         "ceo": "Rick Cohen",
         "challenges": [
-          "Site Operations organization manages day-to-day robotic system operations",
-          "No apparent COO or SVP Operations at executive level",
-          "Operations Development Program suggests investment in ops talent pipeline",
-          "**Massive scale-up** - Deploying across all 42 Walmart regional DCs plus 400 APD centers",
-          "**Multi-customer complexity** - Supporting Walmart, Target, Albertsons, and other Fortune 500 clients simultaneously"
+          "Customer concentration risk with Walmart representing 85% of revenue",
+          "Supply chain bottlenecks for robotics components and chips",
+          "Scaling deployment timelines across multiple customer sites",
+          "Margin pressures from competition and rising component costs",
+          "Talent acquisition and retention for rapid growth scaling"
         ],
-        "hasOpsRoles": false
+        "hasOpsRoles": true,
+        "coo": "None (George Kao retired Dec 2025)"
       }
     },
     {
