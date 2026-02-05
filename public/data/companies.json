@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-05T17:06:39.028307",
+  "lastUpdated": "2026-02-05T17:11:59.662999",
   "metrics": {
     "total": 52,
     "tier1": 15,
@@ -7,7 +7,7 @@
     "tier3": 12,
     "researched": 32,
     "deepResearched": 32,
-    "withOpenRoles": 9,
+    "withOpenRoles": 10,
     "outreachSent": 0
   },
   "companies": [
@@ -330,25 +330,25 @@
       "tier": 1,
       "status": "Researched",
       "holdStock": false,
-      "recentFunding": false,
-      "noExecOps": null,
-      "strategicBacking": null,
+      "recentFunding": "Public (NASDAQ: CRWV), $450M equity offering Dec 2025",
+      "noExecOps": false,
+      "strategicBacking": "NVIDIA $2B investment, SoftBank, Fidelity, Blackstone",
       "notes": "NJ HQ = NYC accessible. Just went public.",
       "nextAction": "Research: Deep dive on CoreWeave",
       "researchSummary": {
-        "lastResearched": null,
-        "source": null,
-        "fitScore": 88,
-        "ceo": "Michael Intrator",
-        "coo": "Sachin Jain",
+        "lastResearched": "2026-02-05",
+        "source": "Research",
+        "fitScore": 95,
+        "ceo": "Mike Intrator",
+        "coo": "Unnamed COO exists (Chief of Staff to COO role open)",
         "challenges": [
-          "COO: Sachin Jain (new Aug 2024 - still building function)",
-          "CFO: Nitin Agrawal (new Mar 2024)",
-          "CPO: Chetan Kapoor (new Jun 2024)",
-          "SVP Engineering: Chen Goldberg (new Aug 2024)",
-          "**Multi-Site Operations Scaling** - 32 data centers today, pipeline for dozens more"
+          "Delivering on massive $22B+ backlog conversion",
+          "GPU and power supply constraints amid rapid scaling",
+          "Data center buildout velocity and cost management",
+          "Margin and operating leverage improvement amid growth",
+          "Competition from hyperscaler incumbents (AWS, Azure, Google)"
         ],
-        "hasOpsRoles": false
+        "hasOpsRoles": true
       }
     },
     {
