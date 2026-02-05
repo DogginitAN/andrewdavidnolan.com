@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-05T16:03:31.462109",
+  "lastUpdated": "2026-02-05T16:15:58.873365",
   "metrics": {
     "total": 52,
     "tier1": 14,
@@ -7,7 +7,7 @@
     "tier3": 12,
     "researched": 32,
     "deepResearched": 32,
-    "withOpenRoles": 2,
+    "withOpenRoles": 0,
     "outreachSent": 0
   },
   "companies": [
@@ -626,17 +626,17 @@
       "nextAction": "Research: Deep dive on TFI International",
       "researchSummary": {
         "lastResearched": "2026-02-05",
-        "source": "external_manual",
-        "hasOpsRoles": true,
-        "ceo": "Alain B\u00e9dard (Chairman/President/CEO since ~1996)",
-        "coo": "None \u2014 decentralized ops model, no dedicated COO",
+        "source": "Grok",
+        "hasOpsRoles": false,
+        "ceo": "Alain B\u00e9dard",
+        "coo": "None identified",
         "fitScore": 82,
         "challenges": [
-          "Cyclical freight recession \u2014 weak volumes and overcapacity",
-          "Post-acquisition integration optimization (TForce Freight ongoing)",
-          "Tariff/policy uncertainty impacting cross-border operations",
+          "Cyclical freight recession with weak volumes and overcapacity",
+          "Post-acquisition integration (TForce Freight ongoing optimizations)",
           "Driver/labor market tightness and fuel/equipment cost pressures",
-          "No centralized ops leadership \u2014 opportunity to build function"
+          "Tariff and trade policy uncertainty across US-Canada-Mexico operations",
+          "Scaling technology/AI for fleet and route efficiency in traditional industry"
         ]
       }
     },
