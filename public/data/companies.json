@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-05T16:28:15.368304",
+  "lastUpdated": "2026-02-05T16:32:29.912400",
   "metrics": {
     "total": 52,
     "tier1": 15,
@@ -160,23 +160,23 @@
       "tier": 1,
       "status": "Researched",
       "holdStock": false,
-      "recentFunding": false,
-      "noExecOps": null,
-      "strategicBacking": null,
+      "recentFunding": "$1.375B Series E (Oct 2025, >$10B valuation)",
+      "noExecOps": false,
+      "strategicBacking": "NVIDIA, Founders Fund, Mubadala, Valor Equity",
       "notes": "Massive ops buildout. Stargate involvement.",
       "nextAction": "Research: Deep dive on Crusoe Energy",
       "researchSummary": {
-        "lastResearched": null,
-        "source": null,
-        "fitScore": 85,
+        "lastResearched": "2026-02-05",
+        "source": "Research",
+        "fitScore": 94,
         "ceo": "Chase Lochmiller",
-        "coo": "Michael Gordon",
+        "coo": "Cully Cavness",
         "challenges": [
-          "COO/CFO: Michael Gordon (new Dec 2025 - building function)",
-          "Chief Data Center Officer: Chris Dolan",
-          "Chief Real Estate Officer: Matt Field",
-          "SVP Data Center Operations: Jamie McGrath",
-          "SVP Power Infrastructure: John Adams"
+          "Power availability bottlenecks as AI demand doubles energy use by 2026",
+          "Supply chain delays for GPUs and equipment amid long lead times",
+          "Scaling modular builds and rapid deployments across global sites",
+          "Integrating variable energy sources (stranded gas, renewables, nuclear)",
+          "High operational costs potentially doubling by 2027 without infrastructure efficiency"
         ],
         "hasOpsRoles": false
       }
