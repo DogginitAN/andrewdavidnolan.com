@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-05T16:49:05.203938",
+  "lastUpdated": "2026-02-05T17:06:39.028307",
   "metrics": {
     "total": 52,
     "tier1": 15,
@@ -7,7 +7,7 @@
     "tier3": 12,
     "researched": 32,
     "deepResearched": 32,
-    "withOpenRoles": 8,
+    "withOpenRoles": 9,
     "outreachSent": 0
   },
   "companies": [
@@ -296,24 +296,25 @@
       "tier": 1,
       "status": "Researched",
       "holdStock": false,
-      "recentFunding": false,
-      "noExecOps": null,
-      "strategicBacking": null,
+      "recentFunding": "$1.4B Series C (Jan 14, 2026) at >$14B valuation",
+      "noExecOps": true,
+      "strategicBacking": "SoftBank, NVIDIA, Jeff Bezos, Samsung, LG, Sequoia, Coatue",
       "notes": "$0\u2192$30M rev in 2025. Multi-industry deployment.",
       "nextAction": "Research: Deep dive on Skild AI",
       "researchSummary": {
-        "lastResearched": null,
-        "source": null,
-        "fitScore": 89,
+        "lastResearched": "2026-02-05",
+        "source": "Research",
+        "fitScore": 95,
         "ceo": "Deepak Pathak",
         "challenges": [
-          "NO COO or VP Operations identified",
-          "Operations Specialist roles being filled (operational-level, not executive)",
-          "Founder-led company with technical focus",
-          "~44 employees total",
-          "**Rapid scaling from $0 to $30M revenue** - infrastructure and processes need to catch up"
+          "Computational infrastructure for massive GPU training needs",
+          "Data gaps for physical AI and real-world adaptation",
+          "Scaling precision manufacturing and robotics components",
+          "Supply chain bottlenecks for high-precision manufacturing capacity",
+          "Deployment in real environments with adaptability requirements"
         ],
-        "hasOpsRoles": false
+        "hasOpsRoles": true,
+        "coo": "None identified"
       }
     },
     {
