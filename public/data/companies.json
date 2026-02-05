@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-05T19:48:43.861376",
+  "lastUpdated": "2026-02-05T20:33:12.951063",
   "metrics": {
     "total": 52,
     "tier1": 14,
@@ -34,7 +34,7 @@
         "source": null,
         "fitScore": 85,
         "ceo": "Jacob DeWitte",
-        "coo": "Caroline DeWitte (née Cochran)",
+        "coo": "Caroline DeWitte (n\u00e9e Cochran)",
         "challenges": [
           "**COO: Caroline DeWitte** - Co-founder with nuclear engineering background",
           "CFO: R. Craig Bealmear",
@@ -73,7 +73,7 @@
           "COO: Kristen Shannon (strategic, company-wide)",
           "Production Director: Andy (F1 background, manufacturing)",
           "Finance Director: Julian",
-          "Legal: Zoë (first hire July 2024)",
+          "Legal: Zo\u00eb (first hire July 2024)",
           "**US Operations Leader** - Nashville HQ is new, needs someone to build out NA ops"
         ],
         "hasOpsRoles": false
@@ -294,7 +294,7 @@
       "recentFunding": false,
       "noExecOps": null,
       "strategicBacking": null,
-      "notes": "$0→$30M rev in 2025. Multi-industry deployment.",
+      "notes": "$0\u2192$30M rev in 2025. Multi-industry deployment.",
       "nextAction": "Research: Deep dive on Skild AI",
       "researchSummary": {
         "lastResearched": null,
@@ -625,9 +625,19 @@
       "notes": "Acquisitive. M&A integration fit.",
       "nextAction": "Research: Deep dive on TFI International",
       "researchSummary": {
-        "lastResearched": null,
-        "source": null,
-        "hasOpsRoles": false
+        "lastResearched": "2026-02-05",
+        "source": "external_manual",
+        "hasOpsRoles": true,
+        "ceo": "Alain B\u00e9dard (Chairman/President/CEO since ~1996)",
+        "coo": "None \u2014 decentralized ops model, no dedicated COO",
+        "fitScore": 82,
+        "challenges": [
+          "Cyclical freight recession \u2014 weak volumes and overcapacity",
+          "Post-acquisition integration optimization (TForce Freight ongoing)",
+          "Tariff/policy uncertainty impacting cross-border operations",
+          "Driver/labor market tightness and fuel/equipment cost pressures",
+          "No centralized ops leadership \u2014 opportunity to build function"
+        ]
       }
     },
     {
@@ -980,7 +990,7 @@
       "recentFunding": false,
       "noExecOps": null,
       "strategicBacking": null,
-      "notes": "R&D→Manufacturing transition.",
+      "notes": "R&D\u2192Manufacturing transition.",
       "nextAction": "Research: Deep dive on QuantumScape",
       "researchSummary": {
         "lastResearched": "2026-02-05",
