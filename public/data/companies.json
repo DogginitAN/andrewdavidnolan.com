@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-05T16:15:58.873365",
+  "lastUpdated": "2026-02-05T16:19:31.832383",
   "metrics": {
     "total": 52,
     "tier1": 14,
@@ -7,7 +7,7 @@
     "tier3": 12,
     "researched": 32,
     "deepResearched": 32,
-    "withOpenRoles": 0,
+    "withOpenRoles": 1,
     "outreachSent": 0
   },
   "companies": [
@@ -30,19 +30,19 @@
       "notes": "SMR developer building first commercial reactor. Mission-aligned. High ops scaling need.",
       "nextAction": "Find warm intro path or prepare proactive outreach",
       "researchSummary": {
-        "lastResearched": null,
-        "source": null,
-        "fitScore": 85,
+        "lastResearched": "2026-02-05",
+        "source": "Grok",
+        "fitScore": 80,
         "ceo": "Jacob DeWitte",
-        "coo": "Caroline DeWitte (n\u00e9e Cochran)",
+        "coo": "Caroline DeWitte",
         "challenges": [
-          "**COO: Caroline DeWitte** - Co-founder with nuclear engineering background",
-          "CFO: R. Craig Bealmear",
-          "CPO: Alexandra Renner",
-          "CTO: Patrick Schweiger",
-          "**COO position is filled** by co-founder Caroline DeWitte"
+          "NRC regulatory delays pushing licensing beyond 2027, potentially to 2029+",
+          "HALEU fuel supply constraints with limited domestic production and geopolitical risks",
+          "High capital costs ($2.4B estimated, 135% overruns possible) and ongoing cash burn",
+          "Skilled labor shortages for nuclear construction and buildout",
+          "Scaling novel fuel recycling and SMR manufacturing from prototype to commercial"
         ],
-        "hasOpsRoles": false
+        "hasOpsRoles": true
       }
     },
     {
