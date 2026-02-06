@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-02-06T12:50:30.033052",
+  "lastUpdated": "2026-02-06T12:53:21.955515",
   "metrics": {
     "total": 52,
     "tier1": 15,
     "tier2": 25,
     "tier3": 12,
-    "researched": 48,
-    "deepResearched": 48,
+    "researched": 49,
+    "deepResearched": 49,
     "withOpenRoles": 39,
     "outreachSent": 0
   },
@@ -1653,13 +1653,28 @@
       "hq": "Redwood City, CA",
       "score": 70,
       "tier": 3,
-      "status": "Identified",
+      "status": "Researched",
       "holdStock": false,
-      "recentFunding": false,
-      "noExecOps": null,
-      "strategicBacking": null,
+      "recentFunding": "$60M Series C March 2024, LG acquisition January 2025",
+      "noExecOps": false,
+      "strategicBacking": "LG Electronics majority owner, SoftBank, IMM Private Equity",
       "notes": "Restaurant service robots.",
-      "nextAction": "Research: Deep dive on Bear Robotics"
+      "nextAction": "Research: Deep dive on Bear Robotics",
+      "researchSummary": {
+        "lastResearched": "2026-02-06",
+        "challenges": [
+          "Post-acquisition integration with LG Electronics",
+          "Scaling mass production via FASSTO partnership",
+          "Global supply chain optimization for batteries/hardware",
+          "Multi-robot fleet deployment across diverse environments",
+          "Competition from Pudu, Kaikaku, Relay Robotics in AMR space"
+        ],
+        "fitScore": 70,
+        "hasOpsRoles": false,
+        "source": "Research",
+        "ceo": "John Ha (PhD CS, ex-Google, founder since 2017)",
+        "coo": "Juan Higueros (co-founder, COO since 2017)"
+      }
     },
     {
       "id": 50,
