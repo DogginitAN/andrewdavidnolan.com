@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-06T10:02:23.116403",
+  "lastUpdated": "2026-02-06T10:07:06.443214",
   "metrics": {
     "total": 52,
     "tier1": 15,
@@ -7,7 +7,7 @@
     "tier3": 12,
     "researched": 32,
     "deepResearched": 32,
-    "withOpenRoles": 20,
+    "withOpenRoles": 21,
     "outreachSent": 0
   },
   "companies": [
@@ -772,24 +772,25 @@
       "tier": 2,
       "status": "Researched",
       "holdStock": true,
-      "recentFunding": false,
+      "recentFunding": "$2.2B convertible notes (Sep 2025), public NYSE:BE",
       "noExecOps": null,
-      "strategicBacking": null,
+      "strategicBacking": "$5B Brookfield partnership, $2.65B AEP agreement, NVIDIA integrations",
       "notes": "Energy hardware. Manufacturing + field ops.",
       "nextAction": "Research: Deep dive on Bloom Energy",
       "researchSummary": {
-        "lastResearched": null,
-        "source": null,
+        "lastResearched": "2026-02-06",
+        "source": "Research",
         "fitScore": 80,
-        "ceo": "KR Sridhar, PhD",
+        "ceo": "KR Sridhar (Co-Founder/CEO since 2001, PhD, ex-NASA fuel cell)",
         "challenges": [
-          "**COO: Susan Brennan** - Manufacturing veteran with automotive and clean energy background",
-          "President & CFO: Greg Cameron",
-          "CTO: Ravi Prasher",
-          "CMO: Matt Ross",
-          "**COO position is filled** by Susan Brennan (since 2013)"
+          "Supply chain vulnerabilities and component shortages",
+          "Scaling manufacturing 1GW to 2GW amid AI demand",
+          "Grid constraints driving customer urgency but execution risks",
+          "Margin compression and cost competition",
+          "Talent shortages in skilled manufacturing"
         ],
-        "hasOpsRoles": false
+        "hasOpsRoles": true,
+        "coo": "Satish Chitoori (COO since Dec 2023, scaling manufacturing focus)"
       }
     },
     {
