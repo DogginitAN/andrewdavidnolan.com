@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-06T10:11:16.697413",
+  "lastUpdated": "2026-02-06T10:14:54.764302",
   "metrics": {
     "total": 52,
     "tier1": 15,
@@ -7,7 +7,7 @@
     "tier3": 12,
     "researched": 32,
     "deepResearched": 32,
-    "withOpenRoles": 22,
+    "withOpenRoles": 23,
     "outreachSent": 0
   },
   "companies": [
@@ -840,25 +840,25 @@
       "tier": 2,
       "status": "Researched",
       "holdStock": true,
-      "recentFunding": false,
-      "noExecOps": null,
-      "strategicBacking": null,
+      "recentFunding": "$200M stock offering (Jun 2025), public NYSE:RDW",
+      "noExecOps": true,
+      "strategicBacking": "$151B SHIELD IDIQ contract, NASA/DoD contracts, AE Industrial 55.46%",
       "notes": "Deep tech scaling phase.",
       "nextAction": "Research: Deep dive on Redwire",
       "researchSummary": {
-        "lastResearched": null,
-        "source": null,
-        "fitScore": 80,
-        "ceo": "Peter Cannito",
-        "coo": "Andrew Rush",
+        "lastResearched": "2026-02-06",
+        "source": "Research",
+        "fitScore": 83,
+        "ceo": "Peter Cannito (Chairman/CEO since Jun 2020, ex-Polaris Alpha, defense/intel)",
+        "coo": "None identified - operations under CEO and segment presidents",
         "challenges": [
-          "**COO: Andrew Rush** - President & COO since January 2021",
-          "CFO: Chris Edmunds",
-          "Chief Growth Officer: Al Tadros",
-          "Multiple EVPs and Presidents for business segments",
-          "**COO position is filled** by Andrew Rush (Made In Space background)"
+          "Supply chain vulnerabilities and geopolitical risks",
+          "Increased production costs and labor shortages",
+          "EAC volatility from new technologies",
+          "Integration of Edge Autonomy acquisition",
+          "Delays in government contracts due to shutdowns"
         ],
-        "hasOpsRoles": false
+        "hasOpsRoles": true
       }
     },
     {
