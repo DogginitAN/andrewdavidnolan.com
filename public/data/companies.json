@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-06T09:25:13.245253",
+  "lastUpdated": "2026-02-06T09:29:09.693611",
   "metrics": {
     "total": 52,
     "tier1": 15,
@@ -7,7 +7,7 @@
     "tier3": 12,
     "researched": 32,
     "deepResearched": 32,
-    "withOpenRoles": 14,
+    "withOpenRoles": 15,
     "outreachSent": 0
   },
   "companies": [
@@ -534,24 +534,25 @@
       "tier": 2,
       "status": "Researched",
       "holdStock": false,
-      "recentFunding": false,
-      "noExecOps": null,
-      "strategicBacking": null,
+      "recentFunding": "$260M Series C (July 2025) + follow-on late 2025, $1.6B valuation",
+      "noExecOps": true,
+      "strategicBacking": "Founders Fund, Lux Capital, a16z, T. Rowe Price - $1.6B valuation",
       "notes": "Aerospace/defense manufacturing.",
       "nextAction": "Research: Deep dive on Hadrian",
       "researchSummary": {
-        "lastResearched": null,
-        "source": null,
-        "fitScore": 84,
-        "ceo": "Chris Power",
+        "lastResearched": "2026-02-06",
+        "source": "Research",
+        "fitScore": 95,
+        "ceo": "Chris Power (Founder & CEO since 2020, finance/tech background)",
         "challenges": [
-          "**CEO: Chris Power** - Founder, overall vision and strategy",
-          "**VP Operations: Chris Baker** - Ex-SpaceX, leads factory operations",
-          "**CFO: West Owens** - Finance leadership",
-          "**VP Operations position is filled** by ex-SpaceX Dragon production lead",
-          "Company is in hypergrowth mode (10x YoY revenue growth)"
+          "Scaling precision manufacturing across multiple factories",
+          "Supply chain for high-end CNC machines and materials",
+          "Attracting/retaining skilled machinists and engineers",
+          "Maintaining aerospace/defense quality standards at scale",
+          "Executing aggressive factory buildout timelines"
         ],
-        "hasOpsRoles": false
+        "hasOpsRoles": true,
+        "coo": "None identified - operations at factory level"
       }
     },
     {
