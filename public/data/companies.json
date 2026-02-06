@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-02-06T12:11:18.474427",
+  "lastUpdated": "2026-02-06T12:13:51.578751",
   "metrics": {
     "total": 52,
     "tier1": 15,
     "tier2": 25,
     "tier3": 12,
-    "researched": 35,
-    "deepResearched": 35,
-    "withOpenRoles": 30,
+    "researched": 36,
+    "deepResearched": 36,
+    "withOpenRoles": 31,
     "outreachSent": 0
   },
   "companies": [
@@ -1177,13 +1177,28 @@
       "hq": "Oakland, CA",
       "score": 77,
       "tier": 2,
-      "status": "Identified",
+      "status": "Researched",
       "holdStock": false,
-      "recentFunding": false,
-      "noExecOps": null,
-      "strategicBacking": null,
+      "recentFunding": "$2M DOE grant (Jan 2026) for HALEU fuel supply",
+      "noExecOps": true,
+      "strategicBacking": "Google (500MW PPA), TVA partnership, DOE grants, KP-OMADA utilities alliance",
       "notes": "Molten salt reactors.",
-      "nextAction": "Research: Deep dive on Kairos Power"
+      "nextAction": "Research: Deep dive on Kairos Power",
+      "researchSummary": {
+        "lastResearched": "2026-02-06",
+        "fitScore": 86,
+        "ceo": "Mike Laufer (CEO and Co-Founder since 2016)",
+        "challenges": [
+          "Scaling in-house manufacturing for components, molten salt, and fuel",
+          "Supply chain development for HALEU and TRISO fuel materials",
+          "Regulatory compliance and construction schedule certainty",
+          "Workforce training and development for nuclear operations",
+          "Cost control and optimization across multi-site facilities"
+        ],
+        "hasOpsRoles": true,
+        "source": "Research",
+        "coo": "None identified - Kerry McIntosh serves as Chief of Staff"
+      }
     },
     {
       "id": 36,
