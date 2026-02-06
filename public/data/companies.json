@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-02-06T12:58:56.599126",
+  "lastUpdated": "2026-02-06T13:01:50.540106",
   "metrics": {
     "total": 52,
     "tier1": 15,
     "tier2": 25,
     "tier3": 12,
-    "researched": 51,
-    "deepResearched": 51,
+    "researched": 52,
+    "deepResearched": 52,
     "withOpenRoles": 40,
     "outreachSent": 0
   },
@@ -1755,13 +1755,28 @@
       "hq": "Boston, MA",
       "score": 65,
       "tier": 3,
-      "status": "Identified",
+      "status": "Researched",
       "holdStock": false,
-      "recentFunding": false,
-      "noExecOps": null,
-      "strategicBacking": null,
+      "recentFunding": "Series A $11M August 2021, no recent funding",
+      "noExecOps": true,
+      "strategicBacking": "Series A ($11M 2021), Collaborative Fund lead, Maersk Growth",
       "notes": "Food waste reduction.",
-      "nextAction": "Research: Deep dive on Spoiler Alert"
+      "nextAction": "Research: Deep dive on Spoiler Alert",
+      "researchSummary": {
+        "lastResearched": "2026-02-06",
+        "fitScore": 65,
+        "coo": "None identified (no dedicated COO or VP Ops)",
+        "source": "Research",
+        "hasOpsRoles": false,
+        "ceo": "Ricky Ashenfelter (co-founder/CEO since 2015, MIT, CPG supply chain background)",
+        "challenges": [
+          "Scaling SaaS platform operations for CPG growth",
+          "Automating manual workflows in excess inventory liquidation",
+          "Logistics optimization for secondary market truck building",
+          "Data integration for real-time inventory visibility",
+          "Expanding into new CPG categories and buyer networks"
+        ]
+      }
     }
   ]
 }
