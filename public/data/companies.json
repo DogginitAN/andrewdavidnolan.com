@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-02-06T12:21:50.822960",
+  "lastUpdated": "2026-02-06T12:26:03.467927",
   "metrics": {
     "total": 52,
     "tier1": 15,
     "tier2": 25,
     "tier3": 12,
-    "researched": 39,
-    "deepResearched": 39,
+    "researched": 40,
+    "deepResearched": 40,
     "withOpenRoles": 33,
     "outreachSent": 0
   },
@@ -1347,13 +1347,28 @@
       "hq": "Rockville, MD",
       "score": 75,
       "tier": 2,
-      "status": "Identified",
+      "status": "Researched",
       "holdStock": false,
-      "recentFunding": false,
-      "noExecOps": null,
-      "strategicBacking": null,
+      "recentFunding": "$700M Series D (Nov 2025) led by Jane Street, ~$1.8B total raised",
+      "noExecOps": false,
+      "strategicBacking": "Amazon (5GW deal), Jane Street, ARK Invest, Citadel, Doosan partnership",
       "notes": "Data center focus.",
-      "nextAction": "Research: Deep dive on X-Energy"
+      "nextAction": "Research: Deep dive on X-Energy",
+      "researchSummary": {
+        "lastResearched": "2026-02-06",
+        "source": "Research",
+        "fitScore": 88,
+        "hasOpsRoles": false,
+        "ceo": "J. Clay Sell (CEO since January 2019, former Deputy Secretary of Energy)",
+        "coo": "Dragan Popovic (Chief of Global Operations appointed October 27, 2025)",
+        "challenges": [
+          "Scaling global supply chain for specialized components with 9-12 month lead times",
+          "Managing regulatory approvals across multiple jurisdictions for FOAK deployments",
+          "Building international manufacturing partnerships with Doosan and SGL Carbon",
+          "Deploying 144 reactors (11 GW pipeline) across diverse markets and applications",
+          "Ensuring nuclear regulatory compliance and safety across multi-site operations"
+        ]
+      }
     },
     {
       "id": 41,
