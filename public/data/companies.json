@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-06T09:33:36.503835",
+  "lastUpdated": "2026-02-06T09:36:36.665878",
   "metrics": {
     "total": 52,
     "tier1": 15,
@@ -7,7 +7,7 @@
     "tier3": 12,
     "researched": 32,
     "deepResearched": 32,
-    "withOpenRoles": 15,
+    "withOpenRoles": 16,
     "outreachSent": 0
   },
   "companies": [
@@ -568,24 +568,25 @@
       "tier": 2,
       "status": "Researched",
       "holdStock": false,
-      "recentFunding": false,
-      "noExecOps": null,
-      "strategicBacking": null,
+      "recentFunding": "$120M Series A (Sep 2025) + $23.5M seed (Mar 2025) = $143.5M total",
+      "noExecOps": true,
+      "strategicBacking": "NVIDIA, Amazon, Samsung, LG strategic backing - $600M+ valuation",
       "notes": "NVIDIA backing.",
       "nextAction": "Research: Deep dive on Dyna Robotics",
       "researchSummary": {
-        "lastResearched": null,
-        "source": null,
-        "fitScore": 83,
-        "ceo": "Lindon Gao",
+        "lastResearched": "2026-02-06",
+        "source": "Research",
+        "fitScore": 90,
+        "ceo": "Lindon Gao (Co-Founder & CEO since 2024, robotics/AI scaling)",
         "challenges": [
-          "**CEO: Lindon Gao** - Founder, overall vision and commercial strategy (Instacart ops background)",
-          "**CTO: Jason Ma** - Technical architecture and AI platform",
-          "**York Yang** - Product strategy and R&D",
-          "**No dedicated COO or VP Operations identified** - typical for early-stage startup",
-          "Company is in rapid scaling mode with Series A funding"
+          "Scaling robot production/hardware costs below $50K",
+          "Ensuring 24/7 reliability in real-world environments",
+          "Data collection for foundation model training",
+          "Supply chain for components/sensors at scale",
+          "Talent acquisition in AI/robotics engineering"
         ],
-        "hasOpsRoles": false
+        "hasOpsRoles": true,
+        "coo": "None identified - early stage company"
       }
     },
     {
