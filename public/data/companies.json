@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-02-06T12:46:53.875500",
+  "lastUpdated": "2026-02-06T12:50:30.033052",
   "metrics": {
     "total": 52,
     "tier1": 15,
     "tier2": 25,
     "tier3": 12,
-    "researched": 47,
-    "deepResearched": 47,
-    "withOpenRoles": 38,
+    "researched": 48,
+    "deepResearched": 48,
+    "withOpenRoles": 39,
     "outreachSent": 0
   },
   "companies": [
@@ -1619,13 +1619,28 @@
       "hq": "Fort Smith, AR",
       "score": 70,
       "tier": 3,
-      "status": "Identified",
+      "status": "Researched",
       "holdStock": true,
-      "recentFunding": false,
-      "noExecOps": null,
-      "strategicBacking": null,
+      "recentFunding": "$4.0B revenue (2025), $2.3B market cap, operational cash flow positive",
+      "noExecOps": false,
+      "strategicBacking": "Public company, institutional investors (Vanguard, BlackRock), stable dividend",
       "notes": "Asset-light + asset-based.",
-      "nextAction": "Research: Deep dive on ArcBest"
+      "nextAction": "Research: Deep dive on ArcBest",
+      "researchSummary": {
+        "lastResearched": "2026-02-06",
+        "coo": "Mac Pinkerton (COO Asset-Light Logistics since Jan 5, 2026, ex-C.H. Robinson, newly created role)",
+        "fitScore": 82,
+        "source": "Research",
+        "ceo": "Seth Runser (CEO since Jan 1, 2026, 20 years at company, ABF Freight President 2021-2024)",
+        "challenges": [
+          "Navigating prolonged freight recession with declining rates and volumes",
+          "Balancing facility expansion (100+ doors in 2026) with cost control amid yield declines",
+          "Integrating asset-based LTL operations with asset-light brokerage for efficiency",
+          "Scaling technology adoption (Vaux, ArcBest View TMS) across 250 service centers",
+          "Managing supply chain volatility and weather disruptions affecting tonnage"
+        ],
+        "hasOpsRoles": true
+      }
     },
     {
       "id": 49,
