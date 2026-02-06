@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-02-06T12:53:21.955515",
+  "lastUpdated": "2026-02-06T12:56:43.551287",
   "metrics": {
     "total": 52,
     "tier1": 15,
     "tier2": 25,
     "tier3": 12,
-    "researched": 49,
-    "deepResearched": 49,
-    "withOpenRoles": 39,
+    "researched": 50,
+    "deepResearched": 50,
+    "withOpenRoles": 40,
     "outreachSent": 0
   },
   "companies": [
@@ -1687,13 +1687,28 @@
       "hq": "Milwaukee, WI",
       "score": 68,
       "tier": 3,
-      "status": "Identified",
+      "status": "Researched",
       "holdStock": true,
-      "recentFunding": false,
-      "noExecOps": null,
-      "strategicBacking": null,
+      "recentFunding": "$1.5B credit agreement Nov 2025, $500M term loan Dec 2025",
+      "noExecOps": true,
+      "strategicBacking": "Public (NYSE: ROK), $8.34B revenue, partnerships with Microsoft/NVIDIA",
       "notes": "Factory automation.",
-      "nextAction": "Research: Deep dive on Rockwell Automation"
+      "nextAction": "Research: Deep dive on Rockwell Automation",
+      "researchSummary": {
+        "lastResearched": "2026-02-06",
+        "ceo": "Blake Moret (CEO since 2016, Chairman since 2018, Georgia Tech ME)",
+        "coo": "None identified (ops under Bob Buttermore, SVP Chief Supply Chain)",
+        "fitScore": 68,
+        "challenges": [
+          "Global supply chain disruptions and inventory management",
+          "$2B expansion execution (1M sq ft New Berlin facility by 2028)",
+          "Customer CapEx delays impacting project timelines",
+          "Regional sales softness (EMEA down 1%, Asia Pacific down 5%)",
+          "AI/automation integration across legacy manufacturing systems"
+        ],
+        "hasOpsRoles": true,
+        "source": "Research"
+      }
     },
     {
       "id": 51,
