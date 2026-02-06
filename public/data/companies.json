@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-02-06T12:19:14.646464",
+  "lastUpdated": "2026-02-06T12:21:50.822960",
   "metrics": {
     "total": 52,
     "tier1": 15,
     "tier2": 25,
     "tier3": 12,
-    "researched": 38,
-    "deepResearched": 38,
-    "withOpenRoles": 32,
+    "researched": 39,
+    "deepResearched": 39,
+    "withOpenRoles": 33,
     "outreachSent": 0
   },
   "companies": [
@@ -1313,13 +1313,28 @@
       "hq": "Bethesda, MD",
       "score": 75,
       "tier": 2,
-      "status": "Identified",
+      "status": "Researched",
       "holdStock": true,
-      "recentFunding": false,
-      "noExecOps": null,
-      "strategicBacking": null,
+      "recentFunding": "$900M DOE award (Jan 2026) + $1.2B convertible notes",
+      "noExecOps": true,
+      "strategicBacking": "$900M DOE task order, KHNP/POSCO partnership, BlackRock institutional backing",
       "notes": "Uranium enrichment.",
-      "nextAction": "Research: Deep dive on Centrus Energy"
+      "nextAction": "Research: Deep dive on Centrus Energy",
+      "researchSummary": {
+        "lastResearched": "2026-02-06",
+        "challenges": [
+          "Scaling multi-billion dollar facility expansions in Piketon and Oak Ridge",
+          "Managing geopolitical supply risks and Russian LEU phase-out by 2028",
+          "Optimizing domestic supply chain across 13 states and 14 suppliers",
+          "Ensuring nuclear regulatory compliance and safety in high-stakes ops",
+          "Attracting specialized talent for centrifuge manufacturing and HALEU production"
+        ],
+        "source": "Research",
+        "coo": "None identified - Patrick Brown serves as SVP Field Operations",
+        "hasOpsRoles": true,
+        "ceo": "Amir Vexler (President & CEO since January 1, 2024)",
+        "fitScore": 81
+      }
     },
     {
       "id": 40,
