@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-02-06T12:29:33.812649",
+  "lastUpdated": "2026-02-06T12:32:00.111718",
   "metrics": {
     "total": 52,
     "tier1": 15,
     "tier2": 25,
     "tier3": 12,
-    "researched": 41,
-    "deepResearched": 41,
-    "withOpenRoles": 34,
+    "researched": 42,
+    "deepResearched": 42,
+    "withOpenRoles": 35,
     "outreachSent": 0
   },
   "companies": [
@@ -1415,13 +1415,28 @@
       "hq": "San Francisco, CA",
       "score": 74,
       "tier": 3,
-      "status": "Identified",
+      "status": "Researched",
       "holdStock": false,
-      "recentFunding": false,
-      "noExecOps": null,
-      "strategicBacking": null,
+      "recentFunding": "$600M Series B (Nov 2025), $5.6B valuation, $1.07B total raised",
+      "noExecOps": true,
+      "strategicBacking": "Jeff Bezos, OpenAI, CapitalG (Alphabet), Thrive Capital, Lux Capital",
       "notes": "General-purpose robotics AI.",
-      "nextAction": "Research: Deep dive on Physical Intelligence"
+      "nextAction": "Research: Deep dive on Physical Intelligence",
+      "researchSummary": {
+        "lastResearched": "2026-02-06",
+        "ceo": "Karol Hausman (CEO and co-founder, 2024, former Google DeepMind)",
+        "challenges": [
+          "Managing massive compute spend as primary operational expense",
+          "Scaling multi-robot data collection across different embodiments",
+          "Transitioning from R&D lab to real-world deployable products",
+          "Building infrastructure for robotics hardware procurement and testing",
+          "Optimizing compute infrastructure for AI model training and inference"
+        ],
+        "coo": "None identified - early-stage with research focus",
+        "source": "Research",
+        "fitScore": 88,
+        "hasOpsRoles": true
+      }
     },
     {
       "id": 43,
