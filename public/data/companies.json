@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-02-06T12:41:39.826960",
+  "lastUpdated": "2026-02-06T12:44:32.451932",
   "metrics": {
     "total": 52,
     "tier1": 15,
     "tier2": 25,
     "tier3": 12,
-    "researched": 45,
-    "deepResearched": 45,
-    "withOpenRoles": 36,
+    "researched": 46,
+    "deepResearched": 46,
+    "withOpenRoles": 37,
     "outreachSent": 0
   },
   "companies": [
@@ -1551,13 +1551,28 @@
       "hq": "Somerville, MA",
       "score": 72,
       "tier": 3,
-      "status": "Identified",
+      "status": "Researched",
       "holdStock": false,
-      "recentFunding": false,
-      "noExecOps": null,
-      "strategicBacking": null,
+      "recentFunding": "$300-500M pre-IPO round (Jan 2026), $1.2B+ total raised, $3.42B valuation",
+      "noExecOps": false,
+      "strategicBacking": "Breakthrough Energy Ventures (Bill Gates), T. Rowe Price, TPG Rise, GE Vernova",
       "notes": "Iron-air batteries.",
-      "nextAction": "Research: Deep dive on Form Energy"
+      "nextAction": "Research: Deep dive on Form Energy",
+      "researchSummary": {
+        "lastResearched": "2026-02-06",
+        "hasOpsRoles": true,
+        "fitScore": 86,
+        "source": "Research",
+        "ceo": "Mateo Jaramillo (CEO and co-founder since 2017, former Tesla energy storage VP)",
+        "coo": "Ted Wiley (President and COO, co-founder since 2017, energy storage background)",
+        "challenges": [
+          "Scaling high-volume iron-air battery manufacturing at Form Factory 1 to 500 MW annually",
+          "Managing supply chain vulnerabilities for iron processing amid global trade disruptions",
+          "Commercializing 100-hour storage technology in a market dominated by 4-hour lithium-ion",
+          "Building scalable deployment operations from pilots to multi-GWh utility contracts",
+          "Optimizing manufacturing processes and logistics for utility-scale battery installations"
+        ]
+      }
     },
     {
       "id": 47,
