@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-02-06T12:32:00.111718",
+  "lastUpdated": "2026-02-06T12:36:33.491471",
   "metrics": {
     "total": 52,
     "tier1": 15,
     "tier2": 25,
     "tier3": 12,
-    "researched": 42,
-    "deepResearched": 42,
-    "withOpenRoles": 35,
+    "researched": 43,
+    "deepResearched": 43,
+    "withOpenRoles": 36,
     "outreachSent": 0
   },
   "companies": [
@@ -1449,13 +1449,28 @@
       "hq": "Sunnyvale, CA",
       "score": 73,
       "tier": 3,
-      "status": "Identified",
+      "status": "Researched",
       "holdStock": false,
-      "recentFunding": false,
-      "noExecOps": null,
-      "strategicBacking": null,
+      "recentFunding": "$1B+ Series C (Sep 2025), $39B valuation, $1.9B-$2.5B total raised",
+      "noExecOps": true,
+      "strategicBacking": "Microsoft, Jeff Bezos, NVIDIA, OpenAI, Brookfield Asset Management, Intel Capital",
       "notes": "Humanoid robotics.",
-      "nextAction": "Research: Deep dive on Figure AI"
+      "nextAction": "Research: Deep dive on Figure AI",
+      "researchSummary": {
+        "lastResearched": "2026-02-06",
+        "coo": "None identified - likely overseen by CEO and manufacturing leads",
+        "source": "Research",
+        "ceo": "Brett Adcock (Founder/CEO since 2022, serial entrepreneur - Vettery, Archer Aviation)",
+        "challenges": [
+          "Building entirely new supply chain for humanoid-specific components (no existing ecosystem)",
+          "Scaling BotQ manufacturing to 100,000 robots over 4 years with 3M actuators",
+          "Managing high manufacturing costs and complexity for mass production",
+          "Integrating humanoids safely into existing industrial and home workflows",
+          "Optimizing AI training compute demands for Helix neural networks"
+        ],
+        "fitScore": 89,
+        "hasOpsRoles": true
+      }
     },
     {
       "id": 44,
