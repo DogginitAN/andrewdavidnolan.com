@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-06T09:55:46.820261",
+  "lastUpdated": "2026-02-06T10:02:23.116403",
   "metrics": {
     "total": 52,
     "tier1": 15,
@@ -7,7 +7,7 @@
     "tier3": 12,
     "researched": 32,
     "deepResearched": 32,
-    "withOpenRoles": 19,
+    "withOpenRoles": 20,
     "outreachSent": 0
   },
   "companies": [
@@ -738,25 +738,25 @@
       "tier": 2,
       "status": "Researched",
       "holdStock": false,
-      "recentFunding": false,
-      "noExecOps": null,
-      "strategicBacking": null,
+      "recentFunding": "$126M Series C (Jun 2024) led by BlackRock, $400M+ total",
+      "noExecOps": true,
+      "strategicBacking": "BlackRock lead, NVIDIA/Microsoft partnerships, Eclipse Ventures",
       "notes": "Smart robotics for manufacturing.",
       "nextAction": "Research: Deep dive on Bright Machines",
       "researchSummary": {
-        "lastResearched": null,
-        "source": null,
-        "fitScore": 65,
-        "ceo": "Chris Stori",
-        "coo": "Paolo Avagliano",
+        "lastResearched": "2026-02-06",
+        "source": "Research",
+        "fitScore": 85,
+        "ceo": "Chris Stori (CEO since Sep 2024, ex-Cisco/McKinsey scaling experience)",
+        "coo": "None identified - operations at supervisor level",
         "challenges": [
-          "**COO: Paolo Avagliano** - Manufacturing/supply chain veteran from Comau",
-          "CEO: Chris Stori (enterprise tech/IoT scaling background)",
-          "Chief Strategy Officer: Sviat Dulianinov",
-          "COO position is filled by experienced manufacturing executive",
-          "Company pivoting focus to AI infrastructure assembly"
+          "Supply chain vulnerabilities and reshoring dependencies",
+          "Labor shortages in skilled manufacturing",
+          "Scaling assembly for AI demand amid bottlenecks",
+          "High scrap rates in manual processes",
+          "Balancing automation with manufacturing agility"
         ],
-        "hasOpsRoles": false
+        "hasOpsRoles": true
       }
     },
     {
