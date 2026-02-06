@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-06T10:22:42.364902",
+  "lastUpdated": "2026-02-06T10:30:48.137632",
   "metrics": {
     "total": 52,
     "tier1": 15,
@@ -7,7 +7,7 @@
     "tier3": 12,
     "researched": 32,
     "deepResearched": 32,
-    "withOpenRoles": 24,
+    "withOpenRoles": 25,
     "outreachSent": 0
   },
   "companies": [
@@ -942,24 +942,25 @@
       "tier": 2,
       "status": "Researched",
       "holdStock": false,
-      "recentFunding": false,
+      "recentFunding": "$863M Series B2 (Aug 2025) led by Tiger Global, $3B total funding",
       "noExecOps": null,
-      "strategicBacking": null,
+      "strategicBacking": "Google DeepMind AI alliance, NVIDIA/Siemens digital twin, Bill Gates, Tiger Global",
       "notes": "Scaling to first plant.",
       "nextAction": "Research: Deep dive on Commonwealth Fusion",
       "researchSummary": {
-        "lastResearched": null,
-        "source": null,
-        "fitScore": 79,
-        "ceo": "Bob Mumgaard",
+        "lastResearched": "2026-02-06",
+        "source": "Research",
+        "fitScore": 90,
+        "ceo": "Bob Mumgaard (Co-founder/CEO since 2018, PhD MIT Plasma Science, fusion reactor design)",
         "challenges": [
-          "VP Operations: Joy Dunn (manufacturing, construction, facilities, safety, quality)",
-          "VP Project Management: Kathy Ayers",
-          "Director SPARC Plant Operations: Currently hiring",
-          "**SPARC Operations Leadership** - First-of-kind facility needs experienced operators (Director role open)",
-          "**ARC Commercial Plant Buildout** - Virginia plant construction requires program management"
+          "Scaling HTS magnet manufacturing for SPARC/ARC",
+          "Supply chain reliability for specialized fusion components",
+          "Transitioning from R&D to industrial operations",
+          "Regulatory permitting for fusion facilities",
+          "Achieving net energy (Q>1) in SPARC by 2026-2027"
         ],
-        "hasOpsRoles": false
+        "hasOpsRoles": true,
+        "coo": "Julian Soell (COO, hired last 12 months, 28+ years ops experience, ex-Proterra COO)"
       }
     },
     {
