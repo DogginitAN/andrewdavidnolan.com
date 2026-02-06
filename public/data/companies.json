@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-06T09:29:09.693611",
+  "lastUpdated": "2026-02-06T09:33:36.503835",
   "metrics": {
     "total": 52,
     "tier1": 15,
@@ -500,24 +500,24 @@
       "tier": 1,
       "status": "Researched",
       "holdStock": true,
-      "recentFunding": "$4.2B September 2025 ($1B+ public offering + $2.75B convertible notes)",
+      "recentFunding": "$2.75B convertible notes + $1B+ public offering (Sep 2025)",
       "noExecOps": false,
-      "strategicBacking": "Microsoft multi-billion deal, Meta $3B over 5 years",
+      "strategicBacking": "Microsoft $19.4B deal, Meta $3B deal, NVIDIA partnership",
       "notes": "Yandex AI spinoff. Building AI cloud infra.",
       "nextAction": "Research: Deep dive on Nebius Group",
       "researchSummary": {
-        "lastResearched": "2026-02-05",
+        "lastResearched": "2026-02-06",
         "source": "Research",
-        "fitScore": 92,
-        "ceo": "Arkady Volozh",
-        "coo": "Ophir Nave",
+        "fitScore": 90,
+        "ceo": "Arkady Volozh (Founder/CEO since 2024, ex-Yandex founder)",
+        "coo": "Ophir Nave (COO since May 2024, M&A/scaling background)",
         "hasOpsRoles": true,
         "challenges": [
-          "Executing rapid data center buildouts across multiple GW-scale sites",
-          "Securing power contracts amid global shortage constraints",
-          "GPU supply chain bottlenecks for Blackwell/Rubin deployments",
-          "Construction timeline and cost management across global expansions",
-          "Integrating new regions while maintaining hyperscaler reliability"
+          "Data center capacity bottlenecks limiting growth",
+          "Massive capex ($5B 2025) execution risks",
+          "Multi-site buildouts across US/Europe/Middle East",
+          "GPU/hardware supply chain constraints",
+          "Power/land acquisition in constrained markets"
         ]
       }
     },
