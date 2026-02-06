@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-06T09:02:51.249977",
+  "lastUpdated": "2026-02-06T09:12:46.438874",
   "metrics": {
     "total": 52,
     "tier1": 15,
@@ -7,7 +7,7 @@
     "tier3": 12,
     "researched": 32,
     "deepResearched": 32,
-    "withOpenRoles": 12,
+    "withOpenRoles": 13,
     "outreachSent": 0
   },
   "companies": [
@@ -432,24 +432,25 @@
       "tier": 1,
       "status": "Researched",
       "holdStock": false,
-      "recentFunding": false,
-      "noExecOps": null,
-      "strategicBacking": null,
+      "recentFunding": "$454M Series D (Mar 2025) at $1.5B valuation",
+      "noExecOps": false,
+      "strategicBacking": "Goldman Sachs Alternatives, Elephant Venture Capital",
       "notes": "$1.5B unicorn. Fleet ops platform.",
       "nextAction": "Research: Deep dive on Fleetio",
       "researchSummary": {
-        "lastResearched": null,
-        "source": null,
-        "fitScore": 87,
-        "ceo": "Jon Meachin",
+        "lastResearched": "2026-02-06",
+        "source": "Research",
+        "fitScore": 90,
+        "ceo": "Jon Meachin (since May 2023)",
         "challenges": [
-          "VP, Business Operations: Tobias Muellner",
-          "No COO (Jon Meachin vacated role when promoted to CEO)",
-          "VP, Customer Experience: Jessica Underbrink",
-          "VP, Program Management: Sharon Schindler",
-          "**COO/VP Operations** - Post-acquisition integration of Auto Integrate is a massive ops challenge. No backfill when Meachin became CEO."
+          "Post-acquisition integration (Auto Integrate into unified platform)",
+          "Scaling workflows for outsourced maintenance ecosystem (110k shops)",
+          "Managing diverse fleet types across global multi-site operations",
+          "Rising service/maintenance costs and parts availability challenges",
+          "Adoption of new fuels and fleet technologies amid compliance complexity"
         ],
-        "hasOpsRoles": false
+        "hasOpsRoles": true,
+        "coo": "Matt Mandel (CFO & COO since Nov 2023)"
       }
     },
     {
