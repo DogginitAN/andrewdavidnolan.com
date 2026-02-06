@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-02-06T12:56:43.551287",
+  "lastUpdated": "2026-02-06T12:58:56.599126",
   "metrics": {
     "total": 52,
     "tier1": 15,
     "tier2": 25,
     "tier3": 12,
-    "researched": 50,
-    "deepResearched": 50,
+    "researched": 51,
+    "deepResearched": 51,
     "withOpenRoles": 40,
     "outreachSent": 0
   },
@@ -1721,13 +1721,28 @@
       "hq": "Los Angeles, CA",
       "score": 67,
       "tier": 3,
-      "status": "Identified",
+      "status": "Researched",
       "holdStock": true,
-      "recentFunding": false,
-      "noExecOps": null,
-      "strategicBacking": null,
+      "recentFunding": "IPO 2021 raised $100M+, focus on operational cash flow",
+      "noExecOps": true,
+      "strategicBacking": "Public (NASDAQ: HNST), partnerships with Disney/Target/Walmart",
       "notes": "Needs ops turnaround.",
-      "nextAction": "Research: Deep dive on Honest Company"
+      "nextAction": "Research: Deep dive on Honest Company",
+      "researchSummary": {
+        "lastResearched": "2026-02-06",
+        "coo": "None identified (ops under Etienne von Kunssberg, SVP Supply Chain)",
+        "fitScore": 67,
+        "challenges": [
+          "Transformation 2.0 execution - exiting DTC/Canada (~22% revenue impact)",
+          "Supply chain volatility and 2026 tariff risks (20-40% increases)",
+          "Retail channel optimization (Target 30%, Walmart 9% dependency)",
+          "Margin enhancement while maintaining clean ingredient sourcing",
+          "Inventory/forecasting optimization for contract manufacturing model"
+        ],
+        "ceo": "Carla Vern\u00f3n (CEO since 2023, ex-Amazon VP/General Mills, first Afro-Latina public CEO)",
+        "source": "Research",
+        "hasOpsRoles": false
+      }
     },
     {
       "id": 52,
