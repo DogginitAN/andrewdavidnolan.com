@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-02-06T12:36:33.491471",
+  "lastUpdated": "2026-02-06T12:38:47.703664",
   "metrics": {
     "total": 52,
     "tier1": 15,
     "tier2": 25,
     "tier3": 12,
-    "researched": 43,
-    "deepResearched": 43,
+    "researched": 44,
+    "deepResearched": 44,
     "withOpenRoles": 36,
     "outreachSent": 0
   },
@@ -1483,13 +1483,28 @@
       "hq": "Redwood City, CA",
       "score": 72,
       "tier": 3,
-      "status": "Identified",
+      "status": "Researched",
       "holdStock": true,
-      "recentFunding": false,
-      "noExecOps": null,
-      "strategicBacking": null,
+      "recentFunding": "$9.058B TTM revenue, $500M+ convertible notes (Nov 2025)",
+      "noExecOps": false,
+      "strategicBacking": "Public REIT, xScale JVs with GIC/OTPP, nuclear/SMR partnerships",
       "notes": "Massive but ops-intensive.",
-      "nextAction": "Research: Deep dive on Equinix"
+      "nextAction": "Research: Deep dive on Equinix",
+      "researchSummary": {
+        "lastResearched": "2026-02-06",
+        "challenges": [
+          "Securing sufficient power and managing grid constraints for AI/HPC workloads",
+          "Managing rising energy costs and supply chain shortages for data center equipment",
+          "Coordinating global expansion across 273+ IBX data centers in 74 metros",
+          "Optimizing cooling and power efficiency for high-density AI operations",
+          "Executing large-scale joint venture developments amid regulatory compliance"
+        ],
+        "source": "Research",
+        "hasOpsRoles": false,
+        "coo": "Raouf Abdel (EVP Global Operations since 2012, 30+ years data center/telecom)",
+        "ceo": "Adaire Fox-Martin (CEO since June 2024, former Google Cloud President, SAP/Oracle exec)",
+        "fitScore": 72
+      }
     },
     {
       "id": 45,
