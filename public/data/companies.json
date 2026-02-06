@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-02-06T12:26:03.467927",
+  "lastUpdated": "2026-02-06T12:29:33.812649",
   "metrics": {
     "total": 52,
     "tier1": 15,
     "tier2": 25,
     "tier3": 12,
-    "researched": 40,
-    "deepResearched": 40,
-    "withOpenRoles": 33,
+    "researched": 41,
+    "deepResearched": 41,
+    "withOpenRoles": 34,
     "outreachSent": 0
   },
   "companies": [
@@ -1381,13 +1381,28 @@
       "hq": "Lynchburg, VA",
       "score": 74,
       "tier": 3,
-      "status": "Identified",
+      "status": "Researched",
       "holdStock": true,
-      "recentFunding": false,
-      "noExecOps": null,
-      "strategicBacking": null,
+      "recentFunding": "$2.7B revenue (2024), $500M+ convertible notes (Nov 2025)",
+      "noExecOps": true,
+      "strategicBacking": "$7.4B backlog, $1.5B NNSA contracts, Navy/DOE partnerships",
       "notes": "Naval reactors.",
-      "nextAction": "Research: Deep dive on BWX Technologies"
+      "nextAction": "Research: Deep dive on BWX Technologies",
+      "researchSummary": {
+        "lastResearched": "2026-02-06",
+        "ceo": "Rex D. Geveden (President/CEO since 2017, former NSA Deputy Director)",
+        "fitScore": 74,
+        "coo": "None identified - segment presidents manage operations",
+        "hasOpsRoles": true,
+        "challenges": [
+          "Scaling domestic uranium enrichment amid geopolitical supply risks",
+          "Managing nuclear-grade supply chain with long-lead specialized materials",
+          "Coordinating operations across 20+ manufacturing sites globally",
+          "Ensuring regulatory compliance across NRC/DOE/nuclear safety requirements",
+          "Talent acquisition in specialized nuclear manufacturing fields"
+        ],
+        "source": "Research"
+      }
     },
     {
       "id": 42,
