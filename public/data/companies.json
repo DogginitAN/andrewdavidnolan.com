@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-06T11:54:51.211741",
+  "lastUpdated": "2026-02-06T12:00:01.851861",
   "metrics": {
     "total": 52,
     "tier1": 15,
@@ -7,7 +7,7 @@
     "tier3": 12,
     "researched": 32,
     "deepResearched": 32,
-    "withOpenRoles": 26,
+    "withOpenRoles": 27,
     "outreachSent": 0
   },
   "companies": [
@@ -1043,18 +1043,25 @@
       "tier": 2,
       "status": "Researched",
       "holdStock": true,
-      "recentFunding": false,
+      "recentFunding": "Public company since 2021, operational cash flow funding growth",
       "noExecOps": null,
-      "strategicBacking": null,
+      "strategicBacking": "Public NYSE:HIMS, $2.21B TTM revenue, profitable with positive EBITDA",
       "notes": "CPG + distribution overlap.",
       "nextAction": "Research: Deep dive on Hims & Hers",
       "researchSummary": {
-        "lastResearched": "2026-02-05",
-        "source": "external",
-        "fitScore": 6.0,
-        "ceo": "Andrew Dudum",
-        "coo": "Mike Chi",
-        "hasOpsRoles": false
+        "lastResearched": "2026-02-06",
+        "source": "Research",
+        "fitScore": 85,
+        "ceo": "Andrew Dudum (Co-founder/CEO since 2017, ex-Atomic venture studio)",
+        "coo": "Mike Chi (COO since Nov 2025, 20+ years consumer DTC operations)",
+        "hasOpsRoles": true,
+        "challenges": [
+          "Scaling compounding pharmacy operations amid regulatory volatility",
+          "Managing supply chain for GLP-1 active ingredients",
+          "Discreet/fast DTC logistics nationwide for millions of subscribers",
+          "Vertical integration for manufacturing control",
+          "Navigating FDA regulatory complexities in pharmacy operations"
+        ]
       }
     },
     {
