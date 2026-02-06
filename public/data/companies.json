@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-05T17:17:00.465194",
+  "lastUpdated": "2026-02-06T09:02:51.249977",
   "metrics": {
     "total": 52,
     "tier1": 15,
@@ -7,7 +7,7 @@
     "tier3": 12,
     "researched": 32,
     "deepResearched": 32,
-    "withOpenRoles": 11,
+    "withOpenRoles": 12,
     "outreachSent": 0
   },
   "companies": [
@@ -398,25 +398,25 @@
       "tier": 1,
       "status": "Researched",
       "holdStock": true,
-      "recentFunding": false,
-      "noExecOps": null,
-      "strategicBacking": null,
+      "recentFunding": "Public (NYSE: SMR), $148.5M milestone potential from Fluor",
+      "noExecOps": false,
+      "strategicBacking": "ENTRA1 Energy, Fluor, Doosan Enerbility partnerships",
       "notes": "Furthest along NRC approval.",
       "nextAction": "Research: Deep dive on NuScale Power",
       "researchSummary": {
-        "lastResearched": null,
-        "source": null,
-        "fitScore": 68,
-        "ceo": "John L. Hopkins",
-        "coo": "Carl Fisher",
+        "lastResearched": "2026-02-06",
+        "source": "Research",
+        "fitScore": 80,
+        "ceo": "John Hopkins",
+        "coo": "Carl Fisher (since Jul 2023)",
         "challenges": [
-          "**COO: Carl Fisher** - Strong nuclear background (Navy nuclear, Framatome)",
-          "VP Engineering: J.J. Arthur",
-          "VP Product & Project Delivery: Karin Feldman",
-          "VP Quality Assurance: Carolyn Monaco",
-          "VP Regulatory Affairs: Carrie Fosaaen"
+          "Execution risks on large projects (6GW program, FID late 2026)",
+          "Cost overruns and construction delays in commercialization",
+          "Supply chain complexity for nuclear-specific module components",
+          "Regulatory compliance across new international markets",
+          "Competition from renewables and gas technologies"
         ],
-        "hasOpsRoles": false
+        "hasOpsRoles": true
       }
     },
     {
