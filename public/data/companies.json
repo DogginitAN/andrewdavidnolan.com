@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-06T09:36:36.665878",
+  "lastUpdated": "2026-02-06T09:45:54.444449",
   "metrics": {
     "total": 52,
     "tier1": 15,
@@ -7,7 +7,7 @@
     "tier3": 12,
     "researched": 32,
     "deepResearched": 32,
-    "withOpenRoles": 16,
+    "withOpenRoles": 17,
     "outreachSent": 0
   },
   "companies": [
@@ -602,24 +602,25 @@
       "tier": 2,
       "status": "Researched",
       "holdStock": false,
-      "recentFunding": false,
-      "noExecOps": null,
-      "strategicBacking": null,
+      "recentFunding": "$12M Series A (Mar 2025) led by Amazon/Doosan/Coupang, $22M total",
+      "noExecOps": true,
+      "strategicBacking": "Amazon Industrial Innovation Fund, Doosan, Coupang strategic backing",
       "notes": "Amazon fund backing.",
       "nextAction": "Research: Deep dive on Contoro Robotics",
       "researchSummary": {
-        "lastResearched": null,
-        "source": null,
-        "fitScore": 83,
-        "ceo": "Youngmok \"Mok\" Yun",
+        "lastResearched": "2026-02-06",
+        "source": "Research",
+        "fitScore": 92,
+        "ceo": "Youngmok Yun (Founder/CEO since 2022, PhD robotics, ex-Harmonic Bionics)",
         "challenges": [
-          "**CEO: Youngmok Yun** - Founder, overall vision and technology strategy",
-          "**Head of Strategy & Ops: Diganto Choudhury** - Business operations, fundraising, commercialization",
-          "**Head of Customer Ops: John** - 20+ years warehouse ops experience, manages deployments",
-          "**Head of Systems Engineering: Rohit Varghese** - Product management, technical systems",
-          "**No dedicated COO** - typical for early Series A startup"
+          "Achieving 99%+ reliability across diverse warehouse environments",
+          "Managing edge cases requiring human-in-the-loop intervention",
+          "Supply chain vulnerabilities for robot components",
+          "Talent shortages in robotics engineering",
+          "Balancing rapid expansion with cost control"
         ],
-        "hasOpsRoles": false
+        "hasOpsRoles": true,
+        "coo": "None identified - ops centralized under CEO"
       }
     },
     {
