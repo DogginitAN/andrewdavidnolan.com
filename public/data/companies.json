@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-06T10:14:54.764302",
+  "lastUpdated": "2026-02-06T10:19:22.837514",
   "metrics": {
     "total": 52,
     "tier1": 15,
@@ -874,24 +874,25 @@
       "tier": 2,
       "status": "Researched",
       "holdStock": false,
-      "recentFunding": false,
-      "noExecOps": null,
-      "strategicBacking": null,
+      "recentFunding": "$120M Series D (Jan 2026) led by Mitsubishi Electric, $1.3B valuation",
+      "noExecOps": true,
+      "strategicBacking": "Mitsubishi Electric strategic alliance, AWS Industrial Competency, DMG MORI",
       "notes": "Mitsubishi backing.",
       "nextAction": "Research: Deep dive on Tulip",
       "researchSummary": {
-        "lastResearched": null,
-        "source": null,
-        "fitScore": 80,
-        "ceo": "Dr. Natan Linder",
+        "lastResearched": "2026-02-06",
+        "source": "Research",
+        "fitScore": 85,
+        "ceo": "Natan Linder (Co-founder/CEO since 2012, MIT Media Lab PhD, ex-Formlabs)",
         "challenges": [
-          "CEO-led with functional heads",
-          "No dedicated COO or VP Operations visible",
-          "Growing from startup to scale-up operationally",
-          "135% headcount growth over past 3 years (to ~369 employees)",
-          "**COO/VP Operations** - Rapid 135% growth and global expansion creates operational complexity"
+          "Productivity stalls despite automation",
+          "Volatile supply chains and demand shifts",
+          "Skilled labor shortages (1.9M unfilled US jobs by 2033)",
+          "Rigid legacy systems limiting agility",
+          "AI adoption/execution on shop floor"
         ],
-        "hasOpsRoles": false
+        "hasOpsRoles": false,
+        "coo": "None identified - operations under CEO and product leaders"
       }
     },
     {
