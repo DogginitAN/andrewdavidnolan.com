@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-06T10:07:06.443214",
+  "lastUpdated": "2026-02-06T10:11:16.697413",
   "metrics": {
     "total": 52,
     "tier1": 15,
@@ -7,7 +7,7 @@
     "tier3": 12,
     "researched": 32,
     "deepResearched": 32,
-    "withOpenRoles": 21,
+    "withOpenRoles": 22,
     "outreachSent": 0
   },
   "companies": [
@@ -806,25 +806,25 @@
       "tier": 2,
       "status": "Researched",
       "holdStock": true,
-      "recentFunding": false,
+      "recentFunding": "$100M equipment financing (Jul 2025), $850M convertible notes",
       "noExecOps": null,
-      "strategicBacking": null,
+      "strategicBacking": "Verizon, AT&T, Vodafone partnerships, Alphabet 3.22% stake, defense contracts",
       "notes": "Satellite constellation. Hardware scaling.",
       "nextAction": "Research: Deep dive on AST SpaceMobile",
       "researchSummary": {
-        "lastResearched": null,
-        "source": null,
-        "fitScore": 80,
-        "ceo": "Abel Avellan",
-        "coo": "Shanti Gupta",
+        "lastResearched": "2026-02-06",
+        "source": "Research",
+        "fitScore": 78,
+        "ceo": "Abel Avellan (Founder/CEO since 2017, telecom entrepreneur, sold EMC $550M)",
+        "coo": "Shanti Gupta (COO since Jun 2024, prev Chief Accounting Officer)",
         "challenges": [
-          "**COO: Shanti Gupta** - Appointed June 2024, finance/operations background",
-          "CFO/CLO: Andrew Johnson",
-          "VP Production: John Joyce",
-          "VP Satellite & Ground Operations: Robert Bassham",
-          "SVP Engineering: Roy Sofer"
+          "Satellite manufacturing/launch delays pushing production to 2026",
+          "Supply chain bottlenecks for phased arrays and ASICs",
+          "High cash burn ~$1.45B annualized",
+          "Execution risks on $20B backlog",
+          "Scaling to 6+ satellites/month production rate"
         ],
-        "hasOpsRoles": false
+        "hasOpsRoles": true
       }
     },
     {
