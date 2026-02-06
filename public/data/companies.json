@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-02-06T12:44:32.451932",
+  "lastUpdated": "2026-02-06T12:46:53.875500",
   "metrics": {
     "total": 52,
     "tier1": 15,
     "tier2": 25,
     "tier3": 12,
-    "researched": 46,
-    "deepResearched": 46,
-    "withOpenRoles": 37,
+    "researched": 47,
+    "deepResearched": 47,
+    "withOpenRoles": 38,
     "outreachSent": 0
   },
   "companies": [
@@ -1585,13 +1585,28 @@
       "hq": "Carson City, NV",
       "score": 71,
       "tier": 3,
-      "status": "Identified",
+      "status": "Researched",
       "holdStock": false,
-      "recentFunding": false,
-      "noExecOps": null,
-      "strategicBacking": null,
+      "recentFunding": "$425M Series E (Jan 2026), $6B+ valuation, $200M revenue (2024)",
+      "noExecOps": false,
+      "strategicBacking": "NVIDIA, Google, Goldman Sachs, $2B DOE loan, Tesla founder credibility",
       "notes": "Battery recycling.",
-      "nextAction": "Research: Deep dive on Redwood Materials"
+      "nextAction": "Research: Deep dive on Redwood Materials",
+      "researchSummary": {
+        "lastResearched": "2026-02-06",
+        "hasOpsRoles": true,
+        "coo": "Chris Lister (COO since at least 2025, operations and scaling background)",
+        "source": "Research",
+        "ceo": "JB Straubel (Founder/CEO since 2017, Tesla co-founder and former CTO, Gigafactory 1)",
+        "challenges": [
+          "Scaling advanced battery recycling while maintaining 95-98% material recovery rates",
+          "Competing with declining new battery prices from China devaluing recycled materials",
+          "Managing supply chain disruptions from trade tensions and rare earth dependencies",
+          "Integrating diverse battery chemistries in nationwide collection and processing",
+          "Pivoting to energy storage deployments while maintaining recycling operations"
+        ],
+        "fitScore": 84
+      }
     },
     {
       "id": 48,
