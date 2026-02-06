@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-02-06T12:15:27.380481",
+  "lastUpdated": "2026-02-06T12:19:14.646464",
   "metrics": {
     "total": 52,
     "tier1": 15,
     "tier2": 25,
     "tier3": 12,
-    "researched": 37,
-    "deepResearched": 37,
+    "researched": 38,
+    "deepResearched": 38,
     "withOpenRoles": 32,
     "outreachSent": 0
   },
@@ -1279,13 +1279,28 @@
       "hq": "San Francisco, CA",
       "score": 76,
       "tier": 2,
-      "status": "Identified",
+      "status": "Researched",
       "holdStock": false,
-      "recentFunding": false,
-      "noExecOps": null,
-      "strategicBacking": null,
+      "recentFunding": "$1.5B Series E (Nov 2025), targeting H2 2026 IPO",
+      "noExecOps": false,
+      "strategicBacking": "Microsoft multibillion-dollar deal, NVIDIA partnership, TWG Global, USIT",
       "notes": "Inference hardware.",
-      "nextAction": "Research: Deep dive on Lambda"
+      "nextAction": "Research: Deep dive on Lambda",
+      "researchSummary": {
+        "lastResearched": "2026-02-06",
+        "ceo": "Stephen Balaban (Co-founder and CEO since 2012)",
+        "coo": "Leonard Speiser (appointed January 8, 2026 - <1 month tenure)",
+        "fitScore": 89,
+        "hasOpsRoles": false,
+        "challenges": [
+          "Nvidia GPU supply shortages with 9-12 month lead times",
+          "Power constraints for gigawatt-scale AI factories deployment",
+          "Scaling production for 10,000+ GPU clusters amid supply dependency",
+          "Managing multi-year hyperscaler contracts and demand surge",
+          "Building resilient ops in power-constrained data center environments"
+        ],
+        "source": "Research"
+      }
     },
     {
       "id": 39,
