@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-06T10:19:22.837514",
+  "lastUpdated": "2026-02-06T10:22:42.364902",
   "metrics": {
     "total": 52,
     "tier1": 15,
@@ -7,7 +7,7 @@
     "tier3": 12,
     "researched": 32,
     "deepResearched": 32,
-    "withOpenRoles": 23,
+    "withOpenRoles": 24,
     "outreachSent": 0
   },
   "companies": [
@@ -908,25 +908,25 @@
       "tier": 2,
       "status": "Researched",
       "holdStock": false,
-      "recentFunding": false,
-      "noExecOps": null,
-      "strategicBacking": null,
+      "recentFunding": "$2.5B Series G (Jun 2025) led by Founders Fund, $30.5B valuation",
+      "noExecOps": true,
+      "strategicBacking": "Founders Fund lead, DoD contracts, SHIELD $151B IDIQ, international allies",
       "notes": "Massive ops complexity.",
       "nextAction": "Research: Deep dive on Anduril",
       "researchSummary": {
-        "lastResearched": null,
-        "source": null,
-        "fitScore": 79,
-        "ceo": "Brian Schimpf",
-        "coo": "Matt Grimm",
+        "lastResearched": "2026-02-06",
+        "source": "Research",
+        "fitScore": 88,
+        "ceo": "Brian Schimpf (CEO since 2017, defense tech background, ex-Polaris Alpha)",
+        "coo": "None identified - operations under CEO and segment leads",
         "challenges": [
-          "**CEO: Brian Schimpf** - Operational leadership",
-          "**COO: Matt Grimm** - Co-founder, operations",
-          "**President & CBO: Matthew Steckman** - Corporate ops, business performance",
-          "**President & CSO: Christian Brose** - Strategy, BD, international",
-          "**COO position is filled** by co-founder Matt Grimm"
+          "Scaling production rapidly (Arsenal-1 ramp, SRM to 6K/year)",
+          "Supply chain resiliency and geopolitical risks",
+          "Labor shortages and high manufacturing costs",
+          "Tech reliability issues and safety breakdowns",
+          "Government contract delays and execution risks"
         ],
-        "hasOpsRoles": false
+        "hasOpsRoles": true
       }
     },
     {
