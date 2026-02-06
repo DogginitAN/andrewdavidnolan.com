@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-02-06T12:08:24.314282",
+  "lastUpdated": "2026-02-06T12:11:18.474427",
   "metrics": {
     "total": 52,
     "tier1": 15,
     "tier2": 25,
     "tier3": 12,
-    "researched": 34,
-    "deepResearched": 34,
+    "researched": 35,
+    "deepResearched": 35,
     "withOpenRoles": 30,
     "outreachSent": 0
   },
@@ -1196,13 +1196,28 @@
       "hq": "Bellevue, WA",
       "score": 77,
       "tier": 2,
-      "status": "Identified",
+      "status": "Researched",
       "holdStock": false,
-      "recentFunding": false,
-      "noExecOps": null,
-      "strategicBacking": null,
+      "recentFunding": "$650M Series (June 2025) led by Gates + NVIDIA",
+      "noExecOps": false,
+      "strategicBacking": "Bill Gates (Chairman), NVIDIA NVentures, SK, HD Hyundai, DOE ARDP $2B",
       "notes": "Bill Gates backed.",
-      "nextAction": "Research: Deep dive on TerraPower"
+      "nextAction": "Research: Deep dive on TerraPower",
+      "researchSummary": {
+        "lastResearched": "2026-02-06",
+        "fitScore": 89,
+        "challenges": [
+          "Scaling first-of-a-kind sodium reactor manufacturing and supply chain",
+          "HALEU/TRISO fuel supply chain development and qualification",
+          "Multi-site EPC coordination and nuclear commissioning processes",
+          "Workforce training pipeline for SROs and nuclear operators",
+          "Cost and schedule discipline during demo-to-fleet transition"
+        ],
+        "hasOpsRoles": false,
+        "ceo": "Chris Levesque (President & CEO since 2018)",
+        "coo": "Eric Williams (promoted to first EVP & COO May 2025)",
+        "source": "Research"
+      }
     },
     {
       "id": 37,
