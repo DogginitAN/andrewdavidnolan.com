@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-02-06T12:02:18.645467",
+  "lastUpdated": "2026-02-06T12:04:26.240106",
   "metrics": {
     "total": 52,
     "tier1": 15,
     "tier2": 25,
     "tier3": 12,
-    "researched": 32,
-    "deepResearched": 32,
-    "withOpenRoles": 28,
+    "researched": 33,
+    "deepResearched": 33,
+    "withOpenRoles": 29,
     "outreachSent": 0
   },
   "companies": [
@@ -1109,13 +1109,28 @@
       "hq": "San Diego, CA",
       "score": 78,
       "tier": 2,
-      "status": "Identified",
+      "status": "Researched",
       "holdStock": false,
-      "recentFunding": false,
-      "noExecOps": null,
-      "strategicBacking": null,
+      "recentFunding": "$240M Series F-1 (Mar 2025), $5.3B valuation, $1.4B total equity",
+      "noExecOps": true,
+      "strategicBacking": "L3Harris, Hanwha strategic investors, DoD contracts, international partnerships",
       "notes": "Defense. Scaling production.",
-      "nextAction": "Research: Deep dive on Shield AI"
+      "nextAction": "Research: Deep dive on Shield AI",
+      "researchSummary": {
+        "lastResearched": "2026-02-06",
+        "ceo": "Gary Steele (CEO since May 2025, ex-Splunk CEO, 30+ years scaling global tech)",
+        "challenges": [
+          "Scaling hardware production/safety post-incident scrutiny",
+          "Managing complex defense supply chains and contracting",
+          "Field deployments in contested environments globally",
+          "Integrating autonomy across diverse partner platforms",
+          "Rapid growth amid regulatory and DoD timeline pressures"
+        ],
+        "source": "Research",
+        "fitScore": 90,
+        "hasOpsRoles": true,
+        "coo": "None identified - operations opportunity exists"
+      }
     },
     {
       "id": 34,
