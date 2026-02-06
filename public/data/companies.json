@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-06T09:12:46.438874",
+  "lastUpdated": "2026-02-06T09:25:13.245253",
   "metrics": {
     "total": 52,
     "tier1": 15,
@@ -7,7 +7,7 @@
     "tier3": 12,
     "researched": 32,
     "deepResearched": 32,
-    "withOpenRoles": 13,
+    "withOpenRoles": 14,
     "outreachSent": 0
   },
   "companies": [
@@ -466,25 +466,25 @@
       "tier": 1,
       "status": "Researched",
       "holdStock": true,
-      "recentFunding": false,
-      "noExecOps": null,
-      "strategicBacking": null,
+      "recentFunding": "No funding - public growth via Wincanton acquisition 2025",
+      "noExecOps": false,
+      "strategicBacking": "Public company (NYSE: GXO), institutional investors",
       "notes": "Pure-play 3PL. Direct fit.",
       "nextAction": "Research: Deep dive on GXO Logistics",
       "researchSummary": {
-        "lastResearched": null,
-        "source": null,
-        "fitScore": 85,
-        "ceo": "Patrick Kelleher",
-        "coo": "Bart Beeks",
+        "lastResearched": "2026-02-06",
+        "source": "Research",
+        "fitScore": 90,
+        "ceo": "Patrick Kelleher (Aug 2025, ex-CEO DHL Supply Chain)",
+        "coo": "Bart Beeks (Jan 2026, supply chain leader)",
         "challenges": [
-          "COO: Bart Beeks (newly appointed Jan 2026)",
-          "President, Americas & APAC: Michael Jacobs",
-          "President, UK & Ireland: Gavin Williams",
-          "President, Continental Europe: Paul Mohan",
-          "Multi-site integration experience (Wincanton)"
+          "Wincanton integration across UK/Europe operations",
+          "Labor shortages and rising operational costs",
+          "Automation/AI adoption across 1000+ warehouses",
+          "Macroeconomic volatility affecting inventory patterns",
+          "Global supply chain complexity across 27 countries"
         ],
-        "hasOpsRoles": false
+        "hasOpsRoles": true
       }
     },
     {
