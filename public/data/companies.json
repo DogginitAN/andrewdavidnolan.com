@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-06T10:30:48.137632",
+  "lastUpdated": "2026-02-06T11:54:51.211741",
   "metrics": {
     "total": 52,
     "tier1": 15,
@@ -7,7 +7,7 @@
     "tier3": 12,
     "researched": 32,
     "deepResearched": 32,
-    "withOpenRoles": 25,
+    "withOpenRoles": 26,
     "outreachSent": 0
   },
   "companies": [
@@ -1009,18 +1009,25 @@
       "tier": 2,
       "status": "Researched",
       "holdStock": true,
-      "recentFunding": false,
+      "recentFunding": "Public NYSE:QS, ~$1B cash runway through 2029, PowerCo partnership",
       "noExecOps": null,
-      "strategicBacking": null,
+      "strategicBacking": "Volkswagen PowerCo $130M, JB Straubel (Tesla) board, Bill Gates investor",
       "notes": "R&D\u2192Manufacturing transition.",
       "nextAction": "Research: Deep dive on QuantumScape",
       "researchSummary": {
-        "lastResearched": "2026-02-05",
-        "source": "external",
-        "fitScore": 6.0,
-        "ceo": "Dr. Siva Sivaram",
-        "coo": "Dr. Luca Fasoli",
-        "hasOpsRoles": false
+        "lastResearched": "2026-02-06",
+        "source": "Research",
+        "fitScore": 88,
+        "ceo": "Dr. Siva Sivaram (CEO since Feb 2024, PhD Materials Science, ex-Western Digital President)",
+        "coo": "Luca Fasoli (COO since Oct 2024, semiconductor operations background)",
+        "hasOpsRoles": true,
+        "challenges": [
+          "Scaling separator production (Cobra/Eagle processes)",
+          "Process consistency and yield optimization",
+          "Supply chain for rare materials (lithium, ceramics)",
+          "Meeting OEM validation timelines for 2026 revenue",
+          "Competition from other solid-state developers"
+        ]
       }
     },
     {
