@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-06T09:51:15.266084",
+  "lastUpdated": "2026-02-06T09:55:46.820261",
   "metrics": {
     "total": 52,
     "tier1": 15,
@@ -7,7 +7,7 @@
     "tier3": 12,
     "researched": 32,
     "deepResearched": 32,
-    "withOpenRoles": 18,
+    "withOpenRoles": 19,
     "outreachSent": 0
   },
   "companies": [
@@ -704,24 +704,25 @@
       "tier": 2,
       "status": "Researched",
       "holdStock": false,
-      "recentFunding": false,
-      "noExecOps": null,
-      "strategicBacking": null,
+      "recentFunding": "$305M Series B (Feb 2025) led by General Catalyst, $533M total",
+      "noExecOps": true,
+      "strategicBacking": "NVIDIA partnership, Meta PyTorch integration, $3.3B valuation",
       "notes": "$3.3B valuation.",
       "nextAction": "Research: Deep dive on Together AI",
       "researchSummary": {
-        "lastResearched": null,
-        "source": null,
-        "fitScore": 81,
-        "ceo": "Vipul Ved Prakash",
+        "lastResearched": "2026-02-06",
+        "source": "Research",
+        "fitScore": 88,
+        "ceo": "Vipul Ved Prakash (Co-Founder/CEO since 2022, ex-Apple/Topsy)",
         "challenges": [
-          "No COO or VP Operations listed",
-          "Director of People & Ops: Nicolette Lea (HR focus)",
-          "VP of Revenue Operations: Namrata Ram",
-          "VP of Infrastructure Strategy: Alon Gavrielov",
-          "Finance: SVP of Finance (Meicheng Shi), Senior GL Accountant role open"
+          "Scaling GPU infrastructure amid Nvidia chip shortages",
+          "Maintaining cost efficiency in cloud operations",
+          "Ensuring 99.9% SLA uptime for production AI",
+          "Balancing open-source contributions with monetization",
+          "Talent acquisition in competitive AI market"
         ],
-        "hasOpsRoles": false
+        "hasOpsRoles": true,
+        "coo": "None identified - ops under Director level"
       }
     },
     {
