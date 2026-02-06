@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-06T09:45:54.444449",
+  "lastUpdated": "2026-02-06T09:51:15.266084",
   "metrics": {
     "total": 52,
     "tier1": 15,
@@ -7,7 +7,7 @@
     "tier3": 12,
     "researched": 32,
     "deepResearched": 32,
-    "withOpenRoles": 17,
+    "withOpenRoles": 18,
     "outreachSent": 0
   },
   "companies": [
@@ -670,24 +670,25 @@
       "tier": 2,
       "status": "Researched",
       "holdStock": false,
-      "recentFunding": false,
-      "noExecOps": null,
-      "strategicBacking": null,
+      "recentFunding": "A$830M ($547M) in 6 months - A$500M Nov 2025 + A$330M Sep 2025",
+      "noExecOps": true,
+      "strategicBacking": "NVIDIA investor/partner, Blackstone $3.5B loan, A$6B valuation",
       "notes": "NVIDIA backing.",
       "nextAction": "Research: Deep dive on Firmus Technologies",
       "researchSummary": {
-        "lastResearched": null,
-        "source": null,
+        "lastResearched": "2026-02-06",
+        "source": "Research",
         "fitScore": 82,
-        "ceo": "Tim Rosenfield",
+        "ceo": "Oliver Curtis & Tim Rosenfield (Co-CEOs/Co-Founders since 2019)",
         "challenges": [
-          "Co-CEOs: Oliver Curtis + Tim Rosenfield",
-          "CFO: Kirsty Godfrey-Billy (new 2025)",
-          "**No COO or VP Operations identified**",
-          "Senior Operations Manager role open (Melbourne)",
-          "**Senior Operations Leadership** - No COO/VP Ops for massive $73.3B buildout"
+          "Scaling immersion cooling across diverse climates",
+          "Securing renewable power amid grid constraints",
+          "Supply chain dependencies for Nvidia chips/components",
+          "Talent acquisition for specialized AI/hardware roles",
+          "Regulatory approvals for large-scale facilities"
         ],
-        "hasOpsRoles": false
+        "hasOpsRoles": true,
+        "coo": "None identified - operations under Co-CEOs"
       }
     },
     {
