@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-02-06T12:13:51.578751",
+  "lastUpdated": "2026-02-06T12:15:27.380481",
   "metrics": {
     "total": 52,
     "tier1": 15,
     "tier2": 25,
     "tier3": 12,
-    "researched": 36,
-    "deepResearched": 36,
-    "withOpenRoles": 31,
+    "researched": 37,
+    "deepResearched": 37,
+    "withOpenRoles": 32,
     "outreachSent": 0
   },
   "companies": [
@@ -1245,13 +1245,28 @@
       "hq": "Westerville, OH",
       "score": 76,
       "tier": 2,
-      "status": "Identified",
+      "status": "Researched",
       "holdStock": true,
-      "recentFunding": false,
-      "noExecOps": null,
-      "strategicBacking": null,
+      "recentFunding": "Public company - $8.4B revenue FY2025, $68B market cap",
+      "noExecOps": false,
+      "strategicBacking": "Bill Gates and NVIDIA NVentures ($650M June 2025), Caterpillar partnership",
       "notes": "Cooling/power for AI data centers.",
-      "nextAction": "Research: Deep dive on Vertiv Holdings"
+      "nextAction": "Research: Deep dive on Vertiv Holdings",
+      "researchSummary": {
+        "lastResearched": "2026-02-06",
+        "hasOpsRoles": true,
+        "challenges": [
+          "Tariff pressures and supply chain cost mitigation",
+          "Manufacturing transition costs and operational inefficiencies",
+          "Managing accelerated capacity expansions for AI growth",
+          "Skilled labor shortages in specialized manufacturing",
+          "Global supply chain optimization amid geopolitical risks"
+        ],
+        "fitScore": 82,
+        "source": "Research",
+        "ceo": "Giordano Albertazzi (CEO since January 2023)",
+        "coo": "Eric Williams (EVP & COO appointed May 2025)"
+      }
     },
     {
       "id": 38,
