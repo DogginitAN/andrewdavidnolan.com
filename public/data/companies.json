@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-02-06T12:38:47.703664",
+  "lastUpdated": "2026-02-06T12:41:39.826960",
   "metrics": {
     "total": 52,
     "tier1": 15,
     "tier2": 25,
     "tier3": 12,
-    "researched": 44,
-    "deepResearched": 44,
+    "researched": 45,
+    "deepResearched": 45,
     "withOpenRoles": 36,
     "outreachSent": 0
   },
@@ -1517,13 +1517,28 @@
       "hq": "Thomasville, NC",
       "score": 72,
       "tier": 3,
-      "status": "Identified",
+      "status": "Researched",
       "holdStock": true,
-      "recentFunding": false,
-      "noExecOps": null,
-      "strategicBacking": null,
+      "recentFunding": "$5.81B revenue (2024), $1.31B Q4 2025 revenue, $1.54B operating income",
+      "noExecOps": false,
+      "strategicBacking": "Public company, strong cash flow generation, institutional backing",
       "notes": "Premium LTL. Mature.",
-      "nextAction": "Research: Deep dive on Old Dominion Freight"
+      "nextAction": "Research: Deep dive on Old Dominion Freight",
+      "researchSummary": {
+        "lastResearched": "2026-02-06",
+        "ceo": "Kevin \"Marty\" Freeman (CEO since July 2023, 45 years transportation, rose from dockworker to CEO)",
+        "source": "Research",
+        "fitScore": 82,
+        "hasOpsRoles": false,
+        "challenges": [
+          "Navigating soft domestic economy leading to 10.7% drop in LTL tons Q4 2025",
+          "Managing supply chain disruptions from equipment shortages and inflation",
+          "Optimizing network density across 261 service centers for profitability",
+          "Maintaining 99%+ on-time delivery rates amid demand fluctuations",
+          "Scaling digital integration and efficiency tools for competitive advantage"
+        ],
+        "coo": "Gregory B. Plemmons (EVP and COO since July 2023, 29 years with company, dock supervisor to COO)"
+      }
     },
     {
       "id": 46,
