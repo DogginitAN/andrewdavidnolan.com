@@ -479,32 +479,57 @@ export default function BuilderMode() {
             <div className="p-6 rounded-xl neon-card neon-border-purple group">
               <h3 className="text-xl font-semibold mb-2 text-white">🏛️ Hermes</h3>
               <p className="text-sm text-[#A500FF] mb-4">
-                Algorithmic crypto trading: momentum strategies, mean-reversion, automated execution
+                Autonomous trading infrastructure: prediction markets, crypto algos, live-event execution
               </p>
               
               <div className="mb-4">
                 <h4 className="text-sm font-semibold mb-2 text-[#B0B3B8]">The Problem</h4>
                 <p className="text-sm tron-text">
-                  Crypto markets run 24/7. Human traders can't. Emotional decisions destroy returns. 
-                  Most retail traders buy high and sell low because they can't execute disciplined 
-                  strategies consistently.
+                  Markets don&apos;t sleep, and the best edges are fleeting. Prediction markets move on 
+                  real-time information — a name dropped in a live press conference, a weather shift 
+                  mid-event. By the time a human reacts, the line has already moved.
                 </p>
               </div>
               
               <div className="mb-4">
                 <h4 className="text-sm font-semibold mb-2 text-[#B0B3B8]">The Solution</h4>
                 <p className="text-sm tron-text">
-                  Hermes executes systematic trading strategies without emotion or sleep. Runs 
-                  momentum and mean-reversion algorithms on BTC, ETH, SOL, and ADA. The 100%+ annual 
-                  returns in the crypto table above? That's Hermes. Named for the Greek god of trade 
-                  and messenger of the gods.
+                  Hermes is a fleet of headless autonomous agents that trade without human intervention. 
+                  Weather agents price meteorological data against prediction markets. Mention agents 
+                  monitor live event transcripts via Deepgram, executing trades the moment a keyword is 
+                  detected. Crypto algos run momentum and mean-reversion strategies 24/7 on Alpaca. No 
+                  dashboard, no UI — just agents executing in production. Named for the Greek god of 
+                  trade and messenger of the gods.
                 </p>
+              </div>
+
+              {/* Active Strategies */}
+              <div className="mb-4">
+                <h4 className="text-sm font-semibold mb-2 text-[#B0B3B8]">Active Strategies</h4>
+                <div className="grid grid-cols-2 gap-2">
+                  <div className="p-2 rounded bg-white/5 border border-white/10">
+                    <div className="text-xs font-semibold text-[#7DFDFE]">Weather</div>
+                    <div className="text-xs text-[#B0B3B8]">Meteorological → prediction markets</div>
+                  </div>
+                  <div className="p-2 rounded bg-white/5 border border-white/10">
+                    <div className="text-xs font-semibold text-[#7DFDFE]">Mention</div>
+                    <div className="text-xs text-[#B0B3B8]">Event monitoring → keyword triggers</div>
+                  </div>
+                  <div className="p-2 rounded bg-white/5 border border-white/10">
+                    <div className="text-xs font-semibold text-[#7DFDFE]">Live-Mention</div>
+                    <div className="text-xs text-[#B0B3B8]">Deepgram transcription → instant execution</div>
+                  </div>
+                  <div className="p-2 rounded bg-white/5 border border-white/10">
+                    <div className="text-xs font-semibold text-[#7DFDFE]">Crypto Algos</div>
+                    <div className="text-xs text-[#B0B3B8]">Momentum + mean-reversion on Alpaca</div>
+                  </div>
+                </div>
               </div>
               
               <div className="mb-4">
                 <h4 className="text-sm font-semibold mb-2 text-[#B0B3B8]">Tech Stack</h4>
                 <div className="flex flex-wrap gap-2">
-                  {['Python', 'CCXT', 'PostgreSQL', 'pandas', 'numpy', 'Telegram API'].map(tech => (
+                  {['Python', 'TradingView', 'Alpaca API', 'Deepgram', 'Kalshi', 'Polymarket'].map(tech => (
                     <span key={tech} className="px-2 py-1 text-xs rounded bg-white/5 text-[#B0B3B8] border border-white/10 font-mono">
                       {tech}
                     </span>
@@ -513,8 +538,8 @@ export default function BuilderMode() {
               </div>
               
               <div className="mb-4">
-                <span className="inline-block px-3 py-1 text-xs font-semibold rounded-full bg-[#F2A007]/10 text-[#F2A007] border border-[#F2A007]/30">
-                  Production
+                <span className="inline-block px-3 py-1 text-xs font-semibold rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/30">
+                  Live — Headless Agents in Production
                 </span>
               </div>
               
