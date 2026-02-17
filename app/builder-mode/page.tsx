@@ -152,7 +152,7 @@ export default function BuilderMode() {
                       ['ALB', '+119%'],
                       ['GOOGL', '+107%'],
                       ['IREN', '+96%'],
-                      ['SOFI Call', '+92%'],
+                      ['TER', '+138%'],
                       ['AMD', '+84%'],
                       ['SYM', '+80%'],
                     ].map(([ticker, gain]) => (
