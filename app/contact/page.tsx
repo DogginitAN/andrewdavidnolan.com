@@ -84,7 +84,7 @@ export default function Contact() {
       <div className="p-6 rounded-xl bg-neutral-50 dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800">
         <h2 className="font-semibold mb-4">Current Focus</h2>
         <p className="text-neutral-700 dark:text-neutral-300 leading-relaxed">
-          I operate at the intersection of atoms, bits, and people. Most companies break there. I build there.
+          I operate at the intersection of atoms, bits, and people. Most companies break there. I build..
         </p>
       </div>
     </div>
