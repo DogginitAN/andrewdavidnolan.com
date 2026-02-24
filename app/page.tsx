@@ -245,6 +245,41 @@ export default function Home() {
           </button>
         </div>
       </section>
+
+      {/* Testimonials */}
+      <section className="py-10 border-t border-neutral-200 dark:border-neutral-800">
+        <h2 className="text-sm md:text-base font-medium uppercase tracking-wider text-neutral-500 dark:text-neutral-400 mb-8 text-center">
+          What People Say
+        </h2>
+        <div className="max-w-2xl mx-auto space-y-6">
+          <div className="p-6 rounded-xl bg-neutral-50 dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800">
+            <p className="text-neutral-700 dark:text-neutral-300 italic leading-relaxed mb-4">
+              &ldquo;Leading a former startup inside a Fortune 250 company demands both entrepreneurial agility and corporate rigor. Andrew possesses both, consistently flexing across strategy, operations, and execution to take on whatever challenges the business demanded.&rdquo;
+            </p>
+            <div className="flex items-center gap-3">
+              <div>
+                <a
+                  href="https://www.linkedin.com/in/duffy/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-medium text-neutral-900 dark:text-neutral-100 hover:text-amber-600 dark:hover:text-amber-500 transition-colors"
+                >
+                  Jonathan Duffy
+                </a>
+                <span className="text-neutral-400 mx-2">·</span>
+                <a
+                  href="https://www.linkedin.com/in/duffy/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-neutral-500 dark:text-neutral-400 hover:text-amber-600 dark:hover:text-amber-500 transition-colors"
+                >
+                  LinkedIn ↗
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   )
 }
