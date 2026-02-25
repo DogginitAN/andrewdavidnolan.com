@@ -2,11 +2,12 @@ import Link from 'next/link'
 
 export default function Resume() {
   return (
-    <div className="py-8 md:py-12">
+    <div className="pt-20 md:pt-24 pb-8">
       <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-6 md:mb-8 gap-4">
         <div>
-          <h1 className="text-3xl md:text-4xl font-bold mb-2">Resume</h1>
-          <p className="text-neutral-600 dark:text-neutral-400 text-sm md:text-base">
+          <p className="text-xs font-semibold tracking-[0.15em] uppercase text-amber-600 dark:text-amber-500 mb-3">Resume</p>
+          <h1 className="font-['Syne'] font-extrabold text-3xl md:text-4xl tracking-tight mb-2">Andrew Nolan</h1>
+          <p className="text-[#525252] dark:text-[#a8a29e] text-sm md:text-base">
             I architect scalable systems that drive valuation and successful exits—proven by 3 acquisitions in 15 years.
           </p>
         </div>
@@ -14,25 +15,25 @@ export default function Resume() {
 
       {/* Lifetime Impact Dashboard */}
       <div className="mb-12">
-        <h2 className="text-sm uppercase tracking-wider text-amber-600 dark:text-amber-500 font-medium mb-6 text-center">
+        <h2 className="text-[0.7rem] font-semibold tracking-[0.15em] uppercase text-amber-600 dark:text-amber-500 mb-6 text-center">
           Lifetime Impact
         </h2>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
-          <div>
-            <p className="text-3xl md:text-4xl font-bold mb-2">$42M+</p>
-            <p className="text-sm text-neutral-600 dark:text-neutral-400">Combined P&L responsibility across three acquisitions</p>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+          <div className="p-5 rounded-2xl bg-white dark:bg-[#141414] border border-[#eeebe5] dark:border-[#1e1c1a]">
+            <p className="font-['Syne'] font-extrabold text-2xl md:text-3xl tracking-tight mb-1">$42M+</p>
+            <p className="text-xs text-[#8a8a8a] dark:text-[#6b6560]">Combined P&L across three acquisitions</p>
           </div>
-          <div>
-            <p className="text-3xl md:text-4xl font-bold mb-2">600+</p>
-            <p className="text-sm text-neutral-600 dark:text-neutral-400">Staff managed at peak (direct + indirect)</p>
+          <div className="p-5 rounded-2xl bg-white dark:bg-[#141414] border border-[#eeebe5] dark:border-[#1e1c1a]">
+            <p className="font-['Syne'] font-extrabold text-2xl md:text-3xl tracking-tight mb-1">600+</p>
+            <p className="text-xs text-[#8a8a8a] dark:text-[#6b6560]">Staff managed at peak</p>
           </div>
-          <div>
-            <p className="text-3xl md:text-4xl font-bold mb-2">230+</p>
-            <p className="text-sm text-neutral-600 dark:text-neutral-400">Points of presence (locations + vehicles)</p>
+          <div className="p-5 rounded-2xl bg-white dark:bg-[#141414] border border-[#eeebe5] dark:border-[#1e1c1a]">
+            <p className="font-['Syne'] font-extrabold text-2xl md:text-3xl tracking-tight mb-1">230+</p>
+            <p className="text-xs text-[#8a8a8a] dark:text-[#6b6560]">Points of presence</p>
           </div>
-          <div>
-            <p className="text-3xl md:text-4xl font-bold mb-2">3</p>
-            <p className="text-sm text-neutral-600 dark:text-neutral-400">Successful exits (built what got acquired)</p>
+          <div className="p-5 rounded-2xl bg-white dark:bg-[#141414] border border-[#eeebe5] dark:border-[#1e1c1a]">
+            <p className="font-['Syne'] font-extrabold text-2xl md:text-3xl tracking-tight mb-1">3</p>
+            <p className="text-xs text-[#8a8a8a] dark:text-[#6b6560]">Successful exits</p>
           </div>
         </div>
       </div>
@@ -42,7 +43,7 @@ export default function Resume() {
         {/* Left Column: Experience */}
         <div className="md:pt-6">
           <section className="mb-12">
-            <h2 className="text-xl font-semibold mb-6 pb-2 border-b border-neutral-200 dark:border-neutral-800">
+            <h2 className="font-['Syne'] font-bold text-xl mb-6 pb-2 border-b border-[#eeebe5] dark:border-[#1e1c1a]">
               Experience
             </h2>
 
@@ -192,7 +193,7 @@ export default function Resume() {
 
       {/* Education */}
       <section>
-        <h2 className="text-xl font-semibold mb-6 pb-2 border-b border-neutral-200 dark:border-neutral-800">
+        <h2 className="font-['Syne'] font-bold text-xl mb-6 pb-2 border-b border-[#eeebe5] dark:border-[#1e1c1a]">
           Education
         </h2>
         <div className="flex justify-between items-center">
@@ -207,46 +208,46 @@ export default function Resume() {
 
         {/* Right Sidebar: Skills (Sticky) */}
         <div className="md:sticky md:top-8 md:self-start">
-          <section className="p-6 bg-neutral-50 dark:bg-neutral-900 rounded-xl border border-neutral-200 dark:border-neutral-800">
-            <h2 className="text-xl font-semibold mb-6 pb-2 border-b border-neutral-200 dark:border-neutral-800">
+          <section className="p-6 bg-[#f5f3ef] dark:bg-[#141414] rounded-xl border border-[#eeebe5] dark:border-[#1e1c1a]">
+            <h2 className="font-['Syne'] font-bold text-xl mb-6 pb-2 border-b border-[#eeebe5] dark:border-[#1e1c1a]">
               Skills
             </h2>
             <div className="space-y-6">
               <div>
                 <h3 className="font-medium mb-3 text-neutral-900 dark:text-neutral-100 text-sm">Building Business</h3>
                 <div className="flex flex-wrap gap-2">
-                  <span className="px-3 py-1.5 bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 rounded-full text-xs font-medium border border-neutral-200 dark:border-neutral-700">P&L Management</span>
-                  <span className="px-3 py-1.5 bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 rounded-full text-xs font-medium border border-neutral-200 dark:border-neutral-700">Post-Acquisition Integration</span>
-                  <span className="px-3 py-1.5 bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 rounded-full text-xs font-medium border border-neutral-200 dark:border-neutral-700">Unit Economics</span>
-                  <span className="px-3 py-1.5 bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 rounded-full text-xs font-medium border border-neutral-200 dark:border-neutral-700">Vendor Negotiation</span>
+                  <span className="px-3 py-1.5 bg-[#eeebe5] dark:bg-[#1e1c1a] text-[#525252] dark:text-[#a8a29e] rounded-full text-xs font-medium border border-[#e5e0d8] dark:border-[#2a2725]">P&L Management</span>
+                  <span className="px-3 py-1.5 bg-[#eeebe5] dark:bg-[#1e1c1a] text-[#525252] dark:text-[#a8a29e] rounded-full text-xs font-medium border border-[#e5e0d8] dark:border-[#2a2725]">Post-Acquisition Integration</span>
+                  <span className="px-3 py-1.5 bg-[#eeebe5] dark:bg-[#1e1c1a] text-[#525252] dark:text-[#a8a29e] rounded-full text-xs font-medium border border-[#e5e0d8] dark:border-[#2a2725]">Unit Economics</span>
+                  <span className="px-3 py-1.5 bg-[#eeebe5] dark:bg-[#1e1c1a] text-[#525252] dark:text-[#a8a29e] rounded-full text-xs font-medium border border-[#e5e0d8] dark:border-[#2a2725]">Vendor Negotiation</span>
                 </div>
               </div>
               <div>
                 <h3 className="font-medium mb-3 text-neutral-900 dark:text-neutral-100 text-sm">Building Tech</h3>
                 <div className="flex flex-wrap gap-2">
-                  <span className="px-3 py-1.5 bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 rounded-full text-xs font-medium border border-neutral-200 dark:border-neutral-700">React Native</span>
-                  <span className="px-3 py-1.5 bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 rounded-full text-xs font-medium border border-neutral-200 dark:border-neutral-700">Node.js</span>
-                  <span className="px-3 py-1.5 bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 rounded-full text-xs font-medium border border-neutral-200 dark:border-neutral-700">System Architecture</span>
-                  <span className="px-3 py-1.5 bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 rounded-full text-xs font-medium border border-neutral-200 dark:border-neutral-700">Hardware/IoT</span>
-                  <span className="px-3 py-1.5 bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 rounded-full text-xs font-medium border border-neutral-200 dark:border-neutral-700">AI Implementation</span>
+                  <span className="px-3 py-1.5 bg-[#eeebe5] dark:bg-[#1e1c1a] text-[#525252] dark:text-[#a8a29e] rounded-full text-xs font-medium border border-[#e5e0d8] dark:border-[#2a2725]">React Native</span>
+                  <span className="px-3 py-1.5 bg-[#eeebe5] dark:bg-[#1e1c1a] text-[#525252] dark:text-[#a8a29e] rounded-full text-xs font-medium border border-[#e5e0d8] dark:border-[#2a2725]">Node.js</span>
+                  <span className="px-3 py-1.5 bg-[#eeebe5] dark:bg-[#1e1c1a] text-[#525252] dark:text-[#a8a29e] rounded-full text-xs font-medium border border-[#e5e0d8] dark:border-[#2a2725]">System Architecture</span>
+                  <span className="px-3 py-1.5 bg-[#eeebe5] dark:bg-[#1e1c1a] text-[#525252] dark:text-[#a8a29e] rounded-full text-xs font-medium border border-[#e5e0d8] dark:border-[#2a2725]">Hardware/IoT</span>
+                  <span className="px-3 py-1.5 bg-[#eeebe5] dark:bg-[#1e1c1a] text-[#525252] dark:text-[#a8a29e] rounded-full text-xs font-medium border border-[#e5e0d8] dark:border-[#2a2725]">AI Implementation</span>
                 </div>
               </div>
               <div>
                 <h3 className="font-medium mb-3 text-neutral-900 dark:text-neutral-100 text-sm">Building Teams</h3>
                 <div className="flex flex-wrap gap-2">
-                  <span className="px-3 py-1.5 bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 rounded-full text-xs font-medium border border-neutral-200 dark:border-neutral-700">Org Design</span>
-                  <span className="px-3 py-1.5 bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 rounded-full text-xs font-medium border border-neutral-200 dark:border-neutral-700">Remote/Hybrid Leadership</span>
-                  <span className="px-3 py-1.5 bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 rounded-full text-xs font-medium border border-neutral-200 dark:border-neutral-700">Change Management</span>
-                  <span className="px-3 py-1.5 bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 rounded-full text-xs font-medium border border-neutral-200 dark:border-neutral-700">Executive Reporting</span>
+                  <span className="px-3 py-1.5 bg-[#eeebe5] dark:bg-[#1e1c1a] text-[#525252] dark:text-[#a8a29e] rounded-full text-xs font-medium border border-[#e5e0d8] dark:border-[#2a2725]">Org Design</span>
+                  <span className="px-3 py-1.5 bg-[#eeebe5] dark:bg-[#1e1c1a] text-[#525252] dark:text-[#a8a29e] rounded-full text-xs font-medium border border-[#e5e0d8] dark:border-[#2a2725]">Remote/Hybrid Leadership</span>
+                  <span className="px-3 py-1.5 bg-[#eeebe5] dark:bg-[#1e1c1a] text-[#525252] dark:text-[#a8a29e] rounded-full text-xs font-medium border border-[#e5e0d8] dark:border-[#2a2725]">Change Management</span>
+                  <span className="px-3 py-1.5 bg-[#eeebe5] dark:bg-[#1e1c1a] text-[#525252] dark:text-[#a8a29e] rounded-full text-xs font-medium border border-[#e5e0d8] dark:border-[#2a2725]">Executive Reporting</span>
                 </div>
               </div>
               <div>
                 <h3 className="font-medium mb-3 text-neutral-900 dark:text-neutral-100 text-sm">Vertical Expertise</h3>
                 <div className="flex flex-wrap gap-2">
-                  <span className="px-3 py-1.5 bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 rounded-full text-xs font-medium border border-neutral-200 dark:border-neutral-700">Food Tech</span>
-                  <span className="px-3 py-1.5 bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 rounded-full text-xs font-medium border border-neutral-200 dark:border-neutral-700">Last-Mile Logistics</span>
-                  <span className="px-3 py-1.5 bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 rounded-full text-xs font-medium border border-neutral-200 dark:border-neutral-700">Complex Operations</span>
-                  <span className="px-3 py-1.5 bg-neutral-100 dark:bg-neutral-800 text-neutral-700 dark:text-neutral-300 rounded-full text-xs font-medium border border-neutral-200 dark:border-neutral-700">Higher Ed</span>
+                  <span className="px-3 py-1.5 bg-[#eeebe5] dark:bg-[#1e1c1a] text-[#525252] dark:text-[#a8a29e] rounded-full text-xs font-medium border border-[#e5e0d8] dark:border-[#2a2725]">Food Tech</span>
+                  <span className="px-3 py-1.5 bg-[#eeebe5] dark:bg-[#1e1c1a] text-[#525252] dark:text-[#a8a29e] rounded-full text-xs font-medium border border-[#e5e0d8] dark:border-[#2a2725]">Last-Mile Logistics</span>
+                  <span className="px-3 py-1.5 bg-[#eeebe5] dark:bg-[#1e1c1a] text-[#525252] dark:text-[#a8a29e] rounded-full text-xs font-medium border border-[#e5e0d8] dark:border-[#2a2725]">Complex Operations</span>
+                  <span className="px-3 py-1.5 bg-[#eeebe5] dark:bg-[#1e1c1a] text-[#525252] dark:text-[#a8a29e] rounded-full text-xs font-medium border border-[#e5e0d8] dark:border-[#2a2725]">Higher Ed</span>
                 </div>
               </div>
             </div>
@@ -258,7 +259,7 @@ export default function Resume() {
       <a
         href="/andrew-nolan-resume.pdf"
         download
-        className="fixed bottom-6 right-6 z-50 flex items-center justify-center gap-2 px-6 py-4 bg-neutral-900 dark:bg-neutral-100 text-white dark:text-neutral-900 rounded-full font-medium hover:bg-neutral-700 dark:hover:bg-neutral-300 transition-all shadow-lg hover:shadow-xl text-sm"
+        className="fixed bottom-6 right-6 z-50 flex items-center justify-center gap-2 px-6 py-4 bg-amber-600 dark:bg-amber-500 text-white dark:text-[#0c0c0c] rounded-full font-medium hover:bg-amber-700 dark:hover:bg-amber-400 transition-all shadow-lg hover:shadow-xl text-sm"
         aria-label="Download Resume PDF"
       >
         <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
