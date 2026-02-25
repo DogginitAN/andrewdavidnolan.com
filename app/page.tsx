@@ -295,6 +295,8 @@ export default function Home() {
                   Jonathan Duffy
                 </a>
                 <span className="text-neutral-400 mx-2">·</span>
+                <span className="text-sm text-neutral-500 dark:text-neutral-400">VP of Technology and Innovation, Aramark</span>
+                <span className="text-neutral-400 mx-2">·</span>
                 <a
                   href="https://www.linkedin.com/in/duffy/"
                   target="_blank"
