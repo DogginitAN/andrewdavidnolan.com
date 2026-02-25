@@ -32,22 +32,21 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
-          rel="preload"
-          href="/fonts/inter-var.woff2"
-          as="font"
-          type="font/woff2"
-          crossOrigin="anonymous"
+          href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap"
+          rel="stylesheet"
         />
       </head>
-      <body className="antialiased min-h-screen bg-white dark:bg-neutral-950 text-neutral-900 dark:text-neutral-100 transition-colors">
+      <body className="antialiased min-h-screen bg-[#faf9f7] dark:bg-[#0c0c0c] text-[#1a1a1a] dark:text-[#f0ece4] transition-colors">
         <ThemeProvider>
           <Navigation />
-          <main className="max-w-4xl mx-auto px-4 md:px-6 py-8 md:py-12">
+          <main className="max-w-[1100px] mx-auto px-5 md:px-8 py-8 md:py-12">
             {children}
           </main>
-          <footer className="max-w-4xl mx-auto px-4 md:px-6 py-6 md:py-8 border-t border-neutral-200 dark:border-neutral-800">
-            <p className="text-xs md:text-sm text-neutral-500 dark:text-neutral-400">
+          <footer className="max-w-[1100px] mx-auto px-5 md:px-8 py-8 border-t border-[#eeebe5] dark:border-[#1e1c1a]">
+            <p className="text-xs text-[#8a8a8a] dark:text-[#6b6560] text-center">
               © 2026 Andrew Nolan
             </p>
           </footer>

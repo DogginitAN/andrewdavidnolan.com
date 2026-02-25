@@ -9,302 +9,246 @@ export default function Home() {
   const toggleCard = (cardId: string) => {
     setExpandedCard(expandedCard === cardId ? null : cardId)
   }
+
   return (
-    <div className="py-16 md:py-24">
+    <div>
       {/* Hero */}
-      <section className="mb-16">
-        <h1 className="text-4xl md:text-5xl font-bold mb-4 tracking-tight">
-          Andrew Nolan
+      <section className="min-h-[85vh] flex flex-col justify-center pt-24 md:pt-16">
+        <p className="text-xs font-semibold tracking-[0.15em] uppercase text-amber-600 dark:text-amber-500 mb-6 animate-fadeUp" style={{ animationDelay: '0.1s', animationFillMode: 'forwards', opacity: 0 }}>
+          Operations Executive &amp; Builder
+        </p>
+
+        <h1 className="font-['Syne'] font-extrabold text-[clamp(3rem,7vw,5.5rem)] leading-[1.05] tracking-tight mb-8 animate-fadeUp" style={{ animationDelay: '0.2s', animationFillMode: 'forwards', opacity: 0 }}>
+          I Architect<br />
+          Acquisition-Ready<br />
+          Infrastructure<span className="text-amber-600 dark:text-amber-500">.</span>
         </h1>
-        
-        {/* Identity Label */}
-        <p className="text-sm md:text-base font-medium uppercase tracking-wider text-amber-600 dark:text-amber-500 mb-6">
-          Operations Executive & Builder
+
+        <p className="text-lg md:text-xl leading-relaxed text-[#525252] dark:text-[#a8a29e] max-w-[600px] mb-10 animate-fadeUp" style={{ animationDelay: '0.35s', animationFillMode: 'forwards', opacity: 0 }}>
+          I don&apos;t just scale businesses — I stabilize them. By bridging the gap between
+          human workflows and technical systems, I turn chaotic startups into transferable assets.
         </p>
-        
-        {/* Main Headline - Value Proposition */}
-        <h2 className="text-3xl md:text-5xl font-bold mb-6 text-neutral-900 dark:text-neutral-100 leading-tight">
-          I Architect Acquisition-Ready Infrastructure.
-        </h2>
-        
-        {/* Subtext - Methodology */}
-        <p className="text-lg md:text-xl text-neutral-600 dark:text-neutral-400 max-w-2xl mb-10 leading-relaxed">
-          I don't just scale businesses; I stabilize them. By bridging the gap between human workflows and technical systems, I turn chaotic startups into transferable assets.
-        </p>
-        
-        <div className="flex flex-wrap gap-4">
+
+        <div className="flex flex-col sm:flex-row gap-3 animate-fadeUp" style={{ animationDelay: '0.5s', animationFillMode: 'forwards', opacity: 0 }}>
           <Link
             href="/story"
-            className="px-6 py-3 bg-neutral-900 dark:bg-neutral-100 text-white dark:text-neutral-900 rounded-lg font-medium hover:bg-neutral-700 dark:hover:bg-neutral-300 transition-colors"
+            className="px-8 py-3.5 bg-[#1a1a1a] dark:bg-[#f0ece4] text-white dark:text-[#0c0c0c] rounded-[10px] font-semibold text-[0.9rem] tracking-wide hover:-translate-y-0.5 hover:shadow-lg dark:hover:shadow-amber-500/10 transition-all text-center"
           >
             My Story
           </Link>
           <Link
             href="/resume"
-            className="px-6 py-3 border border-neutral-300 dark:border-neutral-700 rounded-lg font-medium hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors"
+            className="px-8 py-3.5 border border-[#e5e2dc] dark:border-[#252220] rounded-[10px] font-medium text-[0.9rem] text-[#525252] dark:text-[#a8a29e] hover:border-amber-600 dark:hover:border-amber-500 hover:text-amber-600 dark:hover:text-amber-500 transition-all text-center"
           >
             Resume
           </Link>
           <Link
             href="/contact"
-            className="px-6 py-3 border border-neutral-300 dark:border-neutral-700 rounded-lg font-medium hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors"
+            className="px-8 py-3.5 border border-[#e5e2dc] dark:border-[#252220] rounded-[10px] font-medium text-[0.9rem] text-[#525252] dark:text-[#a8a29e] hover:border-amber-600 dark:hover:border-amber-500 hover:text-amber-600 dark:hover:text-amber-500 transition-all text-center"
           >
             Contact
           </Link>
         </div>
       </section>
 
-      {/* Lifetime Impact Dashboard */}
-      <section className="py-8 md:py-10 border-t border-b border-neutral-200 dark:border-neutral-800">
-        <h2 className="text-sm md:text-base font-medium uppercase tracking-wider text-neutral-500 dark:text-neutral-400 mb-6 text-center">
+
+      {/* Lifetime Impact */}
+      <section className="py-24 border-t border-[#eeebe5] dark:border-[#1e1c1a]">
+        <p className="text-[0.7rem] font-semibold tracking-[0.15em] uppercase text-[#8a8a8a] dark:text-[#6b6560] text-center mb-14">
           Lifetime Impact
-        </h2>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8">
-          <div className="text-center">
-            <p className="text-3xl md:text-4xl font-bold text-neutral-900 dark:text-neutral-100">$42M+</p>
-            <p className="text-sm font-medium text-neutral-700 dark:text-neutral-300 mt-2">Lifetime P&L Managed</p>
-            <p className="text-xs text-neutral-500 dark:text-neutral-400 mt-1">Across food tech, hospitality, and CPG verticals.</p>
-          </div>
-          <div className="text-center">
-            <p className="text-3xl md:text-4xl font-bold text-neutral-900 dark:text-neutral-100">600+</p>
-            <p className="text-sm font-medium text-neutral-700 dark:text-neutral-300 mt-2">Staff Led & Trained</p>
-            <p className="text-xs text-neutral-500 dark:text-neutral-400 mt-1">From delivery fleets to executive leadership teams.</p>
-          </div>
-          <div className="text-center">
-            <p className="text-3xl md:text-4xl font-bold text-neutral-900 dark:text-neutral-100">230+</p>
-            <p className="text-sm font-medium text-neutral-700 dark:text-neutral-300 mt-2">Points of Presence</p>
-            <p className="text-xs text-neutral-500 dark:text-neutral-400 mt-1">Scaled operations across 18 markets and 200+ retail locations.</p>
-          </div>
-          <div className="text-center">
-            <p className="text-3xl md:text-4xl font-bold text-neutral-900 dark:text-neutral-100">3</p>
-            <p className="text-sm font-medium text-neutral-700 dark:text-neutral-300 mt-2">Successful Exits</p>
-            <p className="text-xs text-neutral-500 dark:text-neutral-400 mt-1">Escape (Founder), Salad Pangea (Dir), Good Uncle (COO).</p>
-          </div>
+        </p>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
+          {[
+            { number: '$42M+', label: 'P&L Managed', detail: 'Food tech, hospitality, and CPG' },
+            { number: '600+', label: 'Staff Led', detail: 'Delivery fleets to exec teams' },
+            { number: '230+', label: 'Points of Presence', detail: '18 markets, 200+ retail locations' },
+            { number: '3', label: 'Successful Exits', detail: 'Built things that got bought' },
+          ].map((stat) => (
+            <div
+              key={stat.label}
+              className="text-center p-6 md:p-8 rounded-2xl bg-white dark:bg-[#141414] border border-[#eeebe5] dark:border-[#1e1c1a] hover:border-amber-600/20 dark:hover:border-amber-500/15 hover:bg-amber-600/[0.03] dark:hover:bg-amber-500/[0.03] hover:-translate-y-0.5 transition-all"
+            >
+              <p className="font-['Syne'] font-extrabold text-4xl md:text-[2.75rem] tracking-tight leading-none mb-3">{stat.number}</p>
+              <p className="text-[0.85rem] font-medium text-[#525252] dark:text-[#a8a29e] mb-1">{stat.label}</p>
+              <p className="text-xs text-[#8a8a8a] dark:text-[#6b6560]">{stat.detail}</p>
+            </div>
+          ))}
         </div>
       </section>
 
-      {/* Teaser */}
-      <section className="py-10">
-        <h2 className="text-xl font-semibold mb-4">What I Do</h2>
-        <div className="grid md:grid-cols-3 gap-6 items-start">
+
+      {/* What I Do */}
+      <section className="py-16">
+        <h2 className="font-['Syne'] font-bold text-2xl tracking-tight mb-10">What I Do</h2>
+        <div className="grid md:grid-cols-3 gap-4">
+          {/* Card 1: The Pattern */}
           <button
             onClick={() => toggleCard('scale')}
-            className="p-6 rounded-xl bg-neutral-50 dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 text-left w-full hover:border-neutral-300 dark:hover:border-neutral-700 transition-all"
+            className="group relative p-7 rounded-2xl bg-white dark:bg-[#141414] border border-[#eeebe5] dark:border-[#1e1c1a] text-left w-full hover:border-amber-600/20 dark:hover:border-amber-500/15 hover:-translate-y-1 hover:shadow-lg dark:hover:shadow-black/30 transition-all overflow-hidden"
           >
-            <div className="flex items-start justify-between mb-2">
-              <h3 className="font-medium">The Pattern: 3 Exits in 15 Years</h3>
-              <svg
-                className={`w-5 h-5 text-neutral-400 transition-transform flex-shrink-0 ${expandedCard === 'scale' ? 'rotate-180' : ''}`}
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-              </svg>
-            </div>
-            
+            <div className="absolute top-0 left-0 right-0 h-0.5 bg-amber-600 dark:bg-amber-500 scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-300" />
+            <p className="font-['Syne'] text-[0.7rem] font-bold text-amber-600 dark:text-amber-500 tracking-[0.1em] mb-3">01</p>
+            <h3 className="font-['Syne'] font-bold text-[1.1rem] tracking-tight mb-3">The Pattern: 3 Exits in 15 Years</h3>
+
             {!expandedCard || expandedCard !== 'scale' ? (
-              <p className="text-sm text-neutral-600 dark:text-neutral-400">
-                I've been through three acquisitions—always as the operator who built the infrastructure that made the business sellable. From my first exit as a founder to a Fortune 200 acquisition, I've developed a playbook for turning chaotic growth into transferable value.
-              </p>
+              <>
+                <p className="text-[0.9rem] leading-relaxed text-[#525252] dark:text-[#a8a29e]">
+                  I&apos;ve been through three acquisitions — always as the operator who built the infrastructure that made the business sellable. From my first exit as a founder to a Fortune 200 acquisition, I&apos;ve developed a playbook for turning chaotic growth into transferable value.
+                </p>
+                <span className="inline-flex items-center gap-1.5 mt-4 text-[0.8rem] font-semibold text-amber-600 dark:text-amber-500 tracking-wide">Read more ↓</span>
+              </>
             ) : (
-              <div className="text-sm text-neutral-600 dark:text-neutral-400 space-y-4 mt-4">
+              <div className="text-[0.9rem] text-[#525252] dark:text-[#a8a29e] space-y-4 mt-2">
                 <div>
-                  <h4 className="font-medium text-neutral-900 dark:text-neutral-100 mb-2">My Scaling Playbook</h4>
-                  <p>Growth is marketing; scaling is operations. I specialize in the friction points that break companies when they grow too fast.</p>
+                  <h4 className="font-['Syne'] font-semibold text-[#1a1a1a] dark:text-[#f0ece4] mb-2">My Scaling Playbook</h4>
+                  <p className="leading-relaxed">Growth is marketing; scaling is operations. I specialize in the friction points that break companies when they grow too fast.</p>
                 </div>
-                
                 <div>
-                  <h4 className="font-medium text-neutral-900 dark:text-neutral-100 mb-2">Phase 1: Stabilization (The "Zero to One")</h4>
-                  <p className="mb-2">My foundation was built in the trenches. As a founder at Escape Restaurant Group, I learned that operations is survival, building the business from scratch before exiting to my partner. I refined this discipline at 'wichcraft (Tom Colicchio), managing high-volume complexity for a premier hospitality brand.</p>
-                  <p className="italic">The lesson: You can't scale chaos. I focus first on unit economics and foundational SOPs. If it doesn't work at one location, it won't work at 100.</p>
+                  <h4 className="font-['Syne'] font-semibold text-[#1a1a1a] dark:text-[#f0ece4] mb-2">Phase 1: Stabilization</h4>
+                  <p className="leading-relaxed">My foundation was built in the trenches. As a founder at Escape Restaurant Group, I learned that operations is survival, building the business from scratch before exiting to my partner.</p>
+                  <p className="leading-relaxed italic mt-2">The lesson: You can&apos;t scale chaos. I focus first on unit economics and foundational SOPs.</p>
                 </div>
-                
                 <div>
-                  <h4 className="font-medium text-neutral-900 dark:text-neutral-100 mb-2">Phase 2: Systematization (The "One to Ten")</h4>
-                  <p>At Salad Pangea, I replaced heroics with systems. I built inventory and forecasting models that removed dependency on key individuals, allowing us to hit $6.8M in revenue across multiple channels.</p>
+                  <h4 className="font-['Syne'] font-semibold text-[#1a1a1a] dark:text-[#f0ece4] mb-2">Phase 2: Systematization</h4>
+                  <p className="leading-relaxed">At Salad Pangea, I replaced heroics with systems. I built inventory and forecasting models that removed dependency on key individuals, allowing us to hit $6.8M in revenue.</p>
                 </div>
-                
                 <div>
-                  <h4 className="font-medium text-neutral-900 dark:text-neutral-100 mb-2">Phase 3: Optimization (The "Ten to Exit")</h4>
-                  <p className="mb-2">At Good Uncle, scaling to 18 markets meant building for the acquirer. I implemented corporate-grade compliance, supply chain redundancy, and data visibility that survived Fortune 200 due diligence.</p>
-                  <p className="font-medium text-neutral-900 dark:text-neutral-100">I build companies that are ready to be handed over.</p>
+                  <h4 className="font-['Syne'] font-semibold text-[#1a1a1a] dark:text-[#f0ece4] mb-2">Phase 3: Optimization</h4>
+                  <p className="leading-relaxed">At Good Uncle, scaling to 18 markets meant building for the acquirer. I implemented corporate-grade compliance, supply chain redundancy, and data visibility that survived Fortune 200 due diligence.</p>
+                  <p className="font-medium text-[#1a1a1a] dark:text-[#f0ece4] mt-2">I build companies that are ready to be handed over.</p>
                 </div>
+                <span className="inline-flex items-center gap-1.5 text-[0.8rem] font-semibold text-amber-600 dark:text-amber-500 tracking-wide">Collapse ↑</span>
               </div>
             )}
           </button>
+
+
+          {/* Card 2: Human-Centric Bridge */}
           <button
             onClick={() => toggleCard('hardware')}
-            className="p-6 rounded-xl bg-neutral-50 dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 text-left w-full hover:border-neutral-300 dark:hover:border-neutral-700 transition-all"
+            className="group relative p-7 rounded-2xl bg-white dark:bg-[#141414] border border-[#eeebe5] dark:border-[#1e1c1a] text-left w-full hover:border-amber-600/20 dark:hover:border-amber-500/15 hover:-translate-y-1 hover:shadow-lg dark:hover:shadow-black/30 transition-all overflow-hidden"
           >
-            <div className="flex items-start justify-between mb-2">
-              <h3 className="font-medium">The Human-Centric Bridge</h3>
-              <svg
-                className={`w-5 h-5 text-neutral-400 transition-transform ${expandedCard === 'hardware' ? 'rotate-180' : ''}`}
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-              </svg>
-            </div>
-            
+            <div className="absolute top-0 left-0 right-0 h-0.5 bg-amber-600 dark:bg-amber-500 scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-300" />
+            <p className="font-['Syne'] text-[0.7rem] font-bold text-amber-600 dark:text-amber-500 tracking-[0.1em] mb-3">02</p>
+            <h3 className="font-['Syne'] font-bold text-[1.1rem] tracking-tight mb-3">The Human-Centric Bridge</h3>
+
             {!expandedCard || expandedCard !== 'hardware' ? (
-              <p className="text-sm text-neutral-600 dark:text-neutral-400">
-                I don't just write requirements; I translate operational reality into technical execution. By embedding with drivers and kitchen staff, I bridged the gap between end-users and engineering teams, leading the design of custom vehicles and proprietary apps that worked because they were built for the human first.
-              </p>
+              <>
+                <p className="text-[0.9rem] leading-relaxed text-[#525252] dark:text-[#a8a29e]">
+                  I don&apos;t just write requirements — I translate operational reality into technical execution. I sat in the passenger seat with drivers to redesign our fleet and apps around human behavior, not specs.
+                </p>
+                <span className="inline-flex items-center gap-1.5 mt-4 text-[0.8rem] font-semibold text-amber-600 dark:text-amber-500 tracking-wide">Read more ↓</span>
+              </>
             ) : (
-              <div className="text-sm text-neutral-600 dark:text-neutral-400 space-y-4 mt-4">
+              <div className="text-[0.9rem] text-[#525252] dark:text-[#a8a29e] space-y-4 mt-2">
                 <div>
-                  <h4 className="font-medium text-neutral-900 dark:text-neutral-100 mb-2">The Method: Observation as the Blueprint</h4>
-                  <p>Tech fails when it ignores the human holding the tool. My approach to building our proprietary ecosystem wasn't started in a Jira ticket—it started in the passenger seat.</p>
+                  <h4 className="font-['Syne'] font-semibold text-[#1a1a1a] dark:text-[#f0ece4] mb-2">Observation as the Blueprint</h4>
+                  <p className="leading-relaxed">Tech fails when it ignores the human holding the tool. My approach wasn&apos;t started in a Jira ticket — it started in the passenger seat.</p>
                 </div>
-                
                 <div>
-                  <h4 className="font-medium text-neutral-900 dark:text-neutral-100 mb-2">The Hardware: Designing for the Operator</h4>
-                  <p className="mb-2">When we built our custom fleet, I didn't hand a spec sheet to our electrical engineers. I started with occupational empathy. I mapped every movement a driver made: How do they reach the oven? Where is the friction in the loading process?</p>
-                  <p>By bringing those observations to the table, I guided the engineers and industrial designers to build a 24.8kWh battery system that didn't just "work"—it fit the workflow. We solved technical constraints (power/heat) by understanding human constraints (movement/safety).</p>
+                  <h4 className="font-['Syne'] font-semibold text-[#1a1a1a] dark:text-[#f0ece4] mb-2">The Hardware</h4>
+                  <p className="leading-relaxed">When we built our custom fleet, I started with occupational empathy. I mapped every movement a driver made. By bringing those observations to our electrical engineers, we built a 24.8kWh battery system that fit the workflow.</p>
                 </div>
-                
                 <div>
-                  <h4 className="font-medium text-neutral-900 dark:text-neutral-100 mb-2">The Software: The "Megaphone" Effect</h4>
-                  <p className="mb-3">I acted as the translator between our React/Node developers and the operations team.</p>
-                  
-                  <ul className="space-y-2 ml-4 mb-3">
-                    <li className="flex items-start gap-2">
-                      <span className="text-neutral-400 mt-0.5">•</span>
-                      <span><strong className="text-neutral-900 dark:text-neutral-100">Field → Dev:</strong> I filtered vague complaints ("it doesn't work") into actionable bug reports and feature requests based on root-cause observation.</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-neutral-400 mt-0.5">•</span>
-                      <span><strong className="text-neutral-900 dark:text-neutral-100">Dev → Field:</strong> When updates shipped, I was the "megaphone" explaining the why and how to the team, ensuring high adoption rates.</span>
-                    </li>
-                  </ul>
+                  <h4 className="font-['Syne'] font-semibold text-[#1a1a1a] dark:text-[#f0ece4] mb-2">The Software</h4>
+                  <p className="leading-relaxed">I acted as the translator between our React/Node developers and the operations team. Field → Dev: I filtered vague complaints into actionable bug reports. Dev → Field: I was the &quot;megaphone&quot; explaining the why and how, ensuring high adoption.</p>
                 </div>
-                
-                <div className="pt-2 border-t border-neutral-200 dark:border-neutral-800">
-                  <h4 className="font-medium text-neutral-900 dark:text-neutral-100 mb-2">The Takeaway</h4>
-                  <p>Whether it's food delivery, energy logistics, or SaaS, the principle is the same: You can't engineer a solution if you don't understand the problem. I ensure the solution matches the reality on the ground.</p>
+                <div className="pt-3 border-t border-[#eeebe5] dark:border-[#1e1c1a]">
+                  <p className="leading-relaxed">Whether it&apos;s food delivery, energy logistics, or SaaS — you can&apos;t engineer a solution if you don&apos;t understand the problem. I ensure the solution matches the reality on the ground.</p>
                 </div>
+                <span className="inline-flex items-center gap-1.5 text-[0.8rem] font-semibold text-amber-600 dark:text-amber-500 tracking-wide">Collapse ↑</span>
               </div>
             )}
           </button>
+
+
+          {/* Card 3: Transform with AI */}
           <button
             onClick={() => toggleCard('ai')}
-            className="p-6 rounded-xl bg-neutral-50 dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 text-left w-full hover:border-neutral-300 dark:hover:border-neutral-700 transition-all"
+            className="group relative p-7 rounded-2xl bg-white dark:bg-[#141414] border border-[#eeebe5] dark:border-[#1e1c1a] text-left w-full hover:border-amber-600/20 dark:hover:border-amber-500/15 hover:-translate-y-1 hover:shadow-lg dark:hover:shadow-black/30 transition-all overflow-hidden"
           >
-            <div className="flex items-start justify-between mb-2">
-              <h3 className="font-medium">Transform with AI</h3>
-              <svg
-                className={`w-5 h-5 text-neutral-400 transition-transform ${expandedCard === 'ai' ? 'rotate-180' : ''}`}
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-              </svg>
-            </div>
-            
+            <div className="absolute top-0 left-0 right-0 h-0.5 bg-amber-600 dark:bg-amber-500 scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-300" />
+            <p className="font-['Syne'] text-[0.7rem] font-bold text-amber-600 dark:text-amber-500 tracking-[0.1em] mb-3">03</p>
+            <h3 className="font-['Syne'] font-bold text-[1.1rem] tracking-tight mb-3">Transform with AI</h3>
+
             {!expandedCard || expandedCard !== 'ai' ? (
-              <p className="text-sm text-neutral-600 dark:text-neutral-400">
-                I pivoted a 150-person heavy-logistics organization into a lean $5M CPG brand run by just two people. By shifting to manufacturing partnerships and encoding our executive functions into autonomous AI agents, we maintained 60% YoY growth with 98% less overhead.
-              </p>
+              <>
+                <p className="text-[0.9rem] leading-relaxed text-[#525252] dark:text-[#a8a29e]">
+                  I pivoted a 150-person organization into a lean $5M CPG brand run by two people. Autonomous AI agents replaced the executive layer while maintaining 60% YoY growth.
+                </p>
+                <span className="inline-flex items-center gap-1.5 mt-4 text-[0.8rem] font-semibold text-amber-600 dark:text-amber-500 tracking-wide">Read more ↓</span>
+              </>
             ) : (
-              <div className="text-sm text-neutral-600 dark:text-neutral-400 space-y-4 mt-4">
+              <div className="text-[0.9rem] text-[#525252] dark:text-[#a8a29e] space-y-4 mt-2">
                 <div>
-                  <h4 className="font-medium text-neutral-900 dark:text-neutral-100 mb-2">How I Replaced the "Head Office" with Code</h4>
-                  <p>In 2024, I faced a choice: keep running a capital-intensive delivery fleet, or pivot to our high-margin CPG product. I chose the pivot.</p>
+                  <h4 className="font-['Syne'] font-semibold text-[#1a1a1a] dark:text-[#f0ece4] mb-2">Replacing the Head Office with Code</h4>
+                  <p className="leading-relaxed">In 2024, I faced a choice: keep running a capital-intensive delivery fleet, or pivot to our high-margin CPG product. I chose the pivot.</p>
                 </div>
-                
                 <div>
-                  <h4 className="font-medium text-neutral-900 dark:text-neutral-100 mb-2">The Strategy: Decouple & Automate</h4>
-                  <p>First, I shut down the physical logistics arm (drivers, kitchens, fleet) and moved production to major manufacturing partners. This eliminated the need for 140 operational staff.</p>
+                  <h4 className="font-['Syne'] font-semibold text-[#1a1a1a] dark:text-[#f0ece4] mb-2">Decouple &amp; Automate</h4>
+                  <p className="leading-relaxed">First, I shut down the physical logistics arm and moved production to major manufacturing partners. This eliminated the need for 140 operational staff.</p>
                 </div>
-                
                 <div>
-                  <h4 className="font-medium text-neutral-900 dark:text-neutral-100 mb-2">The AI Execution</h4>
-                  <p className="mb-3">The remaining challenge was the "Head Office"—the expensive layer of leadership, creative, and admin needed to run a national brand. I didn't hire a team; I built one.</p>
-                  
-                  <ul className="space-y-2 ml-4">
-                    <li className="flex items-start gap-2">
-                      <span className="text-neutral-400 mt-0.5">•</span>
-                      <span><strong className="text-neutral-900 dark:text-neutral-100">Ingestion:</strong> We fed 5 years of company history, brand voice guidelines, social media archives, and Salesforce data into a vector database.</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-neutral-400 mt-0.5">•</span>
-                      <span><strong className="text-neutral-900 dark:text-neutral-100">Agent Architecture:</strong> I built specific AI agents for Sales Operations (analyzing distributor data), Marketing (generating on-brand social/email assets), and Customer Support.</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-neutral-400 mt-0.5">•</span>
-                      <span><strong className="text-neutral-900 dark:text-neutral-100">The Result:</strong> A reliable, repeatable executive function that runs on-demand. We now operate a $5M revenue business with a 2-person team, leveraging AI to do the work of a 10-person leadership suite.</span>
-                    </li>
-                  </ul>
+                  <h4 className="font-['Syne'] font-semibold text-[#1a1a1a] dark:text-[#f0ece4] mb-2">The AI Execution</h4>
+                  <p className="leading-relaxed">I didn&apos;t hire a team; I built one. We fed 5 years of company history into a vector database and built AI agents for Sales Ops, Marketing, and Customer Support. A reliable, repeatable executive function that runs on-demand.</p>
+                  <p className="font-medium text-[#1a1a1a] dark:text-[#f0ece4] mt-2">We now operate a $5M revenue business with a 2-person team.</p>
                 </div>
+                <span className="inline-flex items-center gap-1.5 text-[0.8rem] font-semibold text-amber-600 dark:text-amber-500 tracking-wide">Collapse ↑</span>
               </div>
             )}
           </button>
         </div>
       </section>
 
+
       {/* Testimonials */}
-      <section className="py-10 border-t border-neutral-200 dark:border-neutral-800">
-        <h2 className="text-sm md:text-base font-medium uppercase tracking-wider text-neutral-500 dark:text-neutral-400 mb-8 text-center">
+      <section className="py-16 border-t border-[#eeebe5] dark:border-[#1e1c1a]">
+        <p className="text-[0.7rem] font-semibold tracking-[0.15em] uppercase text-[#8a8a8a] dark:text-[#6b6560] text-center mb-14">
           What People Say
-        </h2>
-        <div className="max-w-2xl mx-auto space-y-6">
-          <div className="p-6 rounded-xl bg-neutral-50 dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800">
-            <p className="text-neutral-700 dark:text-neutral-300 italic leading-relaxed mb-4">
-              &ldquo;Andrew was an early hire at Good Uncle, and quickly proved his work ethic and talent — but those are table stakes for A-players. What set him apart was his ability to translate. He could drop into any function, solve problems alongside the team, and extract excellence without ever losing the 30,000-foot view. That&apos;s why when it was time for me to move on, both Aramark leadership and I chose Andrew as my replacement to be the CEO of Good Uncle — with full confidence.&rdquo;
-            </p>
+        </p>
+        <div className="grid md:grid-cols-2 gap-5 max-w-[900px] mx-auto">
+          {/* Matt Doumar */}
+          <div className="p-7 rounded-2xl bg-white dark:bg-[#141414] border border-[#eeebe5] dark:border-[#1e1c1a] hover:border-amber-600/20 dark:hover:border-amber-500/15 transition-all">
+            <div className="relative text-[0.95rem] italic leading-relaxed text-[#525252] dark:text-[#a8a29e] mb-6">
+              <span className="absolute -top-3 -left-1 font-['Syne'] text-5xl text-amber-600/20 dark:text-amber-500/15 leading-none select-none">&ldquo;</span>
+              <p className="relative">
+                Andrew was an early hire at Good Uncle, and quickly proved his work ethic and talent — but those are table stakes for A-players. What set him apart was his ability to translate. He could drop into any function, solve problems alongside the team, and extract excellence without ever losing the 30,000-foot view. That&apos;s why when it was time for me to move on, both Aramark leadership and I chose Andrew as my replacement to be the CEO of Good Uncle — with full confidence.
+              </p>
+            </div>
             <div className="flex items-center gap-3">
+              <div className="w-9 h-9 rounded-[10px] bg-amber-600/[0.06] dark:bg-amber-500/[0.06] border border-amber-600/15 dark:border-amber-500/10 flex items-center justify-center font-['Syne'] font-bold text-[0.85rem] text-amber-600 dark:text-amber-500">
+                MD
+              </div>
               <div>
-                <a
-                  href="https://www.linkedin.com/in/mattdoumar/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="font-medium text-neutral-900 dark:text-neutral-100 hover:text-amber-600 dark:hover:text-amber-500 transition-colors"
-                >
-                  Matt Doumar
-                </a>
-                <span className="text-neutral-400 mx-2">·</span>
-                <span className="text-sm text-neutral-500 dark:text-neutral-400">Founder, Good Uncle</span>
-                <span className="text-neutral-400 mx-2">·</span>
-                <a
-                  href="https://www.linkedin.com/in/mattdoumar/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-sm text-neutral-500 dark:text-neutral-400 hover:text-amber-600 dark:hover:text-amber-500 transition-colors"
-                >
-                  LinkedIn ↗
-                </a>
+                <p className="font-semibold text-[0.9rem]">
+                  <a href="https://www.linkedin.com/in/mattdoumar/" target="_blank" rel="noopener noreferrer" className="hover:text-amber-600 dark:hover:text-amber-500 transition-colors">
+                    Matt Doumar
+                  </a>
+                </p>
+                <p className="text-xs text-[#8a8a8a] dark:text-[#6b6560]">Founder, Good Uncle</p>
               </div>
             </div>
           </div>
-          <div className="p-6 rounded-xl bg-neutral-50 dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800">
-            <p className="text-neutral-700 dark:text-neutral-300 italic leading-relaxed mb-4">
-              &ldquo;Leading a former startup inside a Fortune 250 company demands both entrepreneurial agility and corporate rigor. Andrew possesses both, consistently flexing across strategy, operations, and execution to take on whatever challenges the business demanded.&rdquo;
-            </p>
+
+          {/* Jonathan Duffy */}
+          <div className="p-7 rounded-2xl bg-white dark:bg-[#141414] border border-[#eeebe5] dark:border-[#1e1c1a] hover:border-amber-600/20 dark:hover:border-amber-500/15 transition-all">
+            <div className="relative text-[0.95rem] italic leading-relaxed text-[#525252] dark:text-[#a8a29e] mb-6">
+              <span className="absolute -top-3 -left-1 font-['Syne'] text-5xl text-amber-600/20 dark:text-amber-500/15 leading-none select-none">&ldquo;</span>
+              <p className="relative">
+                Leading a former startup inside a Fortune 250 company demands both entrepreneurial agility and corporate rigor. Andrew possesses both, consistently flexing across strategy, operations, and execution to take on whatever challenges the business demanded.
+              </p>
+            </div>
             <div className="flex items-center gap-3">
+              <div className="w-9 h-9 rounded-[10px] bg-amber-600/[0.06] dark:bg-amber-500/[0.06] border border-amber-600/15 dark:border-amber-500/10 flex items-center justify-center font-['Syne'] font-bold text-[0.85rem] text-amber-600 dark:text-amber-500">
+                JD
+              </div>
               <div>
-                <a
-                  href="https://www.linkedin.com/in/duffy/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="font-medium text-neutral-900 dark:text-neutral-100 hover:text-amber-600 dark:hover:text-amber-500 transition-colors"
-                >
-                  Jonathan Duffy
-                </a>
-                <span className="text-neutral-400 mx-2">·</span>
-                <span className="text-sm text-neutral-500 dark:text-neutral-400">VP of Technology and Innovation, Aramark</span>
-                <span className="text-neutral-400 mx-2">·</span>
-                <a
-                  href="https://www.linkedin.com/in/duffy/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-sm text-neutral-500 dark:text-neutral-400 hover:text-amber-600 dark:hover:text-amber-500 transition-colors"
-                >
-                  LinkedIn ↗
-                </a>
+                <p className="font-semibold text-[0.9rem]">
+                  <a href="https://www.linkedin.com/in/duffy/" target="_blank" rel="noopener noreferrer" className="hover:text-amber-600 dark:hover:text-amber-500 transition-colors">
+                    Jonathan Duffy
+                  </a>
+                </p>
+                <p className="text-xs text-[#8a8a8a] dark:text-[#6b6560]">VP of Technology and Innovation, Aramark</p>
               </div>
             </div>
           </div>
