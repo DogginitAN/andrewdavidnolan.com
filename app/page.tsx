@@ -165,7 +165,8 @@ export default function Home() {
           {/* Card 3: Transform with AI */}
           <button
             onClick={() => toggleCard('ai')}
-            className="group relative p-7 rounded-2xl bg-white dark:bg-[#141414] border border-[#eeebe5] dark:border-[#1e1c1a] text-left w-full hover:border-amber-600/20 dark:hover:border-amber-500/15 hover:-translate-y-1 hover:shadow-lg dark:hover:shadow-black/30 transition-all overflow-hidden"
+            className="group relative p-7 rounded-2xl bg-white dark:bg-[#141414] border border-amber-600/30 dark:border-amber-500/20 text-left w-full hover:-translate-y-1 transition-all overflow-hidden"
+            style={{ boxShadow: '0 0 18px rgba(217, 119, 6, 0.12), 0 0 40px rgba(217, 119, 6, 0.06)' }}
           >
             <div className="absolute top-0 left-0 right-0 h-0.5 bg-amber-600 dark:bg-amber-500 scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-300" />
             <p className="font-['Syne'] text-[0.7rem] font-bold text-amber-600 dark:text-amber-500 tracking-[0.1em] mb-3">03</p>
@@ -192,6 +193,15 @@ export default function Home() {
                   <h4 className="font-['Syne'] font-semibold text-[#1a1a1a] dark:text-[#f0ece4] mb-2">The AI Execution</h4>
                   <p className="leading-relaxed">I didn&apos;t hire a team; I built one. We fed 5 years of company history into a vector database and built AI agents for Sales Ops, Marketing, and Customer Support. A reliable, repeatable executive function that runs on-demand.</p>
                   <p className="font-medium text-[#1a1a1a] dark:text-[#f0ece4] mt-2">We now operate a $5M revenue business with a 2-person team.</p>
+                </div>
+                <div className="pt-4 border-t border-amber-600/10 dark:border-amber-500/10">
+                  <Link
+                    href="/builder-mode"
+                    onClick={(e) => e.stopPropagation()}
+                    className="inline-flex items-center gap-2 text-[0.85rem] font-semibold text-amber-600 dark:text-amber-500 hover:text-amber-700 dark:hover:text-amber-400 transition-colors"
+                  >
+                    This is running in production. See what's actually built. →
+                  </Link>
                 </div>
                 <span className="inline-flex items-center gap-1.5 text-[0.8rem] font-semibold text-amber-600 dark:text-amber-500 tracking-wide">Collapse ↑</span>
               </div>
